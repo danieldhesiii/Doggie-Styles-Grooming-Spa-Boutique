@@ -14,7 +14,7 @@ export function Hero() {
   });
 
   return (
-    <section id="top" className="mx-auto max-w-7xl px-4 pt-24 sm:px-6 lg:px-8">
+    <section id="top" className="mx-auto max-w-7xl px-5 pt-24 sm:px-6 lg:px-8">
       <div className="grid items-center gap-10 py-10 md:py-14 lg:grid-cols-2 lg:gap-16">
         <div>
           <motion.p

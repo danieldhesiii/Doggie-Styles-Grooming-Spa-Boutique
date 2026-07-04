@@ -45,19 +45,19 @@ export function Signature() {
         weight="fill"
         className="pointer-events-none absolute -right-10 -top-10 hidden h-64 w-64 rotate-12 text-gold/[0.05] md:block"
       />
-      <div className="relative mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8">
+      <div className="relative mx-auto max-w-7xl px-5 py-24 sm:px-6 lg:px-8">
         <Reveal className="max-w-2xl">
           <Eyebrow>Why Doggie Styles</Eyebrow>
           <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
             What sets us apart
           </h2>
-          <p className="mt-4 text-lg leading-relaxed text-taupe">
+          <p className="mt-4 text-base leading-relaxed text-taupe sm:text-lg">
             Award-winning, Level 3 qualified and trusted with specialist coats
             most salons turn away.
           </p>
         </Reveal>
 
-        <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2">
+        <div className="mt-8 grid grid-cols-1 gap-5 sm:mt-10 sm:gap-6 md:grid-cols-2">
           {specialist.map((f, i) => (
             <Reveal key={f.title} delay={i * 0.08}>
               <div className="h-full rounded-2xl border border-fawn bg-ivory p-7">
@@ -71,14 +71,18 @@ export function Signature() {
           ))}
         </div>
 
-        <div className="mt-6 grid grid-cols-2 gap-4 sm:gap-6">
+        <div className="mt-6 grid grid-cols-1 gap-5 sm:mt-8 sm:grid-cols-2 sm:gap-6">
           {extras.map((f, i) => (
             <Reveal key={f.title} delay={i * 0.08}>
-              <div className="flex flex-col gap-2 sm:flex-row sm:gap-4">
-                <f.icon size={26} weight="duotone" className="shrink-0 text-gold sm:mt-0.5" />
+              <div className="flex gap-4 rounded-2xl border border-fawn/70 bg-ivory p-5">
+                <f.icon
+                  size={26}
+                  weight="duotone"
+                  className="mt-0.5 shrink-0 text-gold"
+                />
                 <div>
                   <h3 className="font-bold">{f.title}</h3>
-                  <p className="mt-1 text-[13px] leading-relaxed text-taupe sm:text-sm">
+                  <p className="mt-1 text-sm leading-relaxed text-taupe">
                     {f.body}
                   </p>
                 </div>

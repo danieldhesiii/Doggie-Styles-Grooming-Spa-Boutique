@@ -33,13 +33,13 @@ export function Services() {
   };
 
   return (
-    <section id="services" className="mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8">
+    <section id="services" className="mx-auto max-w-7xl px-5 py-24 sm:px-6 lg:px-8">
       <Reveal className="max-w-2xl">
         <Eyebrow>Our services</Eyebrow>
         <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
           The grooming menu
         </h2>
-        <p className="mt-4 text-lg leading-relaxed text-taupe">
+        <p className="mt-4 text-base leading-relaxed text-taupe sm:text-lg">
           Pick a category to see what's included. Not sure what your dog
           needs? Give us a ring and we'll talk it through.
         </p>

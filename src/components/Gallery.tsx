@@ -67,13 +67,13 @@ export function Gallery() {
 
   return (
     <section id="gallery" className="border-y border-fawn/60 bg-porcelain">
-      <div className="mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-5 py-24 sm:px-6 lg:px-8">
         <Reveal className="max-w-2xl">
           <Eyebrow>Our work</Eyebrow>
           <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
             Fresh out of the tub
           </h2>
-          <p className="mt-4 text-lg leading-relaxed text-taupe">
+          <p className="mt-4 text-base leading-relaxed text-taupe sm:text-lg">
             Every dog below is a real customer, straight from our Instagram.
           </p>
         </Reveal>

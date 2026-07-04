@@ -14,7 +14,7 @@ import { Reveal } from "./Reveal";
 export function Visit() {
   return (
     <section id="visit" className="border-t border-fawn/60 bg-champagne/50">
-      <div className="mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-5 py-24 sm:px-6 lg:px-8">
         <div className="grid gap-12 lg:grid-cols-[1fr_1.15fr] lg:gap-16">
           <Reveal>
             <Eyebrow>Visit</Eyebrow>

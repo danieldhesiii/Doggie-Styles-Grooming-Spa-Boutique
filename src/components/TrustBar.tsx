@@ -36,7 +36,7 @@ const items: Item[] = [
 export function TrustBar() {
   return (
     <section className="border-y border-fawn/60 bg-champagne">
-      <div className="mx-auto grid max-w-7xl grid-cols-2 gap-x-4 gap-y-8 px-4 py-10 sm:px-6 lg:grid-cols-4 lg:gap-8 lg:px-8 lg:py-12">
+      <div className="mx-auto grid max-w-7xl grid-cols-2 gap-x-4 gap-y-8 px-5 py-10 sm:px-6 lg:grid-cols-4 lg:gap-8 lg:px-8 lg:py-12">
         {items.map((item, i) => (
           <Reveal
             key={item.title}

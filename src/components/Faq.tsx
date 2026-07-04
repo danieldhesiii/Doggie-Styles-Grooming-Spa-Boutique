@@ -28,7 +28,7 @@ export function Faq() {
         <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
           Questions, answered
         </h2>
-        <p className="mt-4 text-lg leading-relaxed text-taupe">
+        <p className="mt-4 text-base leading-relaxed text-taupe sm:text-lg">
           Everything owners usually ask before their dog's first visit.
         </p>
       </Reveal>

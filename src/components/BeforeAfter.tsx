@@ -81,12 +81,12 @@ export function BeforeAfter() {
   if (beforeAfterPairs.length === 0) return null;
 
   return (
-    <section id="transformations" className="mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8">
+    <section id="transformations" className="mx-auto max-w-7xl px-5 py-24 sm:px-6 lg:px-8">
       <Reveal className="max-w-2xl">
         <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
           The Doggie Styles difference
         </h2>
-        <p className="mt-4 text-lg leading-relaxed text-taupe">
+        <p className="mt-4 text-base leading-relaxed text-taupe sm:text-lg">
           Drag the slider to see the transformation. Real dogs, before and
           after their spa day with us.
         </p>

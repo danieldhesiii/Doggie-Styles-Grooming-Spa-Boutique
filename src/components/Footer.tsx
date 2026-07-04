@@ -29,7 +29,7 @@ export function Footer() {
           weight="fill"
           className="pointer-events-none absolute -right-16 -top-16 h-72 w-72 rotate-12 text-gold/[0.06]"
         />
-        <div className="relative mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
+        <div className="relative mx-auto max-w-7xl px-5 py-20 sm:px-6 lg:px-8">
           <Reveal>
           <div className="grid items-center gap-10 lg:grid-cols-[1.2fr_1fr]">
             <div>
@@ -68,7 +68,7 @@ export function Footer() {
       </div>
 
       <footer className="border-t border-ivory/10">
-        <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-2 lg:grid-cols-4 lg:px-8">
+        <div className="mx-auto grid max-w-7xl gap-10 px-5 py-14 sm:px-6 md:grid-cols-2 lg:grid-cols-4 lg:px-8">
           <div>
             <div className="flex items-center gap-3">
               <img
@@ -175,7 +175,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-ivory/10">
-          <div className="mx-auto flex max-w-7xl flex-col justify-between gap-2 px-4 pb-24 pt-6 text-xs text-ivory/50 sm:px-6 md:flex-row md:pb-6 lg:px-8">
+          <div className="mx-auto flex max-w-7xl flex-col justify-between gap-2 px-5 pb-24 pt-6 text-xs text-ivory/50 sm:px-6 md:flex-row md:pb-6 lg:px-8">
             <p>
               &copy; {new Date().getFullYear()} {site.fullName}. All rights
               reserved.

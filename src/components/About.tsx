@@ -3,7 +3,7 @@ import { Reveal } from "./Reveal";
 
 export function About() {
   return (
-    <section id="about" className="mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8">
+    <section id="about" className="mx-auto max-w-7xl px-5 py-24 sm:px-6 lg:px-8">
       <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
         <Reveal className="relative order-last lg:order-first">
           <div
@@ -31,7 +31,7 @@ export function About() {
           <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
             Grooming that keeps winning awards
           </h2>
-          <div className="mt-6 space-y-5 text-lg leading-relaxed text-taupe">
+          <div className="mt-6 space-y-5 text-base leading-relaxed text-taupe sm:text-lg">
             <p>
               Doggie Styles is an independent salon inside Alpha Garden
               Centre, run by a Level 3 diploma qualified groomer with more

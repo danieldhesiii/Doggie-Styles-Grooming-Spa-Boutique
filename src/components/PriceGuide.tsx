@@ -16,13 +16,13 @@ export function PriceGuide() {
 
   return (
     <section id="prices" className="border-y border-fawn/60 bg-champagne">
-      <div className="mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-5 py-24 sm:px-6 lg:px-8">
         <Reveal className="max-w-2xl">
           <Eyebrow>Pricing</Eyebrow>
           <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
             Grooming price guide
           </h2>
-          <p className="mt-4 text-lg leading-relaxed text-taupe">
+          <p className="mt-4 text-base leading-relaxed text-taupe sm:text-lg">
             Every dog is different, so your price depends on size, breed, coat
             type and condition. Here's a guide, and there are never any hidden
             extras added on the day.
