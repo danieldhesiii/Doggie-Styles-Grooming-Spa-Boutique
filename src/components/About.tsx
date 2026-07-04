@@ -11,8 +11,11 @@ export function About() {
           />
           <img
             src="/gallery/ig-11.jpg"
+            srcSet="/gallery/ig-11-480.jpg 480w, /gallery/ig-11-960.jpg 960w, /gallery/ig-11.jpg 1080w"
+            sizes="(min-width: 1024px) 45vw, 100vw"
             alt="Harriot on the podium at the Diamex Master Groomer competition in Belgium"
             loading="lazy"
+            decoding="async"
             width={1080}
             height={1350}
             className="relative aspect-[4/5] w-full rounded-2xl object-cover"

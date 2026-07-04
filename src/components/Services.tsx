@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { motion, useReducedMotion } from "motion/react";
 import { serviceCategories, site } from "../data/site";
 import { btnPrimary } from "./buttons";
@@ -6,8 +6,24 @@ import { Reveal } from "./Reveal";
 
 export function Services() {
   const [activeId, setActiveId] = useState(serviceCategories[0].id);
+  const tabRefs = useRef<(HTMLButtonElement | null)[]>([]);
   const reduce = useReducedMotion();
   const active = serviceCategories.find((c) => c.id === activeId)!;
+
+  const onTabKeyDown = (e: React.KeyboardEvent) => {
+    const count = serviceCategories.length;
+    const current = serviceCategories.findIndex((c) => c.id === activeId);
+    let next = -1;
+    if (e.key === "ArrowRight") next = (current + 1) % count;
+    if (e.key === "ArrowLeft") next = (current - 1 + count) % count;
+    if (e.key === "Home") next = 0;
+    if (e.key === "End") next = count - 1;
+    if (next >= 0) {
+      e.preventDefault();
+      setActiveId(serviceCategories[next].id);
+      tabRefs.current[next]?.focus();
+    }
+  };
 
   return (
     <section id="services" className="mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8">
@@ -25,16 +41,21 @@ export function Services() {
         <div
           role="tablist"
           aria-label="Service categories"
+          onKeyDown={onTabKeyDown}
           className="mt-10 flex flex-wrap gap-2.5"
         >
-          {serviceCategories.map((cat) => {
+          {serviceCategories.map((cat, i) => {
             const selected = cat.id === activeId;
             return (
               <button
                 key={cat.id}
+                ref={(el) => {
+                  tabRefs.current[i] = el;
+                }}
                 role="tab"
                 aria-selected={selected}
                 aria-controls={`panel-${cat.id}`}
+                tabIndex={selected ? 0 : -1}
                 onClick={() => setActiveId(cat.id)}
                 className={`rounded-full border-2 px-5 py-2.5 text-sm font-semibold transition-colors ${
                   selected

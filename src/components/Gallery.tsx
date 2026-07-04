@@ -5,6 +5,21 @@ import { btnOutline } from "./buttons";
 import { Reveal } from "./Reveal";
 
 /**
+ * Bundled gallery photos ship with pre-generated -480/-960 variants; live
+ * feed images (remote URLs) have none, so they get no srcset.
+ */
+function responsiveVariants(src: string, featured?: boolean) {
+  if (!src.startsWith("/gallery/")) return {};
+  const base = src.replace(/\.jpg$/, "");
+  return {
+    srcSet: `${base}-480.jpg 480w, ${base}-960.jpg 960w, ${src} 1080w`,
+    sizes: featured
+      ? "(min-width: 768px) 50vw, 100vw"
+      : "(min-width: 768px) 25vw, 50vw",
+  };
+}
+
+/**
  * When site.instagramFeedUrl is set (a Behold JSON feed), the grid swaps to
  * live Instagram posts so new uploads appear here automatically.
  */
@@ -76,10 +91,18 @@ export function Gallery() {
               >
                 <img
                   src={item.src}
+                  {...responsiveVariants(item.src, item.featured)}
                   alt={item.alt}
                   loading="lazy"
+                  decoding="async"
                   className="aspect-square h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]"
                 />
+                <span
+                  aria-hidden
+                  className="absolute bottom-2.5 right-2.5 rounded-full bg-ink/60 p-2 text-ivory opacity-0 backdrop-blur-sm transition-opacity duration-300 group-hover:opacity-100 group-focus-visible:opacity-100"
+                >
+                  <InstagramLogo size={18} />
+                </span>
               </a>
             ))}
           </div>

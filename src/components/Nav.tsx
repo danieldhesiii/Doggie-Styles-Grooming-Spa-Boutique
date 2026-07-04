@@ -68,6 +68,7 @@ export function Nav() {
             onClick={() => setOpen((v) => !v)}
             className="rounded-full p-2 text-ink lg:hidden"
             aria-expanded={open}
+            aria-controls="mobile-menu"
             aria-label={open ? "Close menu" : "Open menu"}
           >
             {open ? <X size={24} /> : <List size={24} />}
@@ -77,6 +78,7 @@ export function Nav() {
 
       {open && (
         <nav
+          id="mobile-menu"
           className="border-t border-fawn/70 bg-ivory px-4 pb-6 pt-3 lg:hidden"
           aria-label="Mobile"
         >

@@ -18,7 +18,7 @@ export function Hero() {
         <div>
           <motion.p
             {...fadeUp(0)}
-            className="inline-flex items-center gap-2 rounded-full bg-champagne px-4 py-2 text-xs font-semibold text-ink"
+            className="inline-flex max-w-full items-center gap-2 rounded-full bg-champagne px-4 py-2 text-xs font-semibold leading-snug text-ink"
           >
             <Trophy size={16} weight="fill" className="text-gold" />
             Best Pet Grooming Business in Essex, 2024 &amp; 2025
@@ -40,7 +40,10 @@ export function Hero() {
             breed welcome.
           </motion.p>
 
-          <motion.div {...fadeUp(0.24)} className="mt-8 flex flex-wrap gap-3">
+          <motion.div
+            {...fadeUp(0.24)}
+            className="mt-8 flex flex-col gap-3 sm:flex-row"
+          >
             <a
               href={site.bookingUrl}
               target="_blank"
@@ -71,6 +74,8 @@ export function Hero() {
           />
           <img
             src="/gallery/ig-01.jpg"
+            srcSet="/gallery/ig-01-480.jpg 480w, /gallery/ig-01-960.jpg 960w, /gallery/ig-01.jpg 1080w"
+            sizes="(min-width: 1024px) 45vw, 100vw"
             alt="A freshly groomed cockapoo sitting on the salon floor at Doggie Styles"
             width={1080}
             height={1080}

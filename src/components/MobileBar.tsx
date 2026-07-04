@@ -4,7 +4,7 @@ import { site } from "../data/site";
 /** Sticky call/book bar so the two key actions are always one tap away on phones. */
 export function MobileBar() {
   return (
-    <div className="fixed inset-x-0 bottom-0 z-40 grid grid-cols-2 border-t border-fawn bg-porcelain/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:hidden">
+    <div className="fixed inset-x-0 bottom-0 z-40 grid grid-cols-2 border-t border-fawn bg-porcelain/95 pb-[env(safe-area-inset-bottom)] shadow-[0_-6px_20px_rgba(33,28,21,0.08)] backdrop-blur md:hidden">
       <a
         href={site.phoneHref}
         className="flex items-center justify-center gap-2 py-4 font-semibold text-ink active:bg-champagne"
