@@ -40,8 +40,9 @@ export function Reviews() {
   const resumeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const reduce = useReducedMotion();
 
-  // Gentle auto-advance that yields to the user: any hover, touch or scroll
-  // pauses it, and it resumes once they've been idle for a moment.
+  // Always advancing. It only pauses while the user is actively grabbing or
+  // scrolling it, then resumes on its own after a moment of stillness. Plain
+  // hovering does NOT stop it.
   useEffect(() => {
     if (reduce) return;
     const el = scrollerRef.current;
@@ -57,6 +58,7 @@ export function Reviews() {
         el.scrollLeft += speed;
         const half = el.scrollWidth / 2;
         if (el.scrollLeft >= half) el.scrollLeft -= half;
+        else if (el.scrollLeft <= 0) el.scrollLeft += half;
       }
       raf = requestAnimationFrame(tick);
     };
@@ -72,8 +74,26 @@ export function Reviews() {
     if (resumeTimer.current) clearTimeout(resumeTimer.current);
     resumeTimer.current = setTimeout(() => {
       pausedRef.current = false;
-    }, 1500);
+    }, 1800);
   };
+
+  // A drag can end with the pointer released anywhere on the page. Listening on
+  // the window guarantees we always clear the drag and resume — so it can never
+  // get stuck paused waiting for a click.
+  useEffect(() => {
+    const endDrag = () => {
+      if (draggingRef.current) {
+        draggingRef.current = false;
+        resumeSoon();
+      }
+    };
+    window.addEventListener("pointerup", endDrag);
+    window.addEventListener("pointercancel", endDrag);
+    return () => {
+      window.removeEventListener("pointerup", endDrag);
+      window.removeEventListener("pointercancel", endDrag);
+    };
+  }, []);
 
   return (
     <section id="reviews" className="py-24">
@@ -125,22 +145,14 @@ export function Reviews() {
           <div
             ref={scrollerRef}
             className="no-scrollbar flex cursor-grab gap-5 overflow-x-auto pb-1 active:cursor-grabbing"
-            onMouseEnter={pause}
-            onMouseLeave={() => {
-              draggingRef.current = false;
-              resumeSoon();
-            }}
-            onPointerDown={() => {
-              draggingRef.current = true;
+            onPointerDown={(e) => {
+              // Mouse: click-and-drag to scrub. Touch scrolls natively.
+              if (e.pointerType === "mouse") draggingRef.current = true;
               pause();
             }}
             onPointerMove={(e) => {
               if (!draggingRef.current || !scrollerRef.current) return;
               scrollerRef.current.scrollLeft -= e.movementX;
-            }}
-            onPointerUp={() => {
-              draggingRef.current = false;
-              resumeSoon();
             }}
             onTouchStart={pause}
             onTouchEnd={resumeSoon}
