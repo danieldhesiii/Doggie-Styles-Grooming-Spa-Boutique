@@ -71,11 +71,13 @@ export type PriceRow = {
   bathTidy: string | null;
 };
 
+// DEMO PLACEHOLDER PRICES — replace with the salon's real figures. Set any
+// value back to null to hide it and show the "priced on the day" explainer.
 export const priceGuide: PriceRow[] = [
-  { size: "Small", examples: "Shih Tzu, Bichon, Yorkie", fullGroom: null, bathTidy: null },
-  { size: "Medium", examples: "Cocker Spaniel, Cavapoo", fullGroom: null, bathTidy: null },
-  { size: "Large", examples: "Cockapoo, Poodle, Sheltie", fullGroom: null, bathTidy: null },
-  { size: "Extra large", examples: "Doodle, Retriever", fullGroom: null, bathTidy: null },
+  { size: "Small", examples: "Shih Tzu, Bichon, Yorkie", fullGroom: "from £38", bathTidy: "from £25" },
+  { size: "Medium", examples: "Cocker Spaniel, Cavapoo", fullGroom: "from £45", bathTidy: "from £30" },
+  { size: "Large", examples: "Cockapoo, Poodle, Sheltie", fullGroom: "from £55", bathTidy: "from £38" },
+  { size: "Extra large", examples: "Doodle, Retriever", fullGroom: "from £65", bathTidy: "from £45" },
 ];
 
 export type Faq = { q: string; a: string };
@@ -145,6 +147,8 @@ export type ServiceCategory = {
   services: Service[];
 };
 
+// DEMO PLACEHOLDER PRICES — swap each `price` for the salon's real figure, or
+// set it back to null to hide it and show the "get a quote" note instead.
 export const serviceCategories: ServiceCategory[] = [
   {
     id: "full-groom",
@@ -155,19 +159,19 @@ export const serviceCategories: ServiceCategory[] = [
         name: "Signature full groom",
         description:
           "Warm bath with coat-appropriate shampoo, conditioning, fluff dry, styled clip, nail trim, ear clean and a finishing spritz.",
-        price: null,
+        price: "from £45",
       },
       {
         name: "Breed standard trim",
         description:
           "Traditional styling for your breed, or bring a photo of the look you love and we will work to it.",
-        price: null,
+        price: "from £48",
       },
       {
         name: "Restyle & coat reset",
         description:
           "For coats that have grown out or matted. We will always talk you through the kindest option first.",
-        price: null,
+        price: "from £55",
       },
     ],
   },
@@ -180,13 +184,13 @@ export const serviceCategories: ServiceCategory[] = [
         name: "Bath, brush & blow dry",
         description:
           "Warm bath, deep conditioning and a full blow dry with a thorough brush-out from nose to tail.",
-        price: null,
+        price: "from £25",
       },
       {
         name: "Wash & tidy",
         description:
           "Everything above, plus a light tidy around the face, feet and feathering to keep them looking sharp.",
-        price: null,
+        price: "from £32",
       },
     ],
   },
@@ -199,13 +203,13 @@ export const serviceCategories: ServiceCategory[] = [
         name: "Puppy introduction session",
         description:
           "A calm first visit with a bath, light tidy, nail trim and plenty of breaks, treats and reassurance.",
-        price: null,
+        price: "from £28",
       },
       {
         name: "Confidence building visits",
         description:
           "Short follow-up sessions so the salon, the dryer and the table all become familiar friends.",
-        price: null,
+        price: "from £20",
       },
     ],
   },
@@ -218,13 +222,13 @@ export const serviceCategories: ServiceCategory[] = [
         name: "Full hand strip",
         description:
           "Traditional hand stripping that keeps the coat's true texture and colour, done patiently and kindly.",
-        price: null,
+        price: "from £55",
       },
       {
         name: "Rolling coat maintenance",
         description:
           "Regular lighter strips through the year to keep a rolled coat healthy, tidy and comfortable.",
-        price: null,
+        price: "from £40",
       },
     ],
   },
@@ -237,24 +241,24 @@ export const serviceCategories: ServiceCategory[] = [
         name: "Emmi-pet teeth cleaning",
         description:
           "Silent, brush-free ultrasonic teeth cleaning. Gentle enough for nervous dogs and brilliant for fresh breath.",
-        price: null,
+        price: "£15",
       },
       {
         name: "Nail trim & paw care",
         description: "Nails clipped and filed, pads checked and tidied.",
-        price: null,
+        price: "£10",
       },
       {
         name: "De-shedding treatment",
         description:
           "A deep de-shed bath and blow-out that seriously cuts down the fur on your sofa.",
-        price: null,
+        price: "from £18",
       },
       {
         name: "Local pick up & drop off",
         description:
           "No car, no problem. We collect and return dogs locally around Wickford by arrangement.",
-        price: null,
+        price: "from £5",
       },
     ],
   },
