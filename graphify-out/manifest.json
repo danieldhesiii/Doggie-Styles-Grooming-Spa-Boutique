@@ -1,0 +1,167 @@
+{
+  "/Users/kamil/Desktop/Doggiespaandbeaut7/package.json": {
+    "mtime": 1783105179.9268596,
+    "ast_hash": "93260c0b8a9400f2d5285b656ad6577d",
+    "semantic_hash": "93260c0b8a9400f2d5285b656ad6577d"
+  },
+  "/Users/kamil/Desktop/Doggiespaandbeaut7/src/App.tsx": {
+    "mtime": 1783105510.0580606,
+    "ast_hash": "6a61c4f12e7947ac84d52e8f8b20c8c2",
+    "semantic_hash": "6a61c4f12e7947ac84d52e8f8b20c8c2"
+  },
+  "/Users/kamil/Desktop/Doggiespaandbeaut7/src/components/About.tsx": {
+    "mtime": 1783105466.7057352,
+    "ast_hash": "14fb70927668f0d6ff235dad7769d234",
+    "semantic_hash": "14fb70927668f0d6ff235dad7769d234"
+  },
+  "/Users/kamil/Desktop/Doggiespaandbeaut7/src/components/Footer.tsx": {
+    "mtime": 1783105503.367704,
+    "ast_hash": "8cbb32ecb5c44472abd647386aed1de7",
+    "semantic_hash": "8cbb32ecb5c44472abd647386aed1de7"
+  },
+  "/Users/kamil/Desktop/Doggiespaandbeaut7/src/components/Gallery.tsx": {
+    "mtime": 1783105432.6372452,
+    "ast_hash": "3e37a01c461160e1ec0ff3110c1f5523",
+    "semantic_hash": "3e37a01c461160e1ec0ff3110c1f5523"
+  },
+  "/Users/kamil/Desktop/Doggiespaandbeaut7/src/components/Hero.tsx": {
+    "mtime": 1783105383.304939,
+    "ast_hash": "30287e0cbb45b2e5e62ed1f5398f40a1",
+    "semantic_hash": "30287e0cbb45b2e5e62ed1f5398f40a1"
+  },
+  "/Users/kamil/Desktop/Doggiespaandbeaut7/src/components/MobileBar.tsx": {
+    "mtime": 1783105507.6643832,
+    "ast_hash": "2779bbc27e75db078ad060597ce06801",
+    "semantic_hash": "2779bbc27e75db078ad060597ce06801"
+  },
+  "/Users/kamil/Desktop/Doggiespaandbeaut7/src/components/Nav.tsx": {
+    "mtime": 1783105371.9205825,
+    "ast_hash": "1b416fb9ea8baa7d6b2637a4575a047b",
+    "semantic_hash": "1b416fb9ea8baa7d6b2637a4575a047b"
+  },
+  "/Users/kamil/Desktop/Doggiespaandbeaut7/src/components/Reveal.tsx": {
+    "mtime": 1783105349.792597,
+    "ast_hash": "4e21960eb1222319ebed7ee3e479d36d",
+    "semantic_hash": "4e21960eb1222319ebed7ee3e479d36d"
+  },
+  "/Users/kamil/Desktop/Doggiespaandbeaut7/src/components/Reviews.tsx": {
+    "mtime": 1783105458.7252507,
+    "ast_hash": "3aac9fb473c8c706fc25417181682e8f",
+    "semantic_hash": "3aac9fb473c8c706fc25417181682e8f"
+  },
+  "/Users/kamil/Desktop/Doggiespaandbeaut7/src/components/Services.tsx": {
+    "mtime": 1783105414.81863,
+    "ast_hash": "b360437f81c8d01ca8d012e20adc28c3",
+    "semantic_hash": "b360437f81c8d01ca8d012e20adc28c3"
+  },
+  "/Users/kamil/Desktop/Doggiespaandbeaut7/src/components/TrustBar.tsx": {
+    "mtime": 1783105388.8006215,
+    "ast_hash": "ddaa3f016e776d69570ec359bf4a310c",
+    "semantic_hash": "ddaa3f016e776d69570ec359bf4a310c"
+  },
+  "/Users/kamil/Desktop/Doggiespaandbeaut7/src/components/Visit.tsx": {
+    "mtime": 1783105479.2127573,
+    "ast_hash": "92a0289dc4905c2c8c33c1649ee1e5fe",
+    "semantic_hash": "92a0289dc4905c2c8c33c1649ee1e5fe"
+  },
+  "/Users/kamil/Desktop/Doggiespaandbeaut7/src/components/buttons.ts": {
+    "mtime": 1783105352.0364978,
+    "ast_hash": "6d3a9f81c14db0498095ff0f01be07d8",
+    "semantic_hash": "6d3a9f81c14db0498095ff0f01be07d8"
+  },
+  "/Users/kamil/Desktop/Doggiespaandbeaut7/src/data/site.ts": {
+    "mtime": 1783105260.9497309,
+    "ast_hash": "7f4637bb40bfacc05e0aa48f4b2b532a",
+    "semantic_hash": "7f4637bb40bfacc05e0aa48f4b2b532a"
+  },
+  "/Users/kamil/Desktop/Doggiespaandbeaut7/src/main.tsx": {
+    "mtime": 1783105222.2019656,
+    "ast_hash": "c6931adfdd59c4df4e6638e3e868a6c1",
+    "semantic_hash": "c6931adfdd59c4df4e6638e3e868a6c1"
+  },
+  "/Users/kamil/Desktop/Doggiespaandbeaut7/tsconfig.json": {
+    "mtime": 1783105183.6857803,
+    "ast_hash": "09d982d1d44f1e5091196cfb531f0e4f",
+    "semantic_hash": "09d982d1d44f1e5091196cfb531f0e4f"
+  },
+  "/Users/kamil/Desktop/Doggiespaandbeaut7/vite.config.ts": {
+    "mtime": 1783105181.2279613,
+    "ast_hash": "d9e5303020caaa368fb61e680cccd328",
+    "semantic_hash": "d9e5303020caaa368fb61e680cccd328"
+  },
+  "/Users/kamil/Desktop/Doggiespaandbeaut7/README.md": {
+    "mtime": 1783105527.3275409,
+    "ast_hash": "c7028e2f46affc92d72976206c9ea3a2",
+    "semantic_hash": "c7028e2f46affc92d72976206c9ea3a2"
+  },
+  "/Users/kamil/Desktop/Doggiespaandbeaut7/index.html": {
+    "mtime": 1783105203.643116,
+    "ast_hash": "f9744816694538dcfb70b48685c1892e",
+    "semantic_hash": "f9744816694538dcfb70b48685c1892e"
+  },
+  "/Users/kamil/Desktop/Doggiespaandbeaut7/public/gallery/ig-01.jpg": {
+    "mtime": 1783104950.9856956,
+    "ast_hash": "fd499f3a00213e361643ba3f1b066e22",
+    "semantic_hash": "fd499f3a00213e361643ba3f1b066e22"
+  },
+  "/Users/kamil/Desktop/Doggiespaandbeaut7/public/gallery/ig-02.jpg": {
+    "mtime": 1783104951.1259089,
+    "ast_hash": "bc2b838964c01f2694ac0f3d42a67582",
+    "semantic_hash": "bc2b838964c01f2694ac0f3d42a67582"
+  },
+  "/Users/kamil/Desktop/Doggiespaandbeaut7/public/gallery/ig-03.jpg": {
+    "mtime": 1783104951.3655074,
+    "ast_hash": "8aac0d6fd55a9bb933641f90690b69b6",
+    "semantic_hash": "8aac0d6fd55a9bb933641f90690b69b6"
+  },
+  "/Users/kamil/Desktop/Doggiespaandbeaut7/public/gallery/ig-04.jpg": {
+    "mtime": 1783104951.677813,
+    "ast_hash": "b29de419ba94c3388ec5341a36e2d9ff",
+    "semantic_hash": "b29de419ba94c3388ec5341a36e2d9ff"
+  },
+  "/Users/kamil/Desktop/Doggiespaandbeaut7/public/gallery/ig-05.jpg": {
+    "mtime": 1783104952.0229254,
+    "ast_hash": "7ae45543dfad33e6d40aeb8caae1ef31",
+    "semantic_hash": "7ae45543dfad33e6d40aeb8caae1ef31"
+  },
+  "/Users/kamil/Desktop/Doggiespaandbeaut7/public/gallery/ig-06.jpg": {
+    "mtime": 1783104952.267904,
+    "ast_hash": "11d2af010fe6990d1d16d2d210d0b669",
+    "semantic_hash": "11d2af010fe6990d1d16d2d210d0b669"
+  },
+  "/Users/kamil/Desktop/Doggiespaandbeaut7/public/gallery/ig-07.jpg": {
+    "mtime": 1783104952.5098639,
+    "ast_hash": "0c8340f962003eb82727a93040f33bd1",
+    "semantic_hash": "0c8340f962003eb82727a93040f33bd1"
+  },
+  "/Users/kamil/Desktop/Doggiespaandbeaut7/public/gallery/ig-08.jpg": {
+    "mtime": 1783104952.753573,
+    "ast_hash": "58484244230dbca3f60a10b9ac6aa535",
+    "semantic_hash": "58484244230dbca3f60a10b9ac6aa535"
+  },
+  "/Users/kamil/Desktop/Doggiespaandbeaut7/public/gallery/ig-09.jpg": {
+    "mtime": 1783104952.9782727,
+    "ast_hash": "aacef62a97a80776c7ee7e0fbfb6062f",
+    "semantic_hash": "aacef62a97a80776c7ee7e0fbfb6062f"
+  },
+  "/Users/kamil/Desktop/Doggiespaandbeaut7/public/gallery/ig-10.jpg": {
+    "mtime": 1783104953.213004,
+    "ast_hash": "43a46a515f020f8ab47f931e8a7489ed",
+    "semantic_hash": "43a46a515f020f8ab47f931e8a7489ed"
+  },
+  "/Users/kamil/Desktop/Doggiespaandbeaut7/public/gallery/ig-11.jpg": {
+    "mtime": 1783104953.4120097,
+    "ast_hash": "89b26b235a0c30d0e59b981b45da7e5a",
+    "semantic_hash": "89b26b235a0c30d0e59b981b45da7e5a"
+  },
+  "/Users/kamil/Desktop/Doggiespaandbeaut7/public/gallery/ig-12.jpg": {
+    "mtime": 1783104953.6049833,
+    "ast_hash": "8701b6bb70c5531335e9d02a5b976aa9",
+    "semantic_hash": "8701b6bb70c5531335e9d02a5b976aa9"
+  },
+  "/Users/kamil/Desktop/Doggiespaandbeaut7/public/logo.jpg": {
+    "mtime": 1783104950.763638,
+    "ast_hash": "1a7be4cd7a315c4a1a33d570b3a392b1",
+    "semantic_hash": "1a7be4cd7a315c4a1a33d570b3a392b1"
+  }
+}
