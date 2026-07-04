@@ -1,8 +1,15 @@
-import { Phone, Trophy } from "@phosphor-icons/react";
+import { Phone, Star, Trophy } from "@phosphor-icons/react";
 import { motion, useReducedMotion } from "motion/react";
 import { site } from "../data/site";
 import { track } from "../lib/analytics";
 import { btnOutline, btnPrimary } from "./buttons";
+import { CountUp } from "./CountUp";
+
+const stats = [
+  { value: 10, suffix: "+", label: "Years experience" },
+  { value: 5, decimals: 1, label: "Google rating" },
+  { value: 2, suffix: "×", label: "Essex award winner" },
+];
 
 export function Hero() {
   const reduce = useReducedMotion();
@@ -63,6 +70,22 @@ export function Hero() {
               {site.phoneDisplay}
             </a>
           </motion.div>
+
+          <motion.dl
+            {...fadeUp(0.32)}
+            className="mt-10 grid max-w-md grid-cols-3 gap-4 border-t border-fawn/70 pt-6"
+          >
+            {stats.map((s) => (
+              <div key={s.label}>
+                <dd className="text-2xl font-bold tracking-tight text-gold sm:text-3xl">
+                  <CountUp value={s.value} decimals={s.decimals} suffix={s.suffix} />
+                </dd>
+                <dt className="mt-1 text-[13px] leading-snug text-taupe">
+                  {s.label}
+                </dt>
+              </div>
+            ))}
+          </motion.dl>
         </div>
 
         <motion.div
@@ -71,6 +94,11 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
           className="relative mb-4 mr-4 md:mb-5 md:mr-5"
         >
+          {/* Soft brand-gold glow gives the image depth against the ivory. */}
+          <div
+            aria-hidden
+            className="absolute -inset-6 -z-10 rounded-full bg-gold/10 blur-3xl"
+          />
           <div
             aria-hidden
             className="absolute -bottom-4 -right-4 h-full w-full rounded-2xl bg-champagne md:-bottom-5 md:-right-5"
@@ -85,6 +113,28 @@ export function Hero() {
             fetchPriority="high"
             className="relative aspect-square w-full rounded-2xl object-cover object-right-bottom"
           />
+
+          {/* Floating live-rating chip — real Google rating, adds instant trust. */}
+          <motion.div
+            initial={reduce ? false : { opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.6, ease: [0.16, 1, 0.3, 1] }}
+            className="absolute -left-3 top-5 hidden items-center gap-3 rounded-2xl border border-fawn bg-porcelain/95 px-4 py-3 shadow-[0_12px_30px_rgba(33,28,21,0.14)] backdrop-blur sm:flex md:-left-6"
+          >
+            <span className="flex gap-0.5" aria-hidden>
+              {Array.from({ length: 5 }, (_, i) => (
+                <Star key={i} size={15} weight="fill" className="text-gold" />
+              ))}
+            </span>
+            <span className="leading-tight">
+              <span className="block text-sm font-bold">
+                {site.rating.score} on Google
+              </span>
+              <span className="block text-xs text-taupe">
+                {site.rating.count} five-star reviews
+              </span>
+            </span>
+          </motion.div>
         </motion.div>
       </div>
     </section>

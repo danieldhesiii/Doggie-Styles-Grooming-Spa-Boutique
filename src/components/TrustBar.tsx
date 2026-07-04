@@ -35,8 +35,13 @@ const items: Item[] = [
 
 export function TrustBar() {
   return (
-    <section className="border-y border-fawn/60 bg-champagne">
-      <div className="mx-auto grid max-w-7xl grid-cols-2 gap-x-4 gap-y-8 px-5 py-10 sm:px-6 lg:grid-cols-4 lg:gap-8 lg:px-8 lg:py-12">
+    <section className="relative overflow-hidden border-y border-fawn/60 bg-champagne">
+      <PawPrint
+        aria-hidden
+        weight="fill"
+        className="pointer-events-none absolute -left-8 top-1/2 hidden h-52 w-52 -translate-y-1/2 -rotate-12 text-gold/[0.05] lg:block"
+      />
+      <div className="relative mx-auto grid max-w-7xl grid-cols-2 gap-x-4 gap-y-8 px-5 py-10 sm:px-6 lg:grid-cols-4 lg:gap-8 lg:px-8 lg:py-12">
         {items.map((item, i) => (
           <Reveal
             key={item.title}

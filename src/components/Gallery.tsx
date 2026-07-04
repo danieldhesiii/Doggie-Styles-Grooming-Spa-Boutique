@@ -1,5 +1,14 @@
-import { useEffect, useState } from "react";
-import { FacebookLogo, InstagramLogo } from "@phosphor-icons/react";
+import { useCallback, useEffect, useState } from "react";
+import {
+  ArrowUpRight,
+  CaretLeft,
+  CaretRight,
+  FacebookLogo,
+  InstagramLogo,
+  MagnifyingGlassPlus,
+  X,
+} from "@phosphor-icons/react";
+import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import { galleryItems, site, type GalleryItem } from "../data/site";
 import { btnOutline } from "./buttons";
 import { Eyebrow } from "./Eyebrow";
@@ -64,6 +73,34 @@ function useGallery(): GalleryItem[] {
 
 export function Gallery() {
   const items = useGallery();
+  const [active, setActive] = useState<number | null>(null);
+  const reduce = useReducedMotion();
+
+  const close = useCallback(() => setActive(null), []);
+  const step = useCallback(
+    (dir: number) =>
+      setActive((i) => (i === null ? i : (i + dir + items.length) % items.length)),
+    [items.length],
+  );
+
+  // Keyboard navigation + body scroll-lock while the lightbox is open.
+  useEffect(() => {
+    if (active === null) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") close();
+      if (e.key === "ArrowRight") step(1);
+      if (e.key === "ArrowLeft") step(-1);
+    };
+    window.addEventListener("keydown", onKey);
+    const prevOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      document.body.style.overflow = prevOverflow;
+    };
+  }, [active, close, step]);
+
+  const current = active === null ? null : items[active];
 
   return (
     <section id="gallery" className="border-y border-fawn/60 bg-porcelain">
@@ -80,13 +117,12 @@ export function Gallery() {
 
         <Reveal delay={0.1}>
           <div className="mt-10 grid grid-cols-3 gap-2.5 sm:grid-cols-3 md:grid-cols-4 md:gap-4">
-            {items.map((item) => (
-              <a
+            {items.map((item, i) => (
+              <button
                 key={item.src}
-                href={item.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={`${item.alt} (opens on Instagram)`}
+                type="button"
+                onClick={() => setActive(i)}
+                aria-label={`View ${item.alt}`}
                 className={`group relative block overflow-hidden rounded-xl md:rounded-2xl ${
                   item.featured ? "md:col-span-2 md:row-span-2" : ""
                 }`}
@@ -101,11 +137,13 @@ export function Gallery() {
                 />
                 <span
                   aria-hidden
-                  className="absolute bottom-2.5 right-2.5 rounded-full bg-ink/60 p-2 text-ivory opacity-0 backdrop-blur-sm transition-opacity duration-300 group-hover:opacity-100 group-focus-visible:opacity-100"
+                  className="absolute inset-0 flex items-center justify-center bg-ink/0 opacity-0 transition-all duration-300 group-hover:bg-ink/25 group-hover:opacity-100 group-focus-visible:bg-ink/25 group-focus-visible:opacity-100"
                 >
-                  <InstagramLogo size={18} />
+                  <span className="rounded-full bg-porcelain/90 p-2.5 text-ink backdrop-blur-sm">
+                    <MagnifyingGlassPlus size={20} weight="bold" />
+                  </span>
                 </span>
-              </a>
+              </button>
             ))}
           </div>
         </Reveal>
@@ -133,6 +171,82 @@ export function Gallery() {
           </div>
         </Reveal>
       </div>
+
+      <AnimatePresence>
+        {current && (
+          <motion.div
+            className="fixed inset-0 z-[70] flex items-center justify-center bg-ink/80 p-4 backdrop-blur-sm"
+            initial={reduce ? false : { opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.2 }}
+            onClick={close}
+            role="dialog"
+            aria-modal="true"
+            aria-label="Photo viewer"
+          >
+            <button
+              type="button"
+              onClick={close}
+              aria-label="Close"
+              className="absolute right-4 top-4 rounded-full bg-ivory/10 p-2.5 text-ivory transition-colors hover:bg-ivory/20"
+            >
+              <X size={22} weight="bold" />
+            </button>
+
+            <button
+              type="button"
+              onClick={(e) => {
+                e.stopPropagation();
+                step(-1);
+              }}
+              aria-label="Previous photo"
+              className="absolute left-3 rounded-full bg-ivory/10 p-2.5 text-ivory transition-colors hover:bg-ivory/20 sm:left-6"
+            >
+              <CaretLeft size={24} weight="bold" />
+            </button>
+            <button
+              type="button"
+              onClick={(e) => {
+                e.stopPropagation();
+                step(1);
+              }}
+              aria-label="Next photo"
+              className="absolute right-3 rounded-full bg-ivory/10 p-2.5 text-ivory transition-colors hover:bg-ivory/20 sm:right-6"
+            >
+              <CaretRight size={24} weight="bold" />
+            </button>
+
+            <motion.figure
+              key={current.src}
+              initial={reduce ? false : { opacity: 0, scale: 0.96 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.25, ease: [0.16, 1, 0.3, 1] }}
+              className="flex max-h-[86vh] w-full max-w-lg flex-col overflow-hidden rounded-2xl bg-porcelain"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <img
+                src={current.src}
+                {...responsiveVariants(current.src)}
+                alt={current.alt}
+                className="max-h-[70vh] w-full object-contain"
+              />
+              <figcaption className="flex items-center justify-between gap-4 px-5 py-4">
+                <p className="text-sm leading-snug text-taupe">{current.alt}</p>
+                <a
+                  href={current.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex shrink-0 items-center gap-1 text-sm font-semibold text-gold underline-offset-4 hover:underline"
+                >
+                  Instagram
+                  <ArrowUpRight size={15} weight="bold" />
+                </a>
+              </figcaption>
+            </motion.figure>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </section>
   );
 }
