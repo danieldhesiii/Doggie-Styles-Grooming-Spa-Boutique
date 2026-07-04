@@ -83,7 +83,7 @@ export function Hero() {
             width={1080}
             height={1080}
             fetchPriority="high"
-            className="relative aspect-[4/3] w-full rounded-2xl object-cover lg:aspect-[4/5]"
+            className="relative aspect-square w-full rounded-2xl object-cover"
           />
         </motion.div>
       </div>
