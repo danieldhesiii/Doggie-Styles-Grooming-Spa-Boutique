@@ -18,7 +18,7 @@ function Stars({ size = 16 }: { size?: number }) {
 
 function ReviewCard({ review }: { review: Review }) {
   return (
-    <figure className="w-[300px] shrink-0 rounded-2xl border border-fawn bg-porcelain p-6 md:w-[360px]">
+    <figure className="w-[248px] shrink-0 rounded-2xl border border-fawn bg-porcelain p-5 sm:w-[300px] sm:p-6 md:w-[360px]">
       <Stars />
       <blockquote className="mt-4 text-[15px] leading-relaxed text-ink">
         &ldquo;{review.quote}&rdquo;
