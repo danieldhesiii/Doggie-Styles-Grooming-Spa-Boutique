@@ -21,12 +21,12 @@ export function Visit() {
             <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
               Come and find us
             </h2>
-            <p className="mt-4 max-w-[46ch] text-lg leading-relaxed text-taupe">
+            <p className="mt-4 max-w-[46ch] text-base leading-relaxed text-taupe sm:text-lg">
               We're inside Alpha Garden Centre on London Road, with plenty of
               free parking right outside the door.
             </p>
 
-            <div className="mt-10 space-y-8">
+            <div className="mt-8 space-y-9 sm:mt-10 sm:space-y-8">
               <div className="flex gap-4">
                 <MapPin size={26} weight="duotone" className="mt-1 shrink-0 text-gold" />
                 <div>
@@ -54,7 +54,7 @@ export function Visit() {
                 <Clock size={26} weight="duotone" className="mt-1 shrink-0 text-gold" />
                 <div className="grow">
                   <p className="font-bold">Opening hours</p>
-                  <dl className="mt-2 max-w-xs space-y-1.5">
+                  <dl className="mt-2 max-w-xs space-y-2 text-sm sm:text-base">
                     {site.hours.map((h) => (
                       <div key={h.days} className="flex justify-between gap-6">
                         <dt className="text-taupe">{h.days}</dt>
@@ -80,7 +80,7 @@ export function Visit() {
                   <a
                     href={site.phoneHref}
                     onClick={() => track("Call", { location: "visit" })}
-                    className="mt-1 inline-block text-xl font-semibold text-ink underline-offset-4 hover:underline"
+                    className="mt-1 inline-block text-lg font-semibold text-ink underline-offset-4 hover:underline sm:text-xl"
                   >
                     {site.phoneDisplay}
                   </a>
