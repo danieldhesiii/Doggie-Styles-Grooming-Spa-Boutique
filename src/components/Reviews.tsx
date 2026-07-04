@@ -3,6 +3,7 @@ import { ArrowUpRight, Star } from "@phosphor-icons/react";
 import { useReducedMotion } from "motion/react";
 import { reviews, site, type Review } from "../data/site";
 import { btnDark } from "./buttons";
+import { Eyebrow } from "./Eyebrow";
 import { Reveal } from "./Reveal";
 
 function Stars({ size = 16 }: { size?: number }) {
@@ -101,6 +102,7 @@ export function Reviews() {
         <Reveal>
           <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
             <div className="max-w-2xl">
+              <Eyebrow>Reviews</Eyebrow>
               <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
                 Owners rate us five stars
               </h2>

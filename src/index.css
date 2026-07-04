@@ -46,6 +46,20 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* Fine film grain across the whole page. Sits above the flat fills and below
+   the fixed nav/mobile bar, so the ivory and champagne bands read as textured
+   paper rather than solid blocks. Kept very faint to stay premium, not noisy. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.04;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 200px 200px;
+}
+
 /* Scrollable-but-tidy carousels: keep native scrolling, hide the bar. */
 .no-scrollbar {
   scrollbar-width: none;

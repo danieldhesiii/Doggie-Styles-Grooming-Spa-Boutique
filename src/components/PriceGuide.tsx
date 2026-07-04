@@ -2,6 +2,7 @@ import { ArrowRight, ChatCircleDots, Phone } from "@phosphor-icons/react";
 import { priceGuide, site, whatsappUrl } from "../data/site";
 import { track } from "../lib/analytics";
 import { btnOutline, btnPrimary } from "./buttons";
+import { Eyebrow } from "./Eyebrow";
 import { Reveal } from "./Reveal";
 
 /** Pre-fills WhatsApp with the size the owner tapped, so quotes are quicker. */
@@ -17,6 +18,7 @@ export function PriceGuide() {
     <section id="prices" className="border-y border-fawn/60 bg-champagne">
       <div className="mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8">
         <Reveal className="max-w-2xl">
+          <Eyebrow>Pricing</Eyebrow>
           <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
             Grooming price guide
           </h2>

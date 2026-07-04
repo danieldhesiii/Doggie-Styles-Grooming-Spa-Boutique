@@ -1,10 +1,12 @@
 import {
+  PawPrint,
   Scissors,
   Sparkle,
   Storefront,
   Van,
   type Icon,
 } from "@phosphor-icons/react";
+import { Eyebrow } from "./Eyebrow";
 import { Reveal } from "./Reveal";
 
 type Feature = { icon: Icon; title: string; body: string };
@@ -37,9 +39,15 @@ const extras: Feature[] = [
 
 export function Signature() {
   return (
-    <section className="border-y border-fawn/60 bg-porcelain">
-      <div className="mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8">
+    <section className="relative overflow-hidden border-y border-fawn/60 bg-porcelain">
+      <PawPrint
+        aria-hidden
+        weight="fill"
+        className="pointer-events-none absolute -right-10 -top-10 hidden h-64 w-64 rotate-12 text-gold/[0.05] md:block"
+      />
+      <div className="relative mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8">
         <Reveal className="max-w-2xl">
+          <Eyebrow>Why Doggie Styles</Eyebrow>
           <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
             What sets us apart
           </h2>

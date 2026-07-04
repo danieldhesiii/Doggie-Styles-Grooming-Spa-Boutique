@@ -1,5 +1,6 @@
 import { CaretDown } from "@phosphor-icons/react";
 import { faqs } from "../data/site";
+import { Eyebrow } from "./Eyebrow";
 import { Reveal } from "./Reveal";
 
 export function Faq() {
@@ -23,6 +24,7 @@ export function Faq() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
       <Reveal>
+        <Eyebrow>FAQ</Eyebrow>
         <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
           Questions, answered
         </h2>

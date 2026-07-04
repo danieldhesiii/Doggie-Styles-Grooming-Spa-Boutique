@@ -1,3 +1,4 @@
+import { Eyebrow } from "./Eyebrow";
 import { Reveal } from "./Reveal";
 
 export function About() {
@@ -26,6 +27,7 @@ export function About() {
         </Reveal>
 
         <Reveal delay={0.1}>
+          <Eyebrow>About us</Eyebrow>
           <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
             Grooming that keeps winning awards
           </h2>

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { FacebookLogo, InstagramLogo } from "@phosphor-icons/react";
 import { galleryItems, site, type GalleryItem } from "../data/site";
 import { btnOutline } from "./buttons";
+import { Eyebrow } from "./Eyebrow";
 import { Reveal } from "./Reveal";
 
 /**
@@ -68,6 +69,7 @@ export function Gallery() {
     <section id="gallery" className="border-y border-fawn/60 bg-porcelain">
       <div className="mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8">
         <Reveal className="max-w-2xl">
+          <Eyebrow>Our work</Eyebrow>
           <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
             Fresh out of the tub
           </h2>

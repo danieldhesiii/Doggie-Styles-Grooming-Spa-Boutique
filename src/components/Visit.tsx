@@ -8,6 +8,7 @@ import {
 } from "@phosphor-icons/react";
 import { site, whatsappUrl } from "../data/site";
 import { track } from "../lib/analytics";
+import { Eyebrow } from "./Eyebrow";
 import { Reveal } from "./Reveal";
 
 export function Visit() {
@@ -16,6 +17,7 @@ export function Visit() {
       <div className="mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8">
         <div className="grid gap-12 lg:grid-cols-[1fr_1.15fr] lg:gap-16">
           <Reveal>
+            <Eyebrow>Visit</Eyebrow>
             <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
               Come and find us
             </h2>

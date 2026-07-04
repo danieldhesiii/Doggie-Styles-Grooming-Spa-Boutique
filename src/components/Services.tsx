@@ -4,6 +4,7 @@ import { motion, useReducedMotion } from "motion/react";
 import { serviceCategories, site } from "../data/site";
 import { track } from "../lib/analytics";
 import { btnPrimary } from "./buttons";
+import { Eyebrow } from "./Eyebrow";
 import { Reveal } from "./Reveal";
 
 export function Services() {
@@ -34,6 +35,7 @@ export function Services() {
   return (
     <section id="services" className="mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8">
       <Reveal className="max-w-2xl">
+        <Eyebrow>Our services</Eyebrow>
         <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
           The grooming menu
         </h2>

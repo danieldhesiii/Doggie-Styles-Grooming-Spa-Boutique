@@ -1,4 +1,9 @@
-import { FacebookLogo, InstagramLogo, WhatsappLogo } from "@phosphor-icons/react";
+import {
+  FacebookLogo,
+  InstagramLogo,
+  PawPrint,
+  WhatsappLogo,
+} from "@phosphor-icons/react";
 import { serviceCategories, site, whatsappUrl } from "../data/site";
 import { track } from "../lib/analytics";
 import { btnOnDark, btnPrimary } from "./buttons";
@@ -18,8 +23,14 @@ export function Footer() {
   return (
     <div className="bg-night text-ivory">
       {/* Closing call to action */}
-      <div className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
-        <Reveal>
+      <div className="relative overflow-hidden">
+        <PawPrint
+          aria-hidden
+          weight="fill"
+          className="pointer-events-none absolute -right-16 -top-16 h-72 w-72 rotate-12 text-gold/[0.06]"
+        />
+        <div className="relative mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
+          <Reveal>
           <div className="grid items-center gap-10 lg:grid-cols-[1.2fr_1fr]">
             <div>
               <h2 className="text-3xl font-bold tracking-tight md:text-5xl">
@@ -52,7 +63,8 @@ export function Footer() {
               </a>
             </div>
           </div>
-        </Reveal>
+          </Reveal>
+        </div>
       </div>
 
       <footer className="border-t border-ivory/10">
