@@ -3,16 +3,17 @@
 @theme {
   --font-sans: "Outfit Variable", ui-sans-serif, system-ui, -apple-system, sans-serif;
 
-  /* Warm cafe palette: cream base, espresso ink, one clay accent */
-  --color-cream: #faf5ec;
-  --color-milk: #fffdf8;
-  --color-sand: #f0e7d8;
-  --color-latte: #e2d5c1;
-  --color-espresso: #33261a;
-  --color-cocoa: #6b584a;
-  --color-clay: #a34d28;
-  --color-clay-deep: #83381a;
-  --color-night: #261910;
+  /* Luxury pet-spa palette matched to the salon's gold-on-black logo:
+     ivory base, near-black ink, one antique-gold accent */
+  --color-ivory: #faf8f4;
+  --color-porcelain: #fffefb;
+  --color-champagne: #f2ecdd;
+  --color-fawn: #e0d6bf;
+  --color-ink: #211c15;
+  --color-taupe: #6a6157;
+  --color-gold: #8a681f;
+  --color-gold-deep: #6d5115;
+  --color-night: #161209;
 
   --animate-marquee: marquee 45s linear infinite;
 
@@ -32,19 +33,19 @@ html {
 }
 
 body {
-  background-color: var(--color-cream);
-  color: var(--color-espresso);
+  background-color: var(--color-ivory);
+  color: var(--color-ink);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
 }
 
 ::selection {
-  background-color: var(--color-clay);
-  color: var(--color-cream);
+  background-color: var(--color-gold);
+  color: var(--color-ivory);
 }
 
 :focus-visible {
-  outline: 2px solid var(--color-clay);
+  outline: 2px solid var(--color-gold);
   outline-offset: 2px;
 }
 

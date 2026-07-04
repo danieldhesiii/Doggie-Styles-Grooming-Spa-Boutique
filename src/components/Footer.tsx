@@ -13,7 +13,7 @@ const exploreLinks = [
 
 export function Footer() {
   return (
-    <div className="bg-night text-cream">
+    <div className="bg-night text-ivory">
       {/* Closing call to action */}
       <div className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
         <Reveal>
@@ -22,7 +22,7 @@ export function Footer() {
               <h2 className="text-3xl font-bold tracking-tight md:text-5xl">
                 Ready for their spa day?
               </h2>
-              <p className="mt-4 max-w-[48ch] text-lg leading-relaxed text-cream/70">
+              <p className="mt-4 max-w-[48ch] text-lg leading-relaxed text-ivory/70">
                 Book online in a couple of minutes, or give us a ring and
                 we'll find a slot that suits you both.
               </p>
@@ -45,7 +45,7 @@ export function Footer() {
         </Reveal>
       </div>
 
-      <footer className="border-t border-cream/10">
+      <footer className="border-t border-ivory/10">
         <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-2 lg:grid-cols-4 lg:px-8">
           <div>
             <div className="flex items-center gap-3">
@@ -54,16 +54,16 @@ export function Footer() {
                 alt=""
                 width={44}
                 height={44}
-                className="h-11 w-11 rounded-full border border-cream/20 object-cover"
+                className="h-11 w-11 rounded-full border border-ivory/20 object-cover"
               />
               <span className="leading-tight">
                 <span className="block font-bold">{site.name}</span>
-                <span className="block text-[11px] text-cream/60">
+                <span className="block text-[11px] text-ivory/60">
                   Grooming Spa &amp; Boutique
                 </span>
               </span>
             </div>
-            <p className="mt-4 max-w-[32ch] text-sm leading-relaxed text-cream/60">
+            <p className="mt-4 max-w-[32ch] text-sm leading-relaxed text-ivory/60">
               Multi award winning dog grooming salon and boutique in Wickford,
               Essex.
             </p>
@@ -73,7 +73,7 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Doggie Styles on Instagram"
-                className="text-cream/70 transition-colors hover:text-cream"
+                className="text-ivory/70 transition-colors hover:text-ivory"
               >
                 <InstagramLogo size={24} />
               </a>
@@ -82,7 +82,7 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Doggie Styles on Facebook"
-                className="text-cream/70 transition-colors hover:text-cream"
+                className="text-ivory/70 transition-colors hover:text-ivory"
               >
                 <FacebookLogo size={24} />
               </a>
@@ -90,7 +90,7 @@ export function Footer() {
           </div>
 
           <nav aria-label="Footer">
-            <p className="text-sm font-bold uppercase tracking-wide text-cream/50">
+            <p className="text-sm font-bold uppercase tracking-wide text-ivory/50">
               Explore
             </p>
             <ul className="mt-4 space-y-2.5">
@@ -98,7 +98,7 @@ export function Footer() {
                 <li key={l.href}>
                   <a
                     href={l.href}
-                    className="text-sm text-cream/70 transition-colors hover:text-cream"
+                    className="text-sm text-ivory/70 transition-colors hover:text-ivory"
                   >
                     {l.label}
                   </a>
@@ -108,7 +108,7 @@ export function Footer() {
           </nav>
 
           <div>
-            <p className="text-sm font-bold uppercase tracking-wide text-cream/50">
+            <p className="text-sm font-bold uppercase tracking-wide text-ivory/50">
               Services
             </p>
             <ul className="mt-4 space-y-2.5">
@@ -116,7 +116,7 @@ export function Footer() {
                 <li key={c.id}>
                   <a
                     href="#services"
-                    className="text-sm text-cream/70 transition-colors hover:text-cream"
+                    className="text-sm text-ivory/70 transition-colors hover:text-ivory"
                   >
                     {c.label}
                   </a>
@@ -126,19 +126,19 @@ export function Footer() {
           </div>
 
           <div>
-            <p className="text-sm font-bold uppercase tracking-wide text-cream/50">
+            <p className="text-sm font-bold uppercase tracking-wide text-ivory/50">
               Contact
             </p>
-            <ul className="mt-4 space-y-2.5 text-sm text-cream/70">
+            <ul className="mt-4 space-y-2.5 text-sm text-ivory/70">
               <li>
-                <a href={site.phoneHref} className="transition-colors hover:text-cream">
+                <a href={site.phoneHref} className="transition-colors hover:text-ivory">
                   {site.phoneDisplay}
                 </a>
               </li>
               <li>
                 <a
                   href={`mailto:${site.email}`}
-                  className="break-all transition-colors hover:text-cream"
+                  className="break-all transition-colors hover:text-ivory"
                 >
                   {site.email}
                 </a>
@@ -152,8 +152,8 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-cream/10">
-          <div className="mx-auto flex max-w-7xl flex-col justify-between gap-2 px-4 pb-24 pt-6 text-xs text-cream/50 sm:px-6 md:flex-row md:pb-6 lg:px-8">
+        <div className="border-t border-ivory/10">
+          <div className="mx-auto flex max-w-7xl flex-col justify-between gap-2 px-4 pb-24 pt-6 text-xs text-ivory/50 sm:px-6 md:flex-row md:pb-6 lg:px-8">
             <p>
               &copy; {new Date().getFullYear()} {site.fullName}. All rights
               reserved.
@@ -164,7 +164,7 @@ export function Footer() {
                 href={site.bookingUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="underline underline-offset-2 hover:text-cream"
+                className="underline underline-offset-2 hover:text-ivory"
               >
                 ShakeYourTail
               </a>

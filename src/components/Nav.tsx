@@ -15,7 +15,7 @@ export function Nav() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 border-b border-latte/70 bg-cream/90 backdrop-blur-md">
+    <header className="fixed inset-x-0 top-0 z-50 border-b border-fawn/70 bg-ivory/90 backdrop-blur-md">
       <div className="mx-auto flex h-[72px] max-w-7xl items-center justify-between gap-4 px-4 sm:px-6 lg:px-8">
         <a href="#top" className="flex items-center gap-3">
           <img
@@ -23,13 +23,13 @@ export function Nav() {
             alt=""
             width={44}
             height={44}
-            className="h-11 w-11 rounded-full border border-latte object-cover"
+            className="h-11 w-11 rounded-full border border-fawn object-cover"
           />
           <span className="leading-tight">
             <span className="block text-[17px] font-bold tracking-tight">
               {site.name}
             </span>
-            <span className="block text-[11px] font-medium text-cocoa">
+            <span className="block text-[11px] font-medium text-taupe">
               Grooming Spa &amp; Boutique
             </span>
           </span>
@@ -40,7 +40,7 @@ export function Nav() {
             <a
               key={l.href}
               href={l.href}
-              className="text-sm font-medium text-cocoa transition-colors hover:text-espresso"
+              className="text-sm font-medium text-taupe transition-colors hover:text-ink"
             >
               {l.label}
             </a>
@@ -50,9 +50,9 @@ export function Nav() {
         <div className="flex items-center gap-3">
           <a
             href={site.phoneHref}
-            className="hidden items-center gap-2 text-sm font-semibold text-espresso transition-colors hover:text-clay md:flex"
+            className="hidden items-center gap-2 text-sm font-semibold text-ink transition-colors hover:text-gold md:flex"
           >
-            <Phone size={18} weight="fill" className="text-clay" />
+            <Phone size={18} weight="fill" className="text-gold" />
             {site.phoneDisplay}
           </a>
           <a
@@ -66,7 +66,7 @@ export function Nav() {
           <button
             type="button"
             onClick={() => setOpen((v) => !v)}
-            className="rounded-full p-2 text-espresso lg:hidden"
+            className="rounded-full p-2 text-ink lg:hidden"
             aria-expanded={open}
             aria-label={open ? "Close menu" : "Open menu"}
           >
@@ -77,7 +77,7 @@ export function Nav() {
 
       {open && (
         <nav
-          className="border-t border-latte/70 bg-cream px-4 pb-6 pt-3 lg:hidden"
+          className="border-t border-fawn/70 bg-ivory px-4 pb-6 pt-3 lg:hidden"
           aria-label="Mobile"
         >
           {links.map((l) => (
@@ -85,14 +85,14 @@ export function Nav() {
               key={l.href}
               href={l.href}
               onClick={() => setOpen(false)}
-              className="block rounded-xl px-3 py-3 text-base font-medium text-espresso hover:bg-sand"
+              className="block rounded-xl px-3 py-3 text-base font-medium text-ink hover:bg-champagne"
             >
               {l.label}
             </a>
           ))}
           <a
             href={site.phoneHref}
-            className="mt-2 flex items-center gap-2 px-3 text-base font-semibold text-clay"
+            className="mt-2 flex items-center gap-2 px-3 text-base font-semibold text-gold"
           >
             <Phone size={18} weight="fill" />
             Call {site.phoneDisplay}

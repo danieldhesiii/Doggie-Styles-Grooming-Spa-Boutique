@@ -18,9 +18,9 @@ export function Hero() {
         <div>
           <motion.p
             {...fadeUp(0)}
-            className="inline-flex items-center gap-2 rounded-full bg-sand px-4 py-2 text-xs font-semibold text-espresso"
+            className="inline-flex items-center gap-2 rounded-full bg-champagne px-4 py-2 text-xs font-semibold text-ink"
           >
-            <Trophy size={16} weight="fill" className="text-clay" />
+            <Trophy size={16} weight="fill" className="text-gold" />
             Best Pet Grooming Business in Essex, 2024 &amp; 2025
           </motion.p>
 
@@ -33,7 +33,7 @@ export function Hero() {
 
           <motion.p
             {...fadeUp(0.16)}
-            className="mt-5 max-w-[46ch] text-lg leading-relaxed text-cocoa"
+            className="mt-5 max-w-[46ch] text-lg leading-relaxed text-taupe"
           >
             Multi award winning grooming salon inside Alpha Garden Centre,
             Wickford. Level 3 qualified, over ten years' experience, every
@@ -53,7 +53,7 @@ export function Hero() {
               href={site.phoneHref}
               className={`${btnOutline} px-7 py-3.5 text-base`}
             >
-              <Phone size={20} weight="fill" className="text-clay" />
+              <Phone size={20} weight="fill" className="text-gold" />
               {site.phoneDisplay}
             </a>
           </motion.div>
@@ -67,7 +67,7 @@ export function Hero() {
         >
           <div
             aria-hidden
-            className="absolute -bottom-4 -right-4 h-full w-full rounded-2xl bg-sand md:-bottom-5 md:-right-5"
+            className="absolute -bottom-4 -right-4 h-full w-full rounded-2xl bg-champagne md:-bottom-5 md:-right-5"
           />
           <img
             src="/gallery/ig-01.jpg"

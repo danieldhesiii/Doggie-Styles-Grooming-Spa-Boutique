@@ -7,7 +7,7 @@ export function About() {
         <Reveal className="relative order-last lg:order-first">
           <div
             aria-hidden
-            className="absolute -bottom-4 -left-4 h-full w-full rounded-2xl bg-sand md:-bottom-5 md:-left-5"
+            className="absolute -bottom-4 -left-4 h-full w-full rounded-2xl bg-champagne md:-bottom-5 md:-left-5"
           />
           <img
             src="/gallery/ig-11.jpg"
@@ -17,7 +17,7 @@ export function About() {
             height={1350}
             className="relative aspect-[4/5] w-full rounded-2xl object-cover"
           />
-          <p className="mt-4 text-sm text-cocoa">
+          <p className="mt-4 text-sm text-taupe">
             Third place at the Diamex Master Groomer show in Belgium.
           </p>
         </Reveal>
@@ -26,7 +26,7 @@ export function About() {
           <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
             Grooming that keeps winning awards
           </h2>
-          <div className="mt-6 space-y-5 text-lg leading-relaxed text-cocoa">
+          <div className="mt-6 space-y-5 text-lg leading-relaxed text-taupe">
             <p>
               Doggie Styles is an independent salon inside Alpha Garden
               Centre, run by a Level 3 diploma qualified groomer with more

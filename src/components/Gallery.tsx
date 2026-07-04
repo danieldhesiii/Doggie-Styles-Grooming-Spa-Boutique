@@ -50,13 +50,13 @@ export function Gallery() {
   const items = useGallery();
 
   return (
-    <section id="gallery" className="border-y border-latte/60 bg-milk">
+    <section id="gallery" className="border-y border-fawn/60 bg-porcelain">
       <div className="mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8">
         <Reveal className="max-w-2xl">
           <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
             Fresh out of the tub
           </h2>
-          <p className="mt-4 text-lg leading-relaxed text-cocoa">
+          <p className="mt-4 text-lg leading-relaxed text-taupe">
             Every dog below is a real customer, straight from our Instagram.
           </p>
         </Reveal>
@@ -93,7 +93,7 @@ export function Gallery() {
               rel="noopener noreferrer"
               className={`${btnOutline} px-6 py-3`}
             >
-              <InstagramLogo size={20} className="text-clay" />
+              <InstagramLogo size={20} className="text-gold" />
               Follow {site.instagramHandle}
             </a>
             <a
@@ -102,7 +102,7 @@ export function Gallery() {
               rel="noopener noreferrer"
               className={`${btnOutline} px-6 py-3`}
             >
-              <FacebookLogo size={20} className="text-clay" />
+              <FacebookLogo size={20} className="text-gold" />
               Find us on Facebook
             </a>
           </div>

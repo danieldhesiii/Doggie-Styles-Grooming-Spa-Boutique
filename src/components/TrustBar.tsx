@@ -35,18 +35,18 @@ const items: Item[] = [
 
 export function TrustBar() {
   return (
-    <section className="border-y border-latte/60 bg-sand">
+    <section className="border-y border-fawn/60 bg-champagne">
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-8 px-4 py-12 sm:grid-cols-2 sm:px-6 lg:grid-cols-4 lg:px-8">
         {items.map((item, i) => (
           <Reveal key={item.title} delay={i * 0.06} className="flex gap-4">
             <item.icon
               size={30}
               weight="duotone"
-              className="mt-0.5 shrink-0 text-clay"
+              className="mt-0.5 shrink-0 text-gold"
             />
             <div>
               <p className="font-bold">{item.title}</p>
-              <p className="mt-0.5 text-sm text-cocoa">{item.sub}</p>
+              <p className="mt-0.5 text-sm text-taupe">{item.sub}</p>
             </div>
           </Reveal>
         ))}
