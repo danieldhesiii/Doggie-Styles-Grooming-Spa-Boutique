@@ -34,9 +34,25 @@ html {
 
 body {
   background-color: var(--color-ivory);
+  /* Soft off-centre warm glows give the ivory base depth without fighting the
+     content; fixed so they read as ambient light, not a scrolling pattern. */
+  background-image:
+    radial-gradient(55rem 55rem at 88% -8%, rgba(138, 104, 31, 0.07), transparent 60%),
+    radial-gradient(48rem 48rem at -12% 18%, rgba(224, 214, 191, 0.4), transparent 55%),
+    radial-gradient(45rem 45rem at 50% 118%, rgba(138, 104, 31, 0.05), transparent 60%);
+  background-attachment: fixed;
   color: var(--color-ink);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollable-but-tidy carousels: keep native scrolling, hide the bar. */
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
 }
 
 ::selection {

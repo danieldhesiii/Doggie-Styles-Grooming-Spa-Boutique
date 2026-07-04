@@ -1,4 +1,5 @@
 import { useRef, useState } from "react";
+import { ChatCircleDots } from "@phosphor-icons/react";
 import { motion, useReducedMotion } from "motion/react";
 import { serviceCategories, site } from "../data/site";
 import { track } from "../lib/analytics";
@@ -10,6 +11,10 @@ export function Services() {
   const tabRefs = useRef<(HTMLButtonElement | null)[]>([]);
   const reduce = useReducedMotion();
   const active = serviceCategories.find((c) => c.id === activeId)!;
+  const hasPrices = active.services.some((s) => s.price);
+  const quoteUrl = `https://wa.me/${site.whatsapp}?text=${encodeURIComponent(
+    `Hi Doggie Styles, please could I get a quote for a ${active.label.toLowerCase()}?`,
+  )}`;
 
   const onTabKeyDown = (e: React.KeyboardEvent) => {
     const count = serviceCategories.length;
@@ -101,6 +106,25 @@ export function Services() {
             </li>
           ))}
         </ul>
+
+        {!hasPrices && (
+          <div className="mt-6 flex flex-col gap-4 rounded-xl bg-champagne px-5 py-4 sm:flex-row sm:items-center sm:justify-between">
+            <p className="text-[15px] leading-relaxed text-ink">
+              Priced by your dog's size, breed and coat, so we quote you exactly
+              rather than guess online.
+            </p>
+            <a
+              href={quoteUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => track("WhatsApp", { location: "service-panel" })}
+              className="inline-flex shrink-0 items-center gap-2 whitespace-nowrap font-semibold text-gold underline-offset-4 hover:underline"
+            >
+              <ChatCircleDots size={18} weight="fill" />
+              Get a quote on WhatsApp
+            </a>
+          </div>
+        )}
       </motion.div>
 
       <Reveal delay={0.05}>

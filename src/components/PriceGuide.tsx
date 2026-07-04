@@ -1,8 +1,14 @@
-import { ChatCircleDots, Phone } from "@phosphor-icons/react";
+import { ArrowRight, ChatCircleDots, Phone } from "@phosphor-icons/react";
 import { priceGuide, site, whatsappUrl } from "../data/site";
 import { track } from "../lib/analytics";
 import { btnOutline, btnPrimary } from "./buttons";
 import { Reveal } from "./Reveal";
+
+/** Pre-fills WhatsApp with the size the owner tapped, so quotes are quicker. */
+function quoteUrl(size: string) {
+  const msg = `Hi Doggie Styles, please could I get a quote for a ${size.toLowerCase()} dog groom?`;
+  return `https://wa.me/${site.whatsapp}?text=${encodeURIComponent(msg)}`;
+}
 
 export function PriceGuide() {
   const hasPrices = priceGuide.some((r) => r.fullGroom || r.bathTidy);
@@ -54,18 +60,27 @@ export function PriceGuide() {
           <Reveal delay={0.1}>
             <div className="mt-10 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4">
               {priceGuide.map((row) => (
-                <div
+                <a
                   key={row.size}
-                  className="rounded-2xl border border-fawn bg-ivory p-5 sm:p-6"
+                  href={quoteUrl(row.size)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => track("WhatsApp", { location: "price-card" })}
+                  className="group flex flex-col rounded-2xl border border-fawn bg-ivory p-5 transition-colors hover:border-gold hover:bg-porcelain sm:p-6"
                 >
                   <p className="font-bold sm:text-lg">{row.size}</p>
                   <p className="mt-1 text-[13px] text-taupe sm:text-sm">
                     {row.examples}
                   </p>
-                  <p className="mt-4 text-[13px] font-semibold text-gold sm:mt-5 sm:text-sm">
+                  <p className="mt-4 inline-flex items-center gap-1 text-[13px] font-semibold text-gold sm:mt-5 sm:text-sm">
                     Get a quote
+                    <ArrowRight
+                      size={14}
+                      weight="bold"
+                      className="transition-transform group-hover:translate-x-0.5"
+                    />
                   </p>
-                </div>
+                </a>
               ))}
             </div>
           </Reveal>
