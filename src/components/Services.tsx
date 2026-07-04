@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import { motion, useReducedMotion } from "motion/react";
 import { serviceCategories, site } from "../data/site";
+import { track } from "../lib/analytics";
 import { btnPrimary } from "./buttons";
 import { Reveal } from "./Reveal";
 
@@ -105,13 +106,17 @@ export function Services() {
       <Reveal delay={0.05}>
         <div className="mt-6 flex flex-col items-start justify-between gap-5 rounded-2xl bg-champagne p-6 md:flex-row md:items-center md:p-8">
           <p className="max-w-[52ch] leading-relaxed text-ink">
-            Every coat is different, so we confirm your price when you book.
-            No surprises on the day.
+            Not sure which groom your dog needs? Check the{" "}
+            <a href="#prices" className="font-semibold text-gold underline underline-offset-4">
+              price guide
+            </a>{" "}
+            or book online and we'll confirm everything with you.
           </p>
           <a
             href={site.bookingUrl}
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => track("Book", { location: "services" })}
             className={`${btnPrimary} shrink-0 px-7 py-3.5`}
           >
             Book Online

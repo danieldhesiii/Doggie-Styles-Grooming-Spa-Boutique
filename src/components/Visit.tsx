@@ -4,8 +4,10 @@ import {
   EnvelopeSimple,
   MapPin,
   Phone,
+  WhatsappLogo,
 } from "@phosphor-icons/react";
-import { site } from "../data/site";
+import { site, whatsappUrl } from "../data/site";
+import { track } from "../lib/analytics";
 import { Reveal } from "./Reveal";
 
 export function Visit() {
@@ -75,9 +77,27 @@ export function Visit() {
                   <p className="font-bold">Call or text</p>
                   <a
                     href={site.phoneHref}
+                    onClick={() => track("Call", { location: "visit" })}
                     className="mt-1 inline-block text-xl font-semibold text-ink underline-offset-4 hover:underline"
                   >
                     {site.phoneDisplay}
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex gap-4">
+                <WhatsappLogo size={26} weight="duotone" className="mt-1 shrink-0 text-gold" />
+                <div>
+                  <p className="font-bold">WhatsApp</p>
+                  <a
+                    href={whatsappUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() => track("WhatsApp", { location: "visit" })}
+                    className="mt-1 inline-flex items-center gap-1 font-semibold text-gold underline-offset-4 hover:underline"
+                  >
+                    Message us for a quick reply
+                    <ArrowUpRight size={16} />
                   </a>
                 </div>
               </div>

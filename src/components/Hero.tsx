@@ -1,6 +1,7 @@
 import { Phone, Trophy } from "@phosphor-icons/react";
 import { motion, useReducedMotion } from "motion/react";
 import { site } from "../data/site";
+import { track } from "../lib/analytics";
 import { btnOutline, btnPrimary } from "./buttons";
 
 export function Hero() {
@@ -48,12 +49,14 @@ export function Hero() {
               href={site.bookingUrl}
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => track("Book", { location: "hero" })}
               className={`${btnPrimary} px-7 py-3.5 text-base`}
             >
               Book Online
             </a>
             <a
               href={site.phoneHref}
+              onClick={() => track("Call", { location: "hero" })}
               className={`${btnOutline} px-7 py-3.5 text-base`}
             >
               <Phone size={20} weight="fill" className="text-gold" />

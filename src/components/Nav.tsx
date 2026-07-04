@@ -1,13 +1,15 @@
 import { useState } from "react";
-import { List, Phone, X } from "@phosphor-icons/react";
-import { site } from "../data/site";
+import { List, Phone, WhatsappLogo, X } from "@phosphor-icons/react";
+import { site, whatsappUrl } from "../data/site";
+import { track } from "../lib/analytics";
 import { btnPrimary } from "./buttons";
 
 const links = [
   { href: "#services", label: "Services" },
+  { href: "#prices", label: "Prices" },
   { href: "#gallery", label: "Gallery" },
   { href: "#reviews", label: "Reviews" },
-  { href: "#about", label: "About" },
+  { href: "#faq", label: "FAQ" },
   { href: "#visit", label: "Find Us" },
 ];
 
@@ -50,15 +52,27 @@ export function Nav() {
         <div className="flex items-center gap-3">
           <a
             href={site.phoneHref}
+            onClick={() => track("Call", { location: "nav" })}
             className="hidden items-center gap-2 text-sm font-semibold text-ink transition-colors hover:text-gold md:flex"
           >
             <Phone size={18} weight="fill" className="text-gold" />
             {site.phoneDisplay}
           </a>
           <a
+            href={whatsappUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => track("WhatsApp", { location: "nav" })}
+            aria-label="Message us on WhatsApp"
+            className="hidden rounded-full p-2 text-ink transition-colors hover:text-gold sm:inline-flex"
+          >
+            <WhatsappLogo size={22} weight="fill" />
+          </a>
+          <a
             href={site.bookingUrl}
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => track("Book", { location: "nav" })}
             className={`${btnPrimary} px-5 py-2.5 text-sm`}
           >
             Book Online
@@ -94,10 +108,21 @@ export function Nav() {
           ))}
           <a
             href={site.phoneHref}
+            onClick={() => track("Call", { location: "mobile-menu" })}
             className="mt-2 flex items-center gap-2 px-3 text-base font-semibold text-gold"
           >
             <Phone size={18} weight="fill" />
             Call {site.phoneDisplay}
+          </a>
+          <a
+            href={whatsappUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => track("WhatsApp", { location: "mobile-menu" })}
+            className="mt-2 flex items-center gap-2 px-3 text-base font-semibold text-gold"
+          >
+            <WhatsappLogo size={18} weight="fill" />
+            Message on WhatsApp
           </a>
         </nav>
       )}

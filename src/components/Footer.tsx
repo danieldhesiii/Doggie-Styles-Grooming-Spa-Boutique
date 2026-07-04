@@ -1,12 +1,15 @@
-import { FacebookLogo, InstagramLogo, Phone } from "@phosphor-icons/react";
-import { serviceCategories, site } from "../data/site";
+import { FacebookLogo, InstagramLogo, WhatsappLogo } from "@phosphor-icons/react";
+import { serviceCategories, site, whatsappUrl } from "../data/site";
+import { track } from "../lib/analytics";
 import { btnOnDark, btnPrimary } from "./buttons";
 import { Reveal } from "./Reveal";
 
 const exploreLinks = [
   { href: "#services", label: "Services" },
+  { href: "#prices", label: "Prices" },
   { href: "#gallery", label: "Gallery" },
   { href: "#reviews", label: "Reviews" },
+  { href: "#faq", label: "FAQ" },
   { href: "#about", label: "About" },
   { href: "#visit", label: "Find Us" },
 ];
@@ -27,18 +30,25 @@ export function Footer() {
                 we'll find a slot that suits you both.
               </p>
             </div>
-            <div className="flex flex-wrap gap-4 lg:justify-end">
+            <div className="flex flex-col gap-4 sm:flex-row lg:justify-end">
               <a
                 href={site.bookingUrl}
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => track("Book", { location: "footer" })}
                 className={`${btnPrimary} px-8 py-4 text-base`}
               >
                 Book Online
               </a>
-              <a href={site.phoneHref} className={`${btnOnDark} px-8 py-4 text-base`}>
-                <Phone size={20} weight="fill" />
-                {site.phoneDisplay}
+              <a
+                href={whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => track("WhatsApp", { location: "footer" })}
+                className={`${btnOnDark} px-8 py-4 text-base`}
+              >
+                <WhatsappLogo size={20} weight="fill" />
+                WhatsApp us
               </a>
             </div>
           </div>

@@ -9,6 +9,9 @@ export const site = {
   phoneDisplay: "07864 359871",
   phoneHref: "tel:+447864359871",
   email: "Doggiestylesgroomingspa@gmail.com",
+  // WhatsApp uses the same mobile number in international format, no plus/spaces.
+  whatsapp: "447864359871",
+  whatsappMessage: "Hi Doggie Styles, I'd like to book a groom for my dog.",
   bookingUrl:
     "https://portal.shakeyourtail.com/#/public/home?siteId=ac467108-ee4d-4f55-80be-4c7e464223da",
   instagram: "https://www.instagram.com/doggie_styles_spa/",
@@ -40,7 +43,93 @@ export const site = {
    * then, the bundled photos below are shown.
    */
   instagramFeedUrl: "",
+  /**
+   * Privacy-friendly analytics (no cookie banner needed). Create a free site
+   * at plausible.io using the live domain, then set that domain here to switch
+   * tracking on. Left blank, no analytics script loads. Book / Call / WhatsApp
+   * clicks are tracked automatically once this is set.
+   */
+  plausibleDomain: "",
 };
+
+/** WhatsApp click-to-chat deep link, prefilled with a booking message. */
+export const whatsappUrl = `https://wa.me/${site.whatsapp}?text=${encodeURIComponent(
+  site.whatsappMessage,
+)}`;
+
+/**
+ * Price guide. Grooming is priced by size, coat and condition, so this is a
+ * "from" guide, not a fixed list. Fill in each `price` (e.g. "£38") once the
+ * salon confirms their numbers and the figures appear automatically; while
+ * they are null the section shows an honest "priced on the day" explainer
+ * instead of blank cells.
+ */
+export type PriceRow = {
+  size: string;
+  examples: string;
+  fullGroom: string | null;
+  bathTidy: string | null;
+};
+
+export const priceGuide: PriceRow[] = [
+  { size: "Small", examples: "Shih Tzu, Bichon, Yorkie", fullGroom: null, bathTidy: null },
+  { size: "Medium", examples: "Cocker Spaniel, Cavapoo", fullGroom: null, bathTidy: null },
+  { size: "Large", examples: "Cockapoo, Poodle, Sheltie", fullGroom: null, bathTidy: null },
+  { size: "Extra large", examples: "Doodle, Retriever", fullGroom: null, bathTidy: null },
+];
+
+export type Faq = { q: string; a: string };
+
+export const faqs: Faq[] = [
+  {
+    q: "How do I book an appointment?",
+    a: "Book online any time through our booking page, send us a WhatsApp, or give us a call. New dogs are always welcome and we'll ask a few questions about your dog's coat and temperament so we can plan the right groom.",
+  },
+  {
+    q: "How much does a groom cost?",
+    a: "Price depends on your dog's size, breed, coat type and condition, so we confirm the exact price when you book rather than guessing online. Message us with your dog's breed and we'll give you a quote straight away, with no hidden extras added on the day.",
+  },
+  {
+    q: "My dog is nervous or has never been groomed. Can you help?",
+    a: "Absolutely. We groom every dog at their own pace with plenty of breaks and reassurance, and we offer gentle puppy introduction sessions to build confidence. Nervous and older dogs are some of our favourites to work with.",
+  },
+  {
+    q: "What if my dog's coat is matted?",
+    a: "Matting is common and nothing to feel bad about. We'll always talk you through the kindest option first. Where a coat is too matted to brush out safely, a fresh start clip is the most comfortable choice for your dog, and we'll explain everything before we begin.",
+  },
+  {
+    q: "Do you offer hand stripping?",
+    a: "Yes. We hand strip wire-coated breeds such as terriers and schnauzers, which keeps the coat's natural texture and colour. It's a specialist skill that not every salon offers, and we do it patiently and kindly.",
+  },
+  {
+    q: "What is Emmi-pet teeth cleaning?",
+    a: "Emmi-pet is silent, brush-free ultrasonic teeth cleaning. There's no scary noise or vibration, so it's gentle enough for nervous dogs and a great way to keep teeth healthy and breath fresh between vet visits.",
+  },
+  {
+    q: "Is there parking, and can you collect my dog?",
+    a: "There's plenty of free parking right outside at Alpha Garden Centre. If you can't make it in, ask us about local pick up and drop off around Wickford by arrangement.",
+  },
+];
+
+/**
+ * Before and after photos. This is the single most persuasive thing on a
+ * groomer's site, so it's worth adding a handful of real pairs from the
+ * salon's own camera roll (the same dog, before the groom and after).
+ *
+ * Drop the images into public/gallery/ and add an entry per pair below. While
+ * this list is empty the section is hidden automatically, so the site never
+ * shows a fake or mismatched transformation.
+ */
+export type BeforeAfterPair = {
+  before: string;
+  after: string;
+  label: string;
+};
+
+export const beforeAfterPairs: BeforeAfterPair[] = [
+  // Example once you have real photos:
+  // { before: "/gallery/before-bella.jpg", after: "/gallery/after-bella.jpg", label: "Bella, full groom" },
+];
 
 export type Service = {
   name: string;

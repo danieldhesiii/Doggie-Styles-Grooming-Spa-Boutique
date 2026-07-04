@@ -60,3 +60,40 @@ gallery never breaks.
 Online booking goes through their ShakeYourTail portal. The portal blocks
 being embedded in other sites (X-Frame-Options), so every "Book Online"
 button opens it in a new tab.
+
+## Price guide
+
+The Prices section is priced by size tier (Small / Medium / Large / Extra
+large) in `priceGuide` in `src/data/site.ts`. While every `fullGroom` /
+`bathTidy` value is `null`, the section shows an honest "get a quote"
+layout. Fill in the numbers (e.g. `fullGroom: "£38"`) and it automatically
+switches to a full price table. Edit the size tiers or example breeds in the
+same array.
+
+## Before / after slider
+
+`beforeAfterPairs` in `src/data/site.ts` is empty, so the transformation
+section is hidden. This is deliberate: showing mismatched or fake pairs
+would look dishonest. To switch it on, add 2-4 real pairs from the salon's
+camera roll (the same dog before and after its groom):
+
+1. Drop the photos into `public/gallery/` (e.g. `before-bella.jpg`,
+   `after-bella.jpg`).
+2. Add an entry per pair to `beforeAfterPairs`.
+
+The section appears automatically with a draggable before/after slider.
+
+## WhatsApp
+
+Every WhatsApp button uses `site.whatsapp` (the mobile number in
+international format) with a pre-filled booking message (`whatsappMessage`).
+Change either in `src/data/site.ts`.
+
+## Analytics and conversion tracking
+
+Book, Call and WhatsApp clicks are already wired to fire tracked events. No
+analytics script loads until you set `plausibleDomain` in `src/data/site.ts`
+to the live domain (create a free, cookie-free site at
+[plausible.io](https://plausible.io)). Once set, the dashboard shows how
+many people book, call or message, and from which section, so marketing spend
+can be pointed at what actually converts.
