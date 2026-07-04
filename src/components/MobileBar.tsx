@@ -11,7 +11,7 @@ export function MobileBar() {
         onClick={() => track("Call", { location: "mobile-bar" })}
         className="flex flex-col items-center justify-center gap-1 py-3 text-xs font-semibold text-ink active:bg-champagne"
       >
-        <Phone size={20} weight="fill" className="text-gold" />
+        <Phone size={22} weight="fill" className="text-gold" />
         Call
       </a>
       <a
@@ -21,7 +21,7 @@ export function MobileBar() {
         onClick={() => track("WhatsApp", { location: "mobile-bar" })}
         className="flex flex-col items-center justify-center gap-1 border-x border-fawn py-3 text-xs font-semibold text-ink active:bg-champagne"
       >
-        <WhatsappLogo size={20} weight="fill" className="text-gold" />
+        <WhatsappLogo size={22} weight="fill" className="text-gold" />
         WhatsApp
       </a>
       <a
@@ -31,7 +31,7 @@ export function MobileBar() {
         onClick={() => track("Book", { location: "mobile-bar" })}
         className="flex flex-col items-center justify-center gap-1 bg-gold py-3 text-xs font-semibold text-ivory active:bg-gold-deep"
       >
-        <CalendarCheck size={20} weight="fill" />
+        <CalendarCheck size={22} weight="fill" />
         Book
       </a>
     </div>

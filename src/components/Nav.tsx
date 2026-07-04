@@ -19,19 +19,19 @@ export function Nav() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-fawn/70 bg-ivory/90 backdrop-blur-md">
       <div className="mx-auto flex h-[72px] max-w-7xl items-center justify-between gap-4 px-4 sm:px-6 lg:px-8">
-        <a href="#top" className="flex items-center gap-3">
+        <a href="#top" className="flex min-w-0 items-center gap-2.5 sm:gap-3">
           <img
             src="/logo.jpg"
             alt=""
             width={44}
             height={44}
-            className="h-11 w-11 rounded-full border border-fawn object-cover"
+            className="h-10 w-10 shrink-0 rounded-full border border-fawn object-cover sm:h-11 sm:w-11"
           />
-          <span className="leading-tight">
-            <span className="block text-[17px] font-bold tracking-tight">
+          <span className="min-w-0 leading-tight">
+            <span className="block truncate text-[16px] font-bold tracking-tight sm:text-[17px]">
               {site.name}
             </span>
-            <span className="block text-[11px] font-medium text-taupe">
+            <span className="hidden text-[11px] font-medium text-taupe sm:block">
               Grooming Spa &amp; Boutique
             </span>
           </span>
@@ -49,7 +49,7 @@ export function Nav() {
           ))}
         </nav>
 
-        <div className="flex items-center gap-3">
+        <div className="flex shrink-0 items-center gap-2 sm:gap-3">
           <a
             href={site.phoneHref}
             onClick={() => track("Call", { location: "nav" })}
@@ -64,23 +64,25 @@ export function Nav() {
             rel="noopener noreferrer"
             onClick={() => track("WhatsApp", { location: "nav" })}
             aria-label="Message us on WhatsApp"
-            className="hidden rounded-full p-2 text-ink transition-colors hover:text-gold sm:inline-flex"
+            className="hidden h-10 w-10 items-center justify-center rounded-full bg-champagne text-ink transition-colors hover:bg-fawn sm:inline-flex"
           >
-            <WhatsappLogo size={22} weight="fill" />
+            <WhatsappLogo size={20} weight="fill" />
           </a>
           <a
             href={site.bookingUrl}
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => track("Book", { location: "nav" })}
-            className={`${btnPrimary} px-5 py-2.5 text-sm`}
+            className={`${btnPrimary} px-4 py-2.5 text-sm sm:px-5`}
           >
-            Book Online
+            <span>
+              Book<span className="hidden sm:inline"> Online</span>
+            </span>
           </a>
           <button
             type="button"
             onClick={() => setOpen((v) => !v)}
-            className="rounded-full p-2 text-ink lg:hidden"
+            className="-mr-1 rounded-full p-2 text-ink lg:hidden"
             aria-expanded={open}
             aria-controls="mobile-menu"
             aria-label={open ? "Close menu" : "Open menu"}

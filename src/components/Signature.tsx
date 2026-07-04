@@ -63,14 +63,14 @@ export function Signature() {
           ))}
         </div>
 
-        <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2">
+        <div className="mt-6 grid grid-cols-2 gap-4 sm:gap-6">
           {extras.map((f, i) => (
             <Reveal key={f.title} delay={i * 0.08}>
-              <div className="flex gap-4">
-                <f.icon size={26} weight="duotone" className="mt-0.5 shrink-0 text-gold" />
+              <div className="flex flex-col gap-2 sm:flex-row sm:gap-4">
+                <f.icon size={26} weight="duotone" className="shrink-0 text-gold sm:mt-0.5" />
                 <div>
                   <h3 className="font-bold">{f.title}</h3>
-                  <p className="mt-1 text-sm leading-relaxed text-taupe">
+                  <p className="mt-1 text-[13px] leading-relaxed text-taupe sm:text-sm">
                     {f.body}
                   </p>
                 </div>

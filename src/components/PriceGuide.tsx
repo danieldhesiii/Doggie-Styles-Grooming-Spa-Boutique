@@ -52,15 +52,17 @@ export function PriceGuide() {
           </Reveal>
         ) : (
           <Reveal delay={0.1}>
-            <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="mt-10 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4">
               {priceGuide.map((row) => (
                 <div
                   key={row.size}
-                  className="rounded-2xl border border-fawn bg-ivory p-6"
+                  className="rounded-2xl border border-fawn bg-ivory p-5 sm:p-6"
                 >
-                  <p className="text-lg font-bold">{row.size}</p>
-                  <p className="mt-1 text-sm text-taupe">{row.examples}</p>
-                  <p className="mt-5 text-sm font-semibold text-gold">
+                  <p className="font-bold sm:text-lg">{row.size}</p>
+                  <p className="mt-1 text-[13px] text-taupe sm:text-sm">
+                    {row.examples}
+                  </p>
+                  <p className="mt-4 text-[13px] font-semibold text-gold sm:mt-5 sm:text-sm">
                     Get a quote
                   </p>
                 </div>

@@ -14,8 +14,8 @@ function responsiveVariants(src: string, featured?: boolean) {
   return {
     srcSet: `${base}-480.jpg 480w, ${base}-960.jpg 960w, ${src} 1080w`,
     sizes: featured
-      ? "(min-width: 768px) 50vw, 100vw"
-      : "(min-width: 768px) 25vw, 50vw",
+      ? "(min-width: 768px) 50vw, 33vw"
+      : "(min-width: 768px) 25vw, 33vw",
   };
 }
 
@@ -77,7 +77,7 @@ export function Gallery() {
         </Reveal>
 
         <Reveal delay={0.1}>
-          <div className="mt-10 grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-4">
+          <div className="mt-10 grid grid-cols-3 gap-2.5 sm:grid-cols-3 md:grid-cols-4 md:gap-4">
             {items.map((item) => (
               <a
                 key={item.src}
@@ -85,8 +85,8 @@ export function Gallery() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={`${item.alt} (opens on Instagram)`}
-                className={`group relative block overflow-hidden rounded-2xl ${
-                  item.featured ? "col-span-2 row-span-2" : ""
+                className={`group relative block overflow-hidden rounded-xl md:rounded-2xl ${
+                  item.featured ? "md:col-span-2 md:row-span-2" : ""
                 }`}
               >
                 <img
