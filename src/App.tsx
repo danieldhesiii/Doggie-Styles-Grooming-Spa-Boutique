@@ -34,11 +34,11 @@ export default function App() {
         <TrustBar />
         <Services />
         <Signature />
+        <About />
         <PriceGuide />
         <Gallery />
         <BeforeAfter />
         <Reviews />
-        <About />
         <Faq />
         <Visit />
       </main>
