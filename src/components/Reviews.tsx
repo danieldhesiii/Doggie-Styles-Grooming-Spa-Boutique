@@ -53,12 +53,18 @@ export function Reviews() {
     el.scrollLeft = el.scrollWidth / 4;
 
     let raf = 0;
-    // Faster auto-scroll on mobile so the shorter viewport still feels lively.
+    let last = 0;
+    // Time-based (px per second), not per-frame, so a higher display refresh
+    // rate — e.g. ProMotion ramping 60->120Hz while you touch the screen —
+    // doesn't make it scroll faster. Mobile runs quicker than desktop.
     const mobile = window.matchMedia("(max-width: 639px)");
-    const tick = () => {
+    const tick = (now: number) => {
+      if (!last) last = now;
+      const dt = Math.min(now - last, 50); // clamp so a stall never jumps it
+      last = now;
       if (!pausedRef.current) {
-        const speed = mobile.matches ? 1.2 : 0.5; // px per frame
-        el.scrollLeft += speed;
+        const pxPerSec = mobile.matches ? 72 : 30;
+        el.scrollLeft += (pxPerSec * dt) / 1000;
         const half = el.scrollWidth / 2;
         if (el.scrollLeft >= half) el.scrollLeft -= half;
         else if (el.scrollLeft <= 0) el.scrollLeft += half;
