@@ -57,7 +57,7 @@ export function Reviews() {
     const mobile = window.matchMedia("(max-width: 639px)");
     const tick = () => {
       if (!pausedRef.current) {
-        const speed = mobile.matches ? 1.5 : 0.5; // px per frame
+        const speed = mobile.matches ? 1.2 : 0.5; // px per frame
         el.scrollLeft += speed;
         const half = el.scrollWidth / 2;
         if (el.scrollLeft >= half) el.scrollLeft -= half;
