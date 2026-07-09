@@ -1,18 +1,13 @@
-# Graph Report - Doggiespaandbeaut7  (2026-07-09)
+# Graph Report - .  (2026-07-04)
 
 ## Corpus Check
-- 26 files · ~150,698 words
+- 33 files · ~67,138 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 233 nodes · 370 edges · 19 communities
-- Extraction: 81% EXTRACTED · 18% INFERRED · 1% AMBIGUOUS · INFERRED: 68 edges (avg confidence: 0.89)
-- Token cost: 0 input · 0 output
-
-## Graph Freshness
-- Built from commit: `d408b5e1`
-- Run `git rev-parse HEAD` and compare to check if the graph is stale.
-- Run `graphify update .` after code changes (no API cost).
+- 192 nodes · 273 edges · 18 communities
+- Extraction: 74% EXTRACTED · 25% INFERRED · 1% AMBIGUOUS · INFERRED: 68 edges (avg confidence: 0.89)
+- Token cost: 183,127 input · 1,900 output
 
 ## Community Hubs (Navigation)
 - [[_COMMUNITY_Website Components & Content|Website Components & Content]]
@@ -32,19 +27,18 @@
 - [[_COMMUNITY_Winnie Beach Photo|Winnie Beach Photo]]
 - [[_COMMUNITY_Nala Beach Photo|Nala Beach Photo]]
 - [[_COMMUNITY_Terrier Sunflower Photo|Terrier Sunflower Photo]]
-- [[_COMMUNITY_Community 18|Community 18]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 15 edges
-2. `Doggie Styles Grooming Spa & Boutique` - 13 edges
-3. `Reveal()` - 12 edges
-4. `site` - 12 edges
-5. `Eyebrow()` - 9 edges
-6. `track()` - 8 edges
-7. `Instagram Photo: Diamex Master Groomer Podium Ceremony` - 7 edges
-8. `Doggie Styles Logo Image (public/logo.jpg)` - 7 edges
-9. `Instagram Gallery Photo ig-02: Groomed Westie on Beach-Themed Set` - 6 edges
-10. `Instagram Photo: Cocker Spaniel Sunflower Season Portrait` - 6 edges
+2. `site` - 10 edges
+3. `Reveal()` - 8 edges
+4. `Instagram Photo: Diamex Master Groomer Podium Ceremony` - 7 edges
+5. `Doggie Styles Logo Image (public/logo.jpg)` - 7 edges
+6. `Instagram Gallery Photo ig-02: Groomed Westie on Beach-Themed Set` - 6 edges
+7. `Instagram Photo: Cocker Spaniel Sunflower Season Portrait` - 6 edges
+8. `Easter Photoshoot of Brother and Sister Dog Duo (Instagram Gallery Photo ig-12)` - 6 edges
+9. `Doggie Styles Grooming Spa & Boutique (Brand)` - 6 edges
+10. `Instagram Gallery Photo: Freshly Groomed Dog with 2025 Award Badge` - 5 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `React SPA Mount Point (#root + /src/main.tsx)` --conceptually_related_to--> `Vite + React + TypeScript + Tailwind CSS v4 Stack`  [INFERRED]
@@ -62,11 +56,11 @@
 ## Hyperedges (group relationships)
 - **Salon Business Identity and Contact Data** — readme_site_data_config, index_localbusiness_jsonld, index_seo_open_graph_meta [INFERRED 0.85]
 
-## Communities (19 total, 0 thin omitted)
+## Communities (18 total, 0 thin omitted)
 
 ### Community 0 - "Website Components & Content"
-Cohesion: 0.09
-Nodes (33): About(), CountUp(), Props, Eyebrow(), Faq(), exploreLinks, Footer(), Gallery() (+25 more)
+Cohesion: 0.10
+Nodes (26): About(), exploreLinks, Footer(), Gallery(), useGallery(), Hero(), MobileBar(), links (+18 more)
 
 ### Community 1 - "Package Dependencies"
 Cohesion: 0.09
@@ -81,8 +75,8 @@ Cohesion: 0.29
 Nodes (10): Instagram Photo: Diamex Master Groomer Podium Ceremony, Website About Section (Image Usage), Belgium (Competition Location), Diamex Master Groomer Competition, Doggie Styles Grooming Spa & Boutique, Wickford, Competition-Groomed Poodles (Red, Apricot, Black), Harriot (Groomer, Third Place Winner), Awards Podium (Positions 3, 1, 2) with Trophies and Pure Gift Bags (+2 more)
 
 ### Community 4 - "SEO & Integrations"
-Cohesion: 0.11
-Nodes (20): LocalBusiness JSON-LD Structured Data, React SPA Mount Point (#root + /src/main.tsx), SEO and Open Graph Meta Tags, Analytics and conversion tracking, Before / after slider, behold.so Instagram Feed Service, Booking, Commands (+12 more)
+Cohesion: 0.24
+Nodes (10): LocalBusiness JSON-LD Structured Data, React SPA Mount Point (#root + /src/main.tsx), SEO and Open Graph Meta Tags, behold.so Instagram Feed Service, Doggie Styles Grooming Spa & Boutique, Google Review Link (site.reviewUrl), Live Instagram Gallery with Bundled Fallback, ShakeYourTail Booking Portal (+2 more)
 
 ### Community 5 - "Brand Logo Identity"
 Cohesion: 0.31
@@ -132,10 +126,6 @@ Nodes (6): Instagram Photo: Nala the Sheltie Beach Photoshoot, 2025 England's Bu
 Cohesion: 0.70
 Nodes (5): Instagram Gallery Photo ig-10: Groomed Dog with Sunflower Backdrop, 2025 England's Business Awards Show - Essex Winner Badge, Small Tan-and-White Terrier-Mix Dog, Freshly Groomed, Doggie Styles Grooming Spa & Boutique, Wickford, Rustic Sunflower Photo Backdrop with 'You Are My Sunshine' Sign
 
-### Community 18 - "Community 18"
-Cohesion: 0.11
-Nodes (14): BeforeAfter(), Reviews(), BeforeAfterPair, beforeAfterPairs, Faq, faqs, GalleryItem, galleryItems (+6 more)
-
 ## Ambiguous Edges - Review These
 - `Groomed Chocolate-and-Tan Spaniel-Cross Dog` → `Cockapoo (Possible Breed)`  [AMBIGUOUS]
   public/gallery/ig-01.jpg · relation: conceptually_related_to
@@ -147,7 +137,7 @@ Nodes (14): BeforeAfter(), Reviews(), BeforeAfterPair, beforeAfterPairs, Faq, fa
   public/gallery/ig-12.jpg · relation: conceptually_related_to
 
 ## Knowledge Gaps
-- **77 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+72 more)
+- **60 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+55 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 
 ## Suggested Questions
@@ -161,9 +151,9 @@ _Questions this graph is uniquely positioned to answer:_
   _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
 - **What is the exact relationship between `Cream/Apricot Poodle-Type Dog with Fresh Rounded Groom` and `Ruby Cavalier King Charles Spaniel-Type Dog`?**
   _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
+- **Are the 3 inferred relationships involving `Instagram Photo: Diamex Master Groomer Podium Ceremony` (e.g. with `Website About Section (Image Usage)` and `Doggie Styles Grooming Spa & Boutique, Wickford`) actually correct?**
+  _`Instagram Photo: Diamex Master Groomer Podium Ceremony` has 3 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `name`, `private`, `version` to the rest of the system?**
-  _78 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _62 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Website Components & Content` be split into smaller, more focused modules?**
-  _Cohesion score 0.09288824383164006 - nodes in this community are weakly interconnected._
-- **Should `Package Dependencies` be split into smaller, more focused modules?**
-  _Cohesion score 0.08695652173913043 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.1014799154334038 - nodes in this community are weakly interconnected._

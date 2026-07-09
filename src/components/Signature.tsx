@@ -57,32 +57,38 @@ export function Signature() {
           </p>
         </Reveal>
 
-        <div className="mt-8 grid grid-cols-1 gap-5 sm:mt-10 sm:gap-6 md:grid-cols-2">
+        <div className="mt-8 grid grid-cols-2 gap-3 sm:mt-10 sm:gap-6">
           {specialist.map((f, i) => (
-            <Reveal key={f.title} delay={i * 0.08}>
-              <div className="h-full rounded-2xl border border-fawn bg-ivory p-7">
-                <span className="flex h-12 w-12 items-center justify-center rounded-full bg-champagne">
-                  <f.icon size={26} weight="duotone" className="text-gold" />
+            <Reveal key={f.title} delay={i * 0.08} className="h-full">
+              <div className="flex h-full flex-col rounded-2xl border border-fawn bg-ivory p-4 sm:p-7">
+                <span className="flex h-10 w-10 items-center justify-center rounded-full bg-champagne sm:h-12 sm:w-12">
+                  <f.icon
+                    weight="duotone"
+                    className="h-5 w-5 text-gold sm:h-[26px] sm:w-[26px]"
+                  />
                 </span>
-                <h3 className="mt-5 text-xl font-bold">{f.title}</h3>
-                <p className="mt-2 leading-relaxed text-taupe">{f.body}</p>
+                <h3 className="mt-4 text-base font-bold sm:mt-5 sm:text-xl">
+                  {f.title}
+                </h3>
+                <p className="mt-2 text-sm leading-relaxed text-taupe sm:text-base">
+                  {f.body}
+                </p>
               </div>
             </Reveal>
           ))}
         </div>
 
-        <div className="mt-6 grid grid-cols-1 gap-5 sm:mt-8 sm:grid-cols-2 sm:gap-6">
+        <div className="mt-4 grid grid-cols-2 gap-3 sm:mt-8 sm:gap-6">
           {extras.map((f, i) => (
-            <Reveal key={f.title} delay={i * 0.08}>
-              <div className="flex gap-4 rounded-2xl border border-fawn/70 bg-ivory p-5">
+            <Reveal key={f.title} delay={i * 0.08} className="h-full">
+              <div className="flex h-full flex-col gap-2 rounded-2xl border border-fawn/70 bg-ivory p-4 sm:flex-row sm:gap-4 sm:p-5">
                 <f.icon
-                  size={26}
                   weight="duotone"
-                  className="mt-0.5 shrink-0 text-gold"
+                  className="h-5 w-5 shrink-0 text-gold sm:mt-0.5 sm:h-[26px] sm:w-[26px]"
                 />
                 <div>
-                  <h3 className="font-bold">{f.title}</h3>
-                  <p className="mt-1 text-sm leading-relaxed text-taupe">
+                  <h3 className="text-sm font-bold sm:text-base">{f.title}</h3>
+                  <p className="mt-1 text-xs leading-relaxed text-taupe sm:text-sm">
                     {f.body}
                   </p>
                 </div>

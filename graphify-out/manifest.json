@@ -1,167 +1,322 @@
 {
-  "/Users/kamil/Desktop/Doggiespaandbeaut7/package.json": {
+  "package.json": {
     "mtime": 1783105179.9268596,
     "ast_hash": "93260c0b8a9400f2d5285b656ad6577d",
     "semantic_hash": "93260c0b8a9400f2d5285b656ad6577d"
   },
-  "/Users/kamil/Desktop/Doggiespaandbeaut7/src/App.tsx": {
-    "mtime": 1783105510.0580606,
-    "ast_hash": "6a61c4f12e7947ac84d52e8f8b20c8c2",
-    "semantic_hash": "6a61c4f12e7947ac84d52e8f8b20c8c2"
+  "src/App.tsx": {
+    "mtime": 1783125294.8022804,
+    "ast_hash": "c35dd7723d746954a0c95c1f32853e67",
+    "semantic_hash": ""
   },
-  "/Users/kamil/Desktop/Doggiespaandbeaut7/src/components/About.tsx": {
-    "mtime": 1783105466.7057352,
-    "ast_hash": "14fb70927668f0d6ff235dad7769d234",
-    "semantic_hash": "14fb70927668f0d6ff235dad7769d234"
+  "src/components/About.tsx": {
+    "mtime": 1783171887.2424967,
+    "ast_hash": "ca8b5d5c7cbfc0b94ba3ada8688bba6f",
+    "semantic_hash": ""
   },
-  "/Users/kamil/Desktop/Doggiespaandbeaut7/src/components/Footer.tsx": {
-    "mtime": 1783105503.367704,
-    "ast_hash": "8cbb32ecb5c44472abd647386aed1de7",
-    "semantic_hash": "8cbb32ecb5c44472abd647386aed1de7"
+  "src/components/Footer.tsx": {
+    "mtime": 1783171900.3270602,
+    "ast_hash": "cd209f55c93e3666ef26f15a9d0da2c9",
+    "semantic_hash": ""
   },
-  "/Users/kamil/Desktop/Doggiespaandbeaut7/src/components/Gallery.tsx": {
-    "mtime": 1783105432.6372452,
-    "ast_hash": "3e37a01c461160e1ec0ff3110c1f5523",
-    "semantic_hash": "3e37a01c461160e1ec0ff3110c1f5523"
+  "src/components/Gallery.tsx": {
+    "mtime": 1783190095.8184476,
+    "ast_hash": "fd40be763387a07b1cc55d3de0f7fb9b",
+    "semantic_hash": ""
   },
-  "/Users/kamil/Desktop/Doggiespaandbeaut7/src/components/Hero.tsx": {
-    "mtime": 1783105383.304939,
-    "ast_hash": "30287e0cbb45b2e5e62ed1f5398f40a1",
-    "semantic_hash": "30287e0cbb45b2e5e62ed1f5398f40a1"
+  "src/components/Hero.tsx": {
+    "mtime": 1783190016.1122124,
+    "ast_hash": "9af54c95eeb9e3e84f8e37cb554c7742",
+    "semantic_hash": ""
   },
-  "/Users/kamil/Desktop/Doggiespaandbeaut7/src/components/MobileBar.tsx": {
-    "mtime": 1783105507.6643832,
-    "ast_hash": "2779bbc27e75db078ad060597ce06801",
-    "semantic_hash": "2779bbc27e75db078ad060597ce06801"
+  "src/components/MobileBar.tsx": {
+    "mtime": 1783126031.334289,
+    "ast_hash": "2573b42776b08c4c30e137d2481c9428",
+    "semantic_hash": ""
   },
-  "/Users/kamil/Desktop/Doggiespaandbeaut7/src/components/Nav.tsx": {
-    "mtime": 1783105371.9205825,
-    "ast_hash": "1b416fb9ea8baa7d6b2637a4575a047b",
-    "semantic_hash": "1b416fb9ea8baa7d6b2637a4575a047b"
+  "src/components/Nav.tsx": {
+    "mtime": 1783126320.9593816,
+    "ast_hash": "7c5c1ea8708e0a9425329dc0cd869878",
+    "semantic_hash": ""
   },
-  "/Users/kamil/Desktop/Doggiespaandbeaut7/src/components/Reveal.tsx": {
-    "mtime": 1783105349.792597,
+  "src/components/Reveal.tsx": {
+    "mtime": 1783124206.637654,
     "ast_hash": "4e21960eb1222319ebed7ee3e479d36d",
     "semantic_hash": "4e21960eb1222319ebed7ee3e479d36d"
   },
-  "/Users/kamil/Desktop/Doggiespaandbeaut7/src/components/Reviews.tsx": {
-    "mtime": 1783105458.7252507,
-    "ast_hash": "3aac9fb473c8c706fc25417181682e8f",
-    "semantic_hash": "3aac9fb473c8c706fc25417181682e8f"
+  "src/components/Reviews.tsx": {
+    "mtime": 1783171887.256096,
+    "ast_hash": "0b773438414b52a70f2d703ae77d8dbb",
+    "semantic_hash": ""
   },
-  "/Users/kamil/Desktop/Doggiespaandbeaut7/src/components/Services.tsx": {
-    "mtime": 1783105414.81863,
-    "ast_hash": "b360437f81c8d01ca8d012e20adc28c3",
-    "semantic_hash": "b360437f81c8d01ca8d012e20adc28c3"
+  "src/components/Services.tsx": {
+    "mtime": 1783171887.2583005,
+    "ast_hash": "17f6f2b5a20e1bbc225312353c3fd683",
+    "semantic_hash": ""
   },
-  "/Users/kamil/Desktop/Doggiespaandbeaut7/src/components/TrustBar.tsx": {
-    "mtime": 1783105388.8006215,
-    "ast_hash": "ddaa3f016e776d69570ec359bf4a310c",
-    "semantic_hash": "ddaa3f016e776d69570ec359bf4a310c"
+  "src/components/TrustBar.tsx": {
+    "mtime": 1783190111.3703287,
+    "ast_hash": "ce184279f6c2d5d69f1a9051a833d893",
+    "semantic_hash": ""
   },
-  "/Users/kamil/Desktop/Doggiespaandbeaut7/src/components/Visit.tsx": {
-    "mtime": 1783105479.2127573,
-    "ast_hash": "92a0289dc4905c2c8c33c1649ee1e5fe",
-    "semantic_hash": "92a0289dc4905c2c8c33c1649ee1e5fe"
+  "src/components/Visit.tsx": {
+    "mtime": 1783171887.2622554,
+    "ast_hash": "e4be74b9de52414462fbc41624a986ac",
+    "semantic_hash": ""
   },
-  "/Users/kamil/Desktop/Doggiespaandbeaut7/src/components/buttons.ts": {
-    "mtime": 1783105352.0364978,
-    "ast_hash": "6d3a9f81c14db0498095ff0f01be07d8",
-    "semantic_hash": "6d3a9f81c14db0498095ff0f01be07d8"
+  "src/components/buttons.ts": {
+    "mtime": 1783124206.64034,
+    "ast_hash": "36bc673c5e1801ef71adc9a32a23bf6d",
+    "semantic_hash": ""
   },
-  "/Users/kamil/Desktop/Doggiespaandbeaut7/src/data/site.ts": {
-    "mtime": 1783105260.9497309,
-    "ast_hash": "7f4637bb40bfacc05e0aa48f4b2b532a",
-    "semantic_hash": "7f4637bb40bfacc05e0aa48f4b2b532a"
+  "src/data/site.ts": {
+    "mtime": 1783169966.8172305,
+    "ast_hash": "9256adb4fda69f22b1ab463d67d20c7c",
+    "semantic_hash": ""
   },
-  "/Users/kamil/Desktop/Doggiespaandbeaut7/src/main.tsx": {
+  "src/main.tsx": {
     "mtime": 1783105222.2019656,
     "ast_hash": "c6931adfdd59c4df4e6638e3e868a6c1",
     "semantic_hash": "c6931adfdd59c4df4e6638e3e868a6c1"
   },
-  "/Users/kamil/Desktop/Doggiespaandbeaut7/tsconfig.json": {
+  "tsconfig.json": {
     "mtime": 1783105183.6857803,
     "ast_hash": "09d982d1d44f1e5091196cfb531f0e4f",
     "semantic_hash": "09d982d1d44f1e5091196cfb531f0e4f"
   },
-  "/Users/kamil/Desktop/Doggiespaandbeaut7/vite.config.ts": {
+  "vite.config.ts": {
     "mtime": 1783105181.2279613,
     "ast_hash": "d9e5303020caaa368fb61e680cccd328",
     "semantic_hash": "d9e5303020caaa368fb61e680cccd328"
   },
-  "/Users/kamil/Desktop/Doggiespaandbeaut7/README.md": {
-    "mtime": 1783105527.3275409,
-    "ast_hash": "c7028e2f46affc92d72976206c9ea3a2",
-    "semantic_hash": "c7028e2f46affc92d72976206c9ea3a2"
+  "README.md": {
+    "mtime": 1783125580.5718868,
+    "ast_hash": "7e3d1e454843f1bacd0666f08234b9ae",
+    "semantic_hash": ""
   },
-  "/Users/kamil/Desktop/Doggiespaandbeaut7/index.html": {
-    "mtime": 1783105203.643116,
-    "ast_hash": "f9744816694538dcfb70b48685c1892e",
-    "semantic_hash": "f9744816694538dcfb70b48685c1892e"
+  "index.html": {
+    "mtime": 1783124751.5849974,
+    "ast_hash": "8fb214c956d725001b058c25ae5d4b61",
+    "semantic_hash": ""
   },
-  "/Users/kamil/Desktop/Doggiespaandbeaut7/public/gallery/ig-01.jpg": {
+  "public/gallery/ig-01.jpg": {
     "mtime": 1783104950.9856956,
     "ast_hash": "fd499f3a00213e361643ba3f1b066e22",
     "semantic_hash": "fd499f3a00213e361643ba3f1b066e22"
   },
-  "/Users/kamil/Desktop/Doggiespaandbeaut7/public/gallery/ig-02.jpg": {
+  "public/gallery/ig-02.jpg": {
     "mtime": 1783104951.1259089,
     "ast_hash": "bc2b838964c01f2694ac0f3d42a67582",
     "semantic_hash": "bc2b838964c01f2694ac0f3d42a67582"
   },
-  "/Users/kamil/Desktop/Doggiespaandbeaut7/public/gallery/ig-03.jpg": {
+  "public/gallery/ig-03.jpg": {
     "mtime": 1783104951.3655074,
     "ast_hash": "8aac0d6fd55a9bb933641f90690b69b6",
     "semantic_hash": "8aac0d6fd55a9bb933641f90690b69b6"
   },
-  "/Users/kamil/Desktop/Doggiespaandbeaut7/public/gallery/ig-04.jpg": {
+  "public/gallery/ig-04.jpg": {
     "mtime": 1783104951.677813,
     "ast_hash": "b29de419ba94c3388ec5341a36e2d9ff",
     "semantic_hash": "b29de419ba94c3388ec5341a36e2d9ff"
   },
-  "/Users/kamil/Desktop/Doggiespaandbeaut7/public/gallery/ig-05.jpg": {
+  "public/gallery/ig-05.jpg": {
     "mtime": 1783104952.0229254,
     "ast_hash": "7ae45543dfad33e6d40aeb8caae1ef31",
     "semantic_hash": "7ae45543dfad33e6d40aeb8caae1ef31"
   },
-  "/Users/kamil/Desktop/Doggiespaandbeaut7/public/gallery/ig-06.jpg": {
+  "public/gallery/ig-06.jpg": {
     "mtime": 1783104952.267904,
     "ast_hash": "11d2af010fe6990d1d16d2d210d0b669",
     "semantic_hash": "11d2af010fe6990d1d16d2d210d0b669"
   },
-  "/Users/kamil/Desktop/Doggiespaandbeaut7/public/gallery/ig-07.jpg": {
+  "public/gallery/ig-07.jpg": {
     "mtime": 1783104952.5098639,
     "ast_hash": "0c8340f962003eb82727a93040f33bd1",
     "semantic_hash": "0c8340f962003eb82727a93040f33bd1"
   },
-  "/Users/kamil/Desktop/Doggiespaandbeaut7/public/gallery/ig-08.jpg": {
+  "public/gallery/ig-08.jpg": {
     "mtime": 1783104952.753573,
     "ast_hash": "58484244230dbca3f60a10b9ac6aa535",
     "semantic_hash": "58484244230dbca3f60a10b9ac6aa535"
   },
-  "/Users/kamil/Desktop/Doggiespaandbeaut7/public/gallery/ig-09.jpg": {
+  "public/gallery/ig-09.jpg": {
     "mtime": 1783104952.9782727,
     "ast_hash": "aacef62a97a80776c7ee7e0fbfb6062f",
     "semantic_hash": "aacef62a97a80776c7ee7e0fbfb6062f"
   },
-  "/Users/kamil/Desktop/Doggiespaandbeaut7/public/gallery/ig-10.jpg": {
+  "public/gallery/ig-10.jpg": {
     "mtime": 1783104953.213004,
     "ast_hash": "43a46a515f020f8ab47f931e8a7489ed",
     "semantic_hash": "43a46a515f020f8ab47f931e8a7489ed"
   },
-  "/Users/kamil/Desktop/Doggiespaandbeaut7/public/gallery/ig-11.jpg": {
+  "public/gallery/ig-11.jpg": {
     "mtime": 1783104953.4120097,
     "ast_hash": "89b26b235a0c30d0e59b981b45da7e5a",
     "semantic_hash": "89b26b235a0c30d0e59b981b45da7e5a"
   },
-  "/Users/kamil/Desktop/Doggiespaandbeaut7/public/gallery/ig-12.jpg": {
+  "public/gallery/ig-12.jpg": {
     "mtime": 1783104953.6049833,
     "ast_hash": "8701b6bb70c5531335e9d02a5b976aa9",
     "semantic_hash": "8701b6bb70c5531335e9d02a5b976aa9"
   },
-  "/Users/kamil/Desktop/Doggiespaandbeaut7/public/logo.jpg": {
+  "public/logo.jpg": {
     "mtime": 1783104950.763638,
     "ast_hash": "1a7be4cd7a315c4a1a33d570b3a392b1",
     "semantic_hash": "1a7be4cd7a315c4a1a33d570b3a392b1"
+  },
+  "src/components/BeforeAfter.tsx": {
+    "mtime": 1783171887.2444773,
+    "ast_hash": "ef1b930706ff38b8a56bedc4cd2b66fc",
+    "semantic_hash": ""
+  },
+  "src/components/CountUp.tsx": {
+    "mtime": 1783189980.4262369,
+    "ast_hash": "eb5ff7ed3d63e201f5128dd85377e27d",
+    "semantic_hash": ""
+  },
+  "src/components/Eyebrow.tsx": {
+    "mtime": 1783170990.021908,
+    "ast_hash": "c2356dfc6a34584ceb370af777a7b5ca",
+    "semantic_hash": ""
+  },
+  "src/components/Faq.tsx": {
+    "mtime": 1783171846.7164483,
+    "ast_hash": "217821184c3fe810d5317ae8b81198d3",
+    "semantic_hash": ""
+  },
+  "src/components/PriceGuide.tsx": {
+    "mtime": 1783171887.253988,
+    "ast_hash": "065165116f8d19cac1b66d2951ef0e86",
+    "semantic_hash": ""
+  },
+  "src/components/Signature.tsx": {
+    "mtime": 1783590478.4804611,
+    "ast_hash": "f4bd968a51ccc63cd0a722a262ace2c2",
+    "semantic_hash": ""
+  },
+  "src/lib/analytics.ts": {
+    "mtime": 1783125158.7892954,
+    "ast_hash": "c91dde03f97c5b7c565dfd941cea8a5d",
+    "semantic_hash": ""
+  },
+  "public/gallery/ig-01-480.jpg": {
+    "mtime": 1783124622.424076,
+    "ast_hash": "6f6ee2b8b54dfaa1d47abe2646e4e8b4",
+    "semantic_hash": ""
+  },
+  "public/gallery/ig-01-960.jpg": {
+    "mtime": 1783124622.5037863,
+    "ast_hash": "9ef037d5cf92991af1f4dbb49e6f7492",
+    "semantic_hash": ""
+  },
+  "public/gallery/ig-02-480.jpg": {
+    "mtime": 1783124622.5607343,
+    "ast_hash": "6fe0396d92a5b8aa201ee9db1b956c72",
+    "semantic_hash": ""
+  },
+  "public/gallery/ig-02-960.jpg": {
+    "mtime": 1783124622.6527205,
+    "ast_hash": "0213ff757447ab3a63941dd559b7299f",
+    "semantic_hash": ""
+  },
+  "public/gallery/ig-03-480.jpg": {
+    "mtime": 1783124622.7100801,
+    "ast_hash": "eed7d752d2a83506a0fbd89f33c144d6",
+    "semantic_hash": ""
+  },
+  "public/gallery/ig-03-960.jpg": {
+    "mtime": 1783124622.8013034,
+    "ast_hash": "be7e76103755781b34e5236b4cb8be66",
+    "semantic_hash": ""
+  },
+  "public/gallery/ig-04-480.jpg": {
+    "mtime": 1783124622.856514,
+    "ast_hash": "aebf16af6df59ad0e663a7e483d1fbe3",
+    "semantic_hash": ""
+  },
+  "public/gallery/ig-04-960.jpg": {
+    "mtime": 1783124622.9442673,
+    "ast_hash": "bdc63f9a47f51092f5c4b2968539cfea",
+    "semantic_hash": ""
+  },
+  "public/gallery/ig-05-480.jpg": {
+    "mtime": 1783124622.9989924,
+    "ast_hash": "c5ae5109222843d8a6fde11a8b52d1f5",
+    "semantic_hash": ""
+  },
+  "public/gallery/ig-05-960.jpg": {
+    "mtime": 1783124623.086763,
+    "ast_hash": "55609cd73dbefc6b9f1c2df2f84c4d20",
+    "semantic_hash": ""
+  },
+  "public/gallery/ig-06-480.jpg": {
+    "mtime": 1783124623.1401165,
+    "ast_hash": "044faab07868a62d59c46f38773d3f16",
+    "semantic_hash": ""
+  },
+  "public/gallery/ig-06-960.jpg": {
+    "mtime": 1783124623.2283223,
+    "ast_hash": "94bc80325ccb01efc24e5fe07199e278",
+    "semantic_hash": ""
+  },
+  "public/gallery/ig-07-480.jpg": {
+    "mtime": 1783124623.2859461,
+    "ast_hash": "0158d2e032aa932fc85f357419af87cb",
+    "semantic_hash": ""
+  },
+  "public/gallery/ig-07-960.jpg": {
+    "mtime": 1783124623.3796046,
+    "ast_hash": "b56e0934e25ad7d94e862b5d141d5928",
+    "semantic_hash": ""
+  },
+  "public/gallery/ig-08-480.jpg": {
+    "mtime": 1783124623.4364908,
+    "ast_hash": "c2efe212d923ae6a1559955bac45bd96",
+    "semantic_hash": ""
+  },
+  "public/gallery/ig-08-960.jpg": {
+    "mtime": 1783124623.5295694,
+    "ast_hash": "f225a5d8bb841408262431d7f5953a34",
+    "semantic_hash": ""
+  },
+  "public/gallery/ig-09-480.jpg": {
+    "mtime": 1783124623.5894036,
+    "ast_hash": "89fd9dde53de498ec129ea3273081631",
+    "semantic_hash": ""
+  },
+  "public/gallery/ig-09-960.jpg": {
+    "mtime": 1783124623.6843674,
+    "ast_hash": "5bce70cf0361ec3db87a82d84c5ff8cd",
+    "semantic_hash": ""
+  },
+  "public/gallery/ig-10-480.jpg": {
+    "mtime": 1783124623.7430723,
+    "ast_hash": "1f1126ce7d1323c91237af8f69104c60",
+    "semantic_hash": ""
+  },
+  "public/gallery/ig-10-960.jpg": {
+    "mtime": 1783124623.8366556,
+    "ast_hash": "d2c526ff5ee926152f8942ce4ca24d8a",
+    "semantic_hash": ""
+  },
+  "public/gallery/ig-11-480.jpg": {
+    "mtime": 1783124623.8856578,
+    "ast_hash": "1ecf3a732ead480a269965e846f831c0",
+    "semantic_hash": ""
+  },
+  "public/gallery/ig-11-960.jpg": {
+    "mtime": 1783124623.9558408,
+    "ast_hash": "4ad4b830fe40182b1c364f3ebcfc8609",
+    "semantic_hash": ""
+  },
+  "public/gallery/ig-12-480.jpg": {
+    "mtime": 1783124624.0091414,
+    "ast_hash": "32e42aa0bafcfd2a2e1f25a3601083b7",
+    "semantic_hash": ""
+  },
+  "public/gallery/ig-12-960.jpg": {
+    "mtime": 1783124624.0957305,
+    "ast_hash": "348c3ce281ce6670313ff80a0b12dd14",
+    "semantic_hash": ""
   }
 }

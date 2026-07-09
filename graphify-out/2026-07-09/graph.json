@@ -14,7 +14,7 @@
         "relation": "participate_in",
         "confidence": "INFERRED",
         "confidence_score": 0.85,
-        "source_file": "index.html"
+        "source_file": "/Users/kamil/Desktop/Doggiespaandbeaut7/index.html"
       }
     ]
   },
@@ -263,7 +263,7 @@
       "label": "App()",
       "file_type": "code",
       "source_file": "src/App.tsx",
-      "source_location": "L18",
+      "source_location": "L12",
       "_origin": "ast",
       "id": "src_app_app",
       "community": 0,
@@ -283,111 +283,11 @@
       "label": "About()",
       "file_type": "code",
       "source_file": "src/components/About.tsx",
-      "source_location": "L4",
+      "source_location": "L3",
       "_origin": "ast",
       "id": "components_about_about",
       "community": 0,
       "norm_label": "about()"
-    },
-    {
-      "label": "BeforeAfter.tsx",
-      "file_type": "code",
-      "source_file": "src/components/BeforeAfter.tsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "components_beforeafter",
-      "community": 18,
-      "norm_label": "beforeafter.tsx"
-    },
-    {
-      "label": "Slider()",
-      "file_type": "code",
-      "source_file": "src/components/BeforeAfter.tsx",
-      "source_location": "L6",
-      "_origin": "ast",
-      "id": "components_beforeafter_slider",
-      "community": 18,
-      "norm_label": "slider()"
-    },
-    {
-      "label": "BeforeAfter()",
-      "file_type": "code",
-      "source_file": "src/components/BeforeAfter.tsx",
-      "source_location": "L80",
-      "_origin": "ast",
-      "id": "components_beforeafter_beforeafter",
-      "community": 18,
-      "norm_label": "beforeafter()"
-    },
-    {
-      "label": "CountUp.tsx",
-      "file_type": "code",
-      "source_file": "src/components/CountUp.tsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "components_countup",
-      "community": 0,
-      "norm_label": "countup.tsx"
-    },
-    {
-      "label": "Props",
-      "file_type": "code",
-      "source_file": "src/components/CountUp.tsx",
-      "source_location": "L4",
-      "_origin": "ast",
-      "id": "components_countup_props",
-      "community": 0,
-      "norm_label": "props"
-    },
-    {
-      "label": "CountUp()",
-      "file_type": "code",
-      "source_file": "src/components/CountUp.tsx",
-      "source_location": "L16",
-      "_origin": "ast",
-      "id": "components_countup_countup",
-      "community": 0,
-      "norm_label": "countup()"
-    },
-    {
-      "label": "Eyebrow.tsx",
-      "file_type": "code",
-      "source_file": "src/components/Eyebrow.tsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "components_eyebrow",
-      "community": 0,
-      "norm_label": "eyebrow.tsx"
-    },
-    {
-      "label": "Eyebrow()",
-      "file_type": "code",
-      "source_file": "src/components/Eyebrow.tsx",
-      "source_location": "L7",
-      "_origin": "ast",
-      "id": "components_eyebrow_eyebrow",
-      "community": 0,
-      "norm_label": "eyebrow()"
-    },
-    {
-      "label": "Faq.tsx",
-      "file_type": "code",
-      "source_file": "src/components/Faq.tsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "components_faq",
-      "community": 0,
-      "norm_label": "faq.tsx"
-    },
-    {
-      "label": "Faq()",
-      "file_type": "code",
-      "source_file": "src/components/Faq.tsx",
-      "source_location": "L6",
-      "_origin": "ast",
-      "id": "components_faq_faq",
-      "community": 0,
-      "norm_label": "faq()"
     },
     {
       "label": "Footer.tsx",
@@ -403,7 +303,7 @@
       "label": "exploreLinks",
       "file_type": "code",
       "source_file": "src/components/Footer.tsx",
-      "source_location": "L12",
+      "source_location": "L6",
       "_origin": "ast",
       "id": "components_footer_explorelinks",
       "community": 0,
@@ -413,7 +313,7 @@
       "label": "Footer()",
       "file_type": "code",
       "source_file": "src/components/Footer.tsx",
-      "source_location": "L22",
+      "source_location": "L14",
       "_origin": "ast",
       "id": "components_footer_footer",
       "community": 0,
@@ -430,20 +330,10 @@
       "norm_label": "gallery.tsx"
     },
     {
-      "label": "responsiveVariants()",
-      "file_type": "code",
-      "source_file": "src/components/Gallery.tsx",
-      "source_location": "L21",
-      "_origin": "ast",
-      "id": "components_gallery_responsivevariants",
-      "community": 0,
-      "norm_label": "responsivevariants()"
-    },
-    {
       "label": "useGallery()",
       "file_type": "code",
       "source_file": "src/components/Gallery.tsx",
-      "source_location": "L36",
+      "source_location": "L11",
       "_origin": "ast",
       "id": "components_gallery_usegallery",
       "community": 0,
@@ -453,7 +343,7 @@
       "label": "Gallery()",
       "file_type": "code",
       "source_file": "src/components/Gallery.tsx",
-      "source_location": "L74",
+      "source_location": "L49",
       "_origin": "ast",
       "id": "components_gallery_gallery",
       "community": 0,
@@ -470,20 +360,10 @@
       "norm_label": "hero.tsx"
     },
     {
-      "label": "stats",
-      "file_type": "code",
-      "source_file": "src/components/Hero.tsx",
-      "source_location": "L8",
-      "_origin": "ast",
-      "id": "components_hero_stats",
-      "community": 0,
-      "norm_label": "stats"
-    },
-    {
       "label": "Hero()",
       "file_type": "code",
       "source_file": "src/components/Hero.tsx",
-      "source_location": "L14",
+      "source_location": "L6",
       "_origin": "ast",
       "id": "components_hero_hero",
       "community": 0,
@@ -503,7 +383,7 @@
       "label": "MobileBar()",
       "file_type": "code",
       "source_file": "src/components/MobileBar.tsx",
-      "source_location": "L6",
+      "source_location": "L5",
       "_origin": "ast",
       "id": "components_mobilebar_mobilebar",
       "community": 0,
@@ -523,7 +403,7 @@
       "label": "links",
       "file_type": "code",
       "source_file": "src/components/Nav.tsx",
-      "source_location": "L7",
+      "source_location": "L6",
       "_origin": "ast",
       "id": "components_nav_links",
       "community": 0,
@@ -533,41 +413,11 @@
       "label": "Nav()",
       "file_type": "code",
       "source_file": "src/components/Nav.tsx",
-      "source_location": "L16",
+      "source_location": "L14",
       "_origin": "ast",
       "id": "components_nav_nav",
       "community": 0,
       "norm_label": "nav()"
-    },
-    {
-      "label": "PriceGuide.tsx",
-      "file_type": "code",
-      "source_file": "src/components/PriceGuide.tsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "components_priceguide",
-      "community": 0,
-      "norm_label": "priceguide.tsx"
-    },
-    {
-      "label": "quoteUrl()",
-      "file_type": "code",
-      "source_file": "src/components/PriceGuide.tsx",
-      "source_location": "L9",
-      "_origin": "ast",
-      "id": "components_priceguide_quoteurl",
-      "community": 0,
-      "norm_label": "quoteurl()"
-    },
-    {
-      "label": "PriceGuide()",
-      "file_type": "code",
-      "source_file": "src/components/PriceGuide.tsx",
-      "source_location": "L14",
-      "_origin": "ast",
-      "id": "components_priceguide_priceguide",
-      "community": 0,
-      "norm_label": "priceguide()"
     },
     {
       "label": "Reveal.tsx",
@@ -606,37 +456,37 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "components_reviews",
-      "community": 18,
+      "community": 0,
       "norm_label": "reviews.tsx"
     },
     {
       "label": "Stars()",
       "file_type": "code",
       "source_file": "src/components/Reviews.tsx",
-      "source_location": "L9",
+      "source_location": "L6",
       "_origin": "ast",
       "id": "components_reviews_stars",
-      "community": 18,
+      "community": 0,
       "norm_label": "stars()"
     },
     {
       "label": "ReviewCard()",
       "file_type": "code",
       "source_file": "src/components/Reviews.tsx",
-      "source_location": "L19",
+      "source_location": "L16",
       "_origin": "ast",
       "id": "components_reviews_reviewcard",
-      "community": 18,
+      "community": 0,
       "norm_label": "reviewcard()"
     },
     {
       "label": "Reviews()",
       "file_type": "code",
       "source_file": "src/components/Reviews.tsx",
-      "source_location": "L34",
+      "source_location": "L31",
       "_origin": "ast",
       "id": "components_reviews_reviews",
-      "community": 18,
+      "community": 0,
       "norm_label": "reviews()"
     },
     {
@@ -653,61 +503,11 @@
       "label": "Services()",
       "file_type": "code",
       "source_file": "src/components/Services.tsx",
-      "source_location": "L10",
+      "source_location": "L7",
       "_origin": "ast",
       "id": "components_services_services",
       "community": 0,
       "norm_label": "services()"
-    },
-    {
-      "label": "Signature.tsx",
-      "file_type": "code",
-      "source_file": "src/components/Signature.tsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "components_signature",
-      "community": 0,
-      "norm_label": "signature.tsx"
-    },
-    {
-      "label": "Feature",
-      "file_type": "code",
-      "source_file": "src/components/Signature.tsx",
-      "source_location": "L12",
-      "_origin": "ast",
-      "id": "components_signature_feature",
-      "community": 0,
-      "norm_label": "feature"
-    },
-    {
-      "label": "specialist",
-      "file_type": "code",
-      "source_file": "src/components/Signature.tsx",
-      "source_location": "L14",
-      "_origin": "ast",
-      "id": "components_signature_specialist",
-      "community": 0,
-      "norm_label": "specialist"
-    },
-    {
-      "label": "extras",
-      "file_type": "code",
-      "source_file": "src/components/Signature.tsx",
-      "source_location": "L27",
-      "_origin": "ast",
-      "id": "components_signature_extras",
-      "community": 0,
-      "norm_label": "extras"
-    },
-    {
-      "label": "Signature()",
-      "file_type": "code",
-      "source_file": "src/components/Signature.tsx",
-      "source_location": "L40",
-      "_origin": "ast",
-      "id": "components_signature_signature",
-      "community": 0,
-      "norm_label": "signature()"
     },
     {
       "label": "TrustBar.tsx",
@@ -763,7 +563,7 @@
       "label": "Visit()",
       "file_type": "code",
       "source_file": "src/components/Visit.tsx",
-      "source_location": "L14",
+      "source_location": "L11",
       "_origin": "ast",
       "id": "components_visit_visit",
       "community": 0,
@@ -786,7 +586,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "data_site",
-      "community": 18,
+      "community": 0,
       "norm_label": "site.ts"
     },
     {
@@ -800,90 +600,30 @@
       "norm_label": "site"
     },
     {
-      "label": "PriceRow",
-      "file_type": "code",
-      "source_file": "src/data/site.ts",
-      "source_location": "L67",
-      "_origin": "ast",
-      "id": "data_site_pricerow",
-      "community": 18,
-      "norm_label": "pricerow"
-    },
-    {
-      "label": "priceGuide",
-      "file_type": "code",
-      "source_file": "src/data/site.ts",
-      "source_location": "L76",
-      "_origin": "ast",
-      "id": "data_site_priceguide",
-      "community": 18,
-      "norm_label": "priceguide"
-    },
-    {
-      "label": "Faq",
-      "file_type": "code",
-      "source_file": "src/data/site.ts",
-      "source_location": "L83",
-      "_origin": "ast",
-      "id": "data_site_faq",
-      "community": 18,
-      "norm_label": "faq"
-    },
-    {
-      "label": "faqs",
-      "file_type": "code",
-      "source_file": "src/data/site.ts",
-      "source_location": "L85",
-      "_origin": "ast",
-      "id": "data_site_faqs",
-      "community": 18,
-      "norm_label": "faqs"
-    },
-    {
-      "label": "BeforeAfterPair",
-      "file_type": "code",
-      "source_file": "src/data/site.ts",
-      "source_location": "L125",
-      "_origin": "ast",
-      "id": "data_site_beforeafterpair",
-      "community": 18,
-      "norm_label": "beforeafterpair"
-    },
-    {
-      "label": "beforeAfterPairs",
-      "file_type": "code",
-      "source_file": "src/data/site.ts",
-      "source_location": "L131",
-      "_origin": "ast",
-      "id": "data_site_beforeafterpairs",
-      "community": 18,
-      "norm_label": "beforeafterpairs"
-    },
-    {
       "label": "Service",
       "file_type": "code",
       "source_file": "src/data/site.ts",
-      "source_location": "L136",
+      "source_location": "L45",
       "_origin": "ast",
       "id": "data_site_service",
-      "community": 18,
+      "community": 0,
       "norm_label": "service"
     },
     {
       "label": "ServiceCategory",
       "file_type": "code",
       "source_file": "src/data/site.ts",
-      "source_location": "L143",
+      "source_location": "L52",
       "_origin": "ast",
       "id": "data_site_servicecategory",
-      "community": 18,
+      "community": 0,
       "norm_label": "servicecategory"
     },
     {
       "label": "serviceCategories",
       "file_type": "code",
       "source_file": "src/data/site.ts",
-      "source_location": "L152",
+      "source_location": "L59",
       "_origin": "ast",
       "id": "data_site_servicecategories",
       "community": 0,
@@ -893,91 +633,51 @@
       "label": "GalleryItem",
       "file_type": "code",
       "source_file": "src/data/site.ts",
-      "source_location": "L267",
+      "source_location": "L174",
       "_origin": "ast",
       "id": "data_site_galleryitem",
-      "community": 18,
+      "community": 0,
       "norm_label": "galleryitem"
     },
     {
       "label": "post()",
       "file_type": "code",
       "source_file": "src/data/site.ts",
-      "source_location": "L275",
+      "source_location": "L182",
       "_origin": "ast",
       "id": "data_site_post",
-      "community": 18,
+      "community": 0,
       "norm_label": "post()"
     },
     {
       "label": "galleryItems",
       "file_type": "code",
       "source_file": "src/data/site.ts",
-      "source_location": "L277",
+      "source_location": "L184",
       "_origin": "ast",
       "id": "data_site_galleryitems",
-      "community": 18,
+      "community": 0,
       "norm_label": "galleryitems"
     },
     {
       "label": "Review",
       "file_type": "code",
       "source_file": "src/data/site.ts",
-      "source_location": "L326",
+      "source_location": "L233",
       "_origin": "ast",
       "id": "data_site_review",
-      "community": 18,
+      "community": 0,
       "norm_label": "review"
     },
     {
       "label": "reviews",
       "file_type": "code",
       "source_file": "src/data/site.ts",
-      "source_location": "L332",
+      "source_location": "L239",
       "_origin": "ast",
       "id": "data_site_reviews",
-      "community": 18,
+      "community": 0,
       "norm_label": "reviews"
-    },
-    {
-      "label": "analytics.ts",
-      "file_type": "code",
-      "source_file": "src/lib/analytics.ts",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "lib_analytics",
-      "community": 0,
-      "norm_label": "analytics.ts"
-    },
-    {
-      "label": "Window",
-      "file_type": "code",
-      "source_file": "src/lib/analytics.ts",
-      "source_location": "L4",
-      "_origin": "ast",
-      "id": "lib_analytics_window",
-      "community": 0,
-      "norm_label": "window"
-    },
-    {
-      "label": "initAnalytics()",
-      "file_type": "code",
-      "source_file": "src/lib/analytics.ts",
-      "source_location": "L14",
-      "_origin": "ast",
-      "id": "lib_analytics_initanalytics",
-      "community": 0,
-      "norm_label": "initanalytics()"
-    },
-    {
-      "label": "track()",
-      "file_type": "code",
-      "source_file": "src/lib/analytics.ts",
-      "source_location": "L36",
-      "_origin": "ast",
-      "id": "lib_analytics_track",
-      "community": 0,
-      "norm_label": "track()"
     },
     {
       "label": "main.tsx",
@@ -1170,134 +870,18 @@
       "norm_label": "vite.config.ts"
     },
     {
-      "label": "README.md",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "readme",
-      "community": 4,
-      "norm_label": "readme.md"
-    },
-    {
       "label": "Doggie Styles Grooming Spa & Boutique",
-      "file_type": "document",
+      "file_type": "concept",
       "source_file": "README.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "readme_doggie_styles_grooming_spa_boutique",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Marketing website for the multi award winning dog grooming salon at Alpha Garden Centre, Wickford, Essex.",
+      "id": "readme_doggie_styles_spa",
       "community": 4,
       "norm_label": "doggie styles grooming spa & boutique"
-    },
-    {
-      "label": "Commands",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L8",
-      "_origin": "ast",
-      "id": "readme_commands",
-      "community": 4,
-      "norm_label": "commands"
-    },
-    {
-      "label": "Editing content",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L17",
-      "_origin": "ast",
-      "id": "readme_editing_content",
-      "community": 4,
-      "norm_label": "editing content"
-    },
-    {
-      "label": "Prices",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L23",
-      "_origin": "ast",
-      "id": "readme_prices",
-      "community": 4,
-      "norm_label": "prices"
-    },
-    {
-      "label": "Opening hours",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L29",
-      "_origin": "ast",
-      "id": "readme_opening_hours",
-      "community": 4,
-      "norm_label": "opening hours"
-    },
-    {
-      "label": "Google review link",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L35",
-      "_origin": "ast",
-      "id": "readme_google_review_link",
-      "community": 4,
-      "norm_label": "google review link"
-    },
-    {
-      "label": "Live Instagram gallery",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L42",
-      "_origin": "ast",
-      "id": "readme_live_instagram_gallery",
-      "community": 4,
-      "norm_label": "live instagram gallery"
-    },
-    {
-      "label": "Booking",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L58",
-      "_origin": "ast",
-      "id": "readme_booking",
-      "community": 4,
-      "norm_label": "booking"
-    },
-    {
-      "label": "Price guide",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L64",
-      "_origin": "ast",
-      "id": "readme_price_guide",
-      "community": 4,
-      "norm_label": "price guide"
-    },
-    {
-      "label": "Before / after slider",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L73",
-      "_origin": "ast",
-      "id": "readme_before_after_slider",
-      "community": 4,
-      "norm_label": "before / after slider"
-    },
-    {
-      "label": "WhatsApp",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L86",
-      "_origin": "ast",
-      "id": "readme_whatsapp",
-      "community": 4,
-      "norm_label": "whatsapp"
-    },
-    {
-      "label": "Analytics and conversion tracking",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L92",
-      "_origin": "ast",
-      "id": "readme_analytics_and_conversion_tracking",
-      "community": 4,
-      "norm_label": "analytics and conversion tracking"
     },
     {
       "label": "Vite + React + TypeScript + Tailwind CSS v4 Stack",
@@ -1308,9 +892,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "readme_vite_react_tailwind_stack",
       "community": 4,
-      "norm_label": "vite + react + typescript + tailwind css v4 stack",
-      "id": "readme_vite_react_tailwind_stack"
+      "norm_label": "vite + react + typescript + tailwind css v4 stack"
     },
     {
       "label": "Centralised Site Content Config (src/data/site.ts)",
@@ -1322,9 +906,9 @@
       "author": null,
       "contributor": null,
       "rationale": "Everything a client would ever ask to change (phone, email, booking link, socials, address, opening hours, service categories, prices, gallery photos, reviews) lives in one file so edits never touch component code. Prices are null until the salon confirms its price list; setting e.g. price: \"from \u00a335\" makes the price appear in the menu automatically. Hours are Tuesday-Saturday 9-5 pending confirmation via site.hours.",
+      "id": "readme_site_data_config",
       "community": 4,
-      "norm_label": "centralised site content config (src/data/site.ts)",
-      "id": "readme_site_data_config"
+      "norm_label": "centralised site content config (src/data/site.ts)"
     },
     {
       "label": "Live Instagram Gallery with Bundled Fallback",
@@ -1336,9 +920,9 @@
       "author": null,
       "contributor": null,
       "rationale": "Instagram does not allow anonymous feed access, so live updates require a one-time connection by the account owner through a feed service whose JSON feed URL goes into instagramFeedUrl in src/data/site.ts. Real photos downloaded from @doggie_styles_spa ship in public/gallery/ and are shown whenever the feed is unreachable, so the gallery never breaks.",
+      "id": "readme_instagram_gallery_fallback",
       "community": 4,
-      "norm_label": "live instagram gallery with bundled fallback",
-      "id": "readme_instagram_gallery_fallback"
+      "norm_label": "live instagram gallery with bundled fallback"
     },
     {
       "label": "behold.so Instagram Feed Service",
@@ -1349,9 +933,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "readme_behold_feed_service",
       "community": 4,
-      "norm_label": "behold.so instagram feed service",
-      "id": "readme_behold_feed_service"
+      "norm_label": "behold.so instagram feed service"
     },
     {
       "label": "ShakeYourTail Booking Portal",
@@ -1363,9 +947,23 @@
       "author": null,
       "contributor": null,
       "rationale": "Online booking goes through the salon's ShakeYourTail portal. The portal blocks being embedded in other sites (X-Frame-Options), so every Book Online button opens it in a new tab instead of an iframe.",
+      "id": "readme_shakeyourtail_booking",
       "community": 4,
-      "norm_label": "shakeyourtail booking portal",
-      "id": "readme_shakeyourtail_booking"
+      "norm_label": "shakeyourtail booking portal"
+    },
+    {
+      "label": "Google Review Link (site.reviewUrl)",
+      "file_type": "rationale",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "site.reviewUrl currently opens the salon's Google Maps listing; once the salon shares its Google Business Profile short review link (g.page/r/... URL) it should be pasted in so 'Leave a review' opens the review box directly.",
+      "id": "readme_google_review_link",
+      "community": 4,
+      "norm_label": "google review link (site.reviewurl)"
     },
     {
       "label": "LocalBusiness JSON-LD Structured Data",
@@ -1377,9 +975,9 @@
       "author": null,
       "contributor": null,
       "rationale": "Embedded schema.org LocalBusiness markup gives search engines the salon's name, phone (+447864359871), email, postal address (Unit 18, Alpha Garden Centre, Wickford, Essex SS12 0JX) and sameAs links to its Facebook and Instagram profiles for local SEO.",
+      "id": "index_localbusiness_jsonld",
       "community": 4,
-      "norm_label": "localbusiness json-ld structured data",
-      "id": "index_localbusiness_jsonld"
+      "norm_label": "localbusiness json-ld structured data"
     },
     {
       "label": "SEO and Open Graph Meta Tags",
@@ -1391,9 +989,9 @@
       "author": null,
       "contributor": null,
       "rationale": "Title, meta description, theme-color (#FAF5EC) and og:title/og:description/og:image tags describe the salon and its services (full grooms, bath and tidy, hand stripping, puppy grooms, Emmi-pet teeth cleaning) for search results and social sharing, using /gallery/ig-01.jpg as the share image.",
+      "id": "index_seo_open_graph_meta",
       "community": 4,
-      "norm_label": "seo and open graph meta tags",
-      "id": "index_seo_open_graph_meta"
+      "norm_label": "seo and open graph meta tags"
     },
     {
       "label": "React SPA Mount Point (#root + /src/main.tsx)",
@@ -1404,9 +1002,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "index_react_spa_mount",
       "community": 4,
-      "norm_label": "react spa mount point (#root + /src/main.tsx)",
-      "id": "index_react_spa_mount"
+      "norm_label": "react spa mount point (#root + /src/main.tsx)"
     },
     {
       "label": "Instagram Gallery Photo: Freshly Groomed Dog with 2025 Award Badge",
@@ -1417,9 +1015,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_01_photo",
       "community": 8,
-      "norm_label": "instagram gallery photo: freshly groomed dog with 2025 award badge",
-      "id": "gallery_ig_01_photo"
+      "norm_label": "instagram gallery photo: freshly groomed dog with 2025 award badge"
     },
     {
       "label": "Groomed Chocolate-and-Tan Spaniel-Cross Dog",
@@ -1430,9 +1028,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_01_dog",
       "community": 8,
-      "norm_label": "groomed chocolate-and-tan spaniel-cross dog",
-      "id": "gallery_ig_01_dog"
+      "norm_label": "groomed chocolate-and-tan spaniel-cross dog"
     },
     {
       "label": "Cockapoo (Possible Breed)",
@@ -1443,9 +1041,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_01_cockapoo_breed",
       "community": 8,
-      "norm_label": "cockapoo (possible breed)",
-      "id": "gallery_ig_01_cockapoo_breed"
+      "norm_label": "cockapoo (possible breed)"
     },
     {
       "label": "2025 England's Business Awards Show - Essex Winner Badge",
@@ -1456,9 +1054,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_01_award_badge",
       "community": 8,
-      "norm_label": "2025 england's business awards show - essex winner badge",
-      "id": "gallery_ig_01_award_badge"
+      "norm_label": "2025 england's business awards show - essex winner badge"
     },
     {
       "label": "Doggie Styles Grooming Spa & Boutique (Wickford)",
@@ -1469,9 +1067,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_01_salon",
       "community": 8,
-      "norm_label": "doggie styles grooming spa & boutique (wickford)",
-      "id": "gallery_ig_01_salon"
+      "norm_label": "doggie styles grooming spa & boutique (wickford)"
     },
     {
       "label": "Professional Dog Grooming (Full Groom / Trim)",
@@ -1482,9 +1080,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_01_grooming_service",
       "community": 8,
-      "norm_label": "professional dog grooming (full groom / trim)",
-      "id": "gallery_ig_01_grooming_service"
+      "norm_label": "professional dog grooming (full groom / trim)"
     },
     {
       "label": "Salon Interior with Wooden Flooring",
@@ -1495,9 +1093,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_01_salon_interior",
       "community": 8,
-      "norm_label": "salon interior with wooden flooring",
-      "id": "gallery_ig_01_salon_interior"
+      "norm_label": "salon interior with wooden flooring"
     },
     {
       "label": "Instagram Marketing / Website Gallery Content",
@@ -1508,9 +1106,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_01_instagram_marketing",
       "community": 8,
-      "norm_label": "instagram marketing / website gallery content",
-      "id": "gallery_ig_01_instagram_marketing"
+      "norm_label": "instagram marketing / website gallery content"
     },
     {
       "label": "Instagram Gallery Photo ig-02: Groomed Westie on Beach-Themed Set",
@@ -1521,9 +1119,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_02",
       "community": 9,
-      "norm_label": "instagram gallery photo ig-02: groomed westie on beach-themed set",
-      "id": "gallery_ig_02"
+      "norm_label": "instagram gallery photo ig-02: groomed westie on beach-themed set"
     },
     {
       "label": "Freshly Groomed White Terrier (West Highland White Terrier type)",
@@ -1534,9 +1132,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_02_dog",
       "community": 9,
-      "norm_label": "freshly groomed white terrier (west highland white terrier type)",
-      "id": "gallery_ig_02_dog"
+      "norm_label": "freshly groomed white terrier (west highland white terrier type)"
     },
     {
       "label": "Tropical Beach Photo Backdrop with Palm Tree and Ocean Shoreline",
@@ -1547,9 +1145,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_02_beach_backdrop",
       "community": 9,
-      "norm_label": "tropical beach photo backdrop with palm tree and ocean shoreline",
-      "id": "gallery_ig_02_beach_backdrop"
+      "norm_label": "tropical beach photo backdrop with palm tree and ocean shoreline"
     },
     {
       "label": "Summer Photo Props: Wicker Basket Bag and Pink Flamingo Novelty Sunglasses",
@@ -1560,9 +1158,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_02_props",
       "community": 9,
-      "norm_label": "summer photo props: wicker basket bag and pink flamingo novelty sunglasses",
-      "id": "gallery_ig_02_props"
+      "norm_label": "summer photo props: wicker basket bag and pink flamingo novelty sunglasses"
     },
     {
       "label": "2025 England's Business Awards Show - Essex Winner Badge",
@@ -1573,9 +1171,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_02_award_badge",
       "community": 9,
-      "norm_label": "2025 england's business awards show - essex winner badge",
-      "id": "gallery_ig_02_award_badge"
+      "norm_label": "2025 england's business awards show - essex winner badge"
     },
     {
       "label": "Doggie Styles Grooming Spa & Boutique (Wickford)",
@@ -1586,9 +1184,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_02_salon",
       "community": 9,
-      "norm_label": "doggie styles grooming spa & boutique (wickford)",
-      "id": "gallery_ig_02_salon"
+      "norm_label": "doggie styles grooming spa & boutique (wickford)"
     },
     {
       "label": "Marketing / Website Gallery Content Showcasing Grooming Results",
@@ -1599,9 +1197,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_02_marketing_purpose",
       "community": 9,
-      "norm_label": "marketing / website gallery content showcasing grooming results",
-      "id": "gallery_ig_02_marketing_purpose"
+      "norm_label": "marketing / website gallery content showcasing grooming results"
     },
     {
       "label": "Summer / Beach Seasonal Photoshoot Theme",
@@ -1612,9 +1210,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_02_summer_theme",
       "community": 9,
-      "norm_label": "summer / beach seasonal photoshoot theme",
-      "id": "gallery_ig_02_summer_theme"
+      "norm_label": "summer / beach seasonal photoshoot theme"
     },
     {
       "label": "Instagram Gallery Photo ig-03 (Rory beach-themed grooming portrait)",
@@ -1625,9 +1223,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_03_photo",
       "community": 12,
-      "norm_label": "instagram gallery photo ig-03 (rory beach-themed grooming portrait)",
-      "id": "gallery_ig_03_photo"
+      "norm_label": "instagram gallery photo ig-03 (rory beach-themed grooming portrait)"
     },
     {
       "label": "Rory (chocolate-brown toy poodle puppy, freshly groomed, small white chest patch)",
@@ -1638,9 +1236,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_03_rory",
       "community": 12,
-      "norm_label": "rory (chocolate-brown toy poodle puppy, freshly groomed, small white chest patch)",
-      "id": "gallery_ig_03_rory"
+      "norm_label": "rory (chocolate-brown toy poodle puppy, freshly groomed, small white chest patch)"
     },
     {
       "label": "Beach-Themed Photo Set (tropical shoreline backdrop, palm leaf, cream fleece rug, wicker basket, pink flamingo sunglasses prop)",
@@ -1651,9 +1249,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_03_beach_backdrop",
       "community": 12,
-      "norm_label": "beach-themed photo set (tropical shoreline backdrop, palm leaf, cream fleece rug, wicker basket, pink flamingo sunglasses prop)",
-      "id": "gallery_ig_03_beach_backdrop"
+      "norm_label": "beach-themed photo set (tropical shoreline backdrop, palm leaf, cream fleece rug, wicker basket, pink flamingo sunglasses prop)"
     },
     {
       "label": "Award Badge Overlay: 2025 England's Business Awards Show - Essex Winner",
@@ -1664,9 +1262,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_03_award_badge",
       "community": 12,
-      "norm_label": "award badge overlay: 2025 england's business awards show - essex winner",
-      "id": "gallery_ig_03_award_badge"
+      "norm_label": "award badge overlay: 2025 england's business awards show - essex winner"
     },
     {
       "label": "Doggie Styles Grooming Spa & Boutique (Wickford)",
@@ -1677,9 +1275,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_03_salon",
       "community": 12,
-      "norm_label": "doggie styles grooming spa & boutique (wickford)",
-      "id": "gallery_ig_03_salon"
+      "norm_label": "doggie styles grooming spa & boutique (wickford)"
     },
     {
       "label": "Instagram Marketing Showcase (post-groom client photo for social media gallery)",
@@ -1690,9 +1288,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_03_marketing",
       "community": 12,
-      "norm_label": "instagram marketing showcase (post-groom client photo for social media gallery)",
-      "id": "gallery_ig_03_marketing"
+      "norm_label": "instagram marketing showcase (post-groom client photo for social media gallery)"
     },
     {
       "label": "Instagram Photo: Mr Oakley Beach-Themed Grooming Portrait",
@@ -1703,9 +1301,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_04_photo",
       "community": 13,
-      "norm_label": "instagram photo: mr oakley beach-themed grooming portrait",
-      "id": "gallery_ig_04_photo"
+      "norm_label": "instagram photo: mr oakley beach-themed grooming portrait"
     },
     {
       "label": "Mr Oakley (Shih Tzu)",
@@ -1716,9 +1314,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_04_mr_oakley",
       "community": 13,
-      "norm_label": "mr oakley (shih tzu)",
-      "id": "gallery_ig_04_mr_oakley"
+      "norm_label": "mr oakley (shih tzu)"
     },
     {
       "label": "2025 England's Business Awards Show - Essex Winner Badge",
@@ -1729,9 +1327,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_04_award_badge",
       "community": 13,
-      "norm_label": "2025 england's business awards show - essex winner badge",
-      "id": "gallery_ig_04_award_badge"
+      "norm_label": "2025 england's business awards show - essex winner badge"
     },
     {
       "label": "Tropical Beach Photo Backdrop with Summer Props",
@@ -1742,9 +1340,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_04_beach_backdrop",
       "community": 13,
-      "norm_label": "tropical beach photo backdrop with summer props",
-      "id": "gallery_ig_04_beach_backdrop"
+      "norm_label": "tropical beach photo backdrop with summer props"
     },
     {
       "label": "Doggie Styles Grooming Spa & Boutique (Wickford)",
@@ -1755,9 +1353,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_04_salon",
       "community": 13,
-      "norm_label": "doggie styles grooming spa & boutique (wickford)",
-      "id": "gallery_ig_04_salon"
+      "norm_label": "doggie styles grooming spa & boutique (wickford)"
     },
     {
       "label": "Dog Grooming Service (Post-Groom Portrait)",
@@ -1768,9 +1366,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_04_grooming_service",
       "community": 13,
-      "norm_label": "dog grooming service (post-groom portrait)",
-      "id": "gallery_ig_04_grooming_service"
+      "norm_label": "dog grooming service (post-groom portrait)"
     },
     {
       "label": "Instagram Photo: Winnie After Grooming (Beach Theme)",
@@ -1781,9 +1379,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_05_photo",
       "community": 14,
-      "norm_label": "instagram photo: winnie after grooming (beach theme)",
-      "id": "gallery_ig_05_photo"
+      "norm_label": "instagram photo: winnie after grooming (beach theme)"
     },
     {
       "label": "Winnie (Black Poodle-Cross Dog)",
@@ -1794,9 +1392,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_05_winnie",
       "community": 14,
-      "norm_label": "winnie (black poodle-cross dog)",
-      "id": "gallery_ig_05_winnie"
+      "norm_label": "winnie (black poodle-cross dog)"
     },
     {
       "label": "Tropical Beach Photo Backdrop Set (Palm Leaf, Wicker Basket, Flamingo Sunglasses)",
@@ -1807,9 +1405,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_05_beach_backdrop",
       "community": 14,
-      "norm_label": "tropical beach photo backdrop set (palm leaf, wicker basket, flamingo sunglasses)",
-      "id": "gallery_ig_05_beach_backdrop"
+      "norm_label": "tropical beach photo backdrop set (palm leaf, wicker basket, flamingo sunglasses)"
     },
     {
       "label": "2025 England's Business Awards Show - Essex Winner Badge",
@@ -1820,9 +1418,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_05_award_badge",
       "community": 14,
-      "norm_label": "2025 england's business awards show - essex winner badge",
-      "id": "gallery_ig_05_award_badge"
+      "norm_label": "2025 england's business awards show - essex winner badge"
     },
     {
       "label": "Doggie Styles Grooming Spa & Boutique (Wickford)",
@@ -1833,9 +1431,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_05_salon",
       "community": 14,
-      "norm_label": "doggie styles grooming spa & boutique (wickford)",
-      "id": "gallery_ig_05_salon"
+      "norm_label": "doggie styles grooming spa & boutique (wickford)"
     },
     {
       "label": "Post-Groom Client Showcase (Marketing Purpose)",
@@ -1846,9 +1444,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_05_grooming_showcase",
       "community": 14,
-      "norm_label": "post-groom client showcase (marketing purpose)",
-      "id": "gallery_ig_05_grooming_showcase"
+      "norm_label": "post-groom client showcase (marketing purpose)"
     },
     {
       "label": "Instagram Photo: Nala the Sheltie Beach Photoshoot",
@@ -1859,9 +1457,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_06",
       "community": 15,
-      "norm_label": "instagram photo: nala the sheltie beach photoshoot",
-      "id": "gallery_ig_06"
+      "norm_label": "instagram photo: nala the sheltie beach photoshoot"
     },
     {
       "label": "Nala (Shetland Sheepdog)",
@@ -1872,9 +1470,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_06_nala",
       "community": 15,
-      "norm_label": "nala (shetland sheepdog)",
-      "id": "gallery_ig_06_nala"
+      "norm_label": "nala (shetland sheepdog)"
     },
     {
       "label": "Shetland Sheepdog Breed",
@@ -1885,9 +1483,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_06_shetland_sheepdog",
       "community": 15,
-      "norm_label": "shetland sheepdog breed",
-      "id": "gallery_ig_06_shetland_sheepdog"
+      "norm_label": "shetland sheepdog breed"
     },
     {
       "label": "Tropical Beach Photo Backdrop with Summer Props",
@@ -1898,9 +1496,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_06_beach_backdrop",
       "community": 15,
-      "norm_label": "tropical beach photo backdrop with summer props",
-      "id": "gallery_ig_06_beach_backdrop"
+      "norm_label": "tropical beach photo backdrop with summer props"
     },
     {
       "label": "2025 England's Business Awards Show - Essex Winner Badge",
@@ -1911,9 +1509,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_06_award_badge",
       "community": 15,
-      "norm_label": "2025 england's business awards show - essex winner badge",
-      "id": "gallery_ig_06_award_badge"
+      "norm_label": "2025 england's business awards show - essex winner badge"
     },
     {
       "label": "Doggie Styles Grooming Spa & Boutique (Wickford)",
@@ -1924,9 +1522,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_06_salon",
       "community": 15,
-      "norm_label": "doggie styles grooming spa & boutique (wickford)",
-      "id": "gallery_ig_06_salon"
+      "norm_label": "doggie styles grooming spa & boutique (wickford)"
     },
     {
       "label": "Instagram Photo: Trevor After First Hand Strip",
@@ -1937,9 +1535,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_07",
       "community": 6,
-      "norm_label": "instagram photo: trevor after first hand strip",
-      "id": "gallery_ig_07"
+      "norm_label": "instagram photo: trevor after first hand strip"
     },
     {
       "label": "Trevor (Lakeland Terrier)",
@@ -1950,9 +1548,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_07_trevor",
       "community": 6,
-      "norm_label": "trevor (lakeland terrier)",
-      "id": "gallery_ig_07_trevor"
+      "norm_label": "trevor (lakeland terrier)"
     },
     {
       "label": "Lakeland Terrier Breed",
@@ -1963,9 +1561,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_07_lakeland_terrier",
       "community": 6,
-      "norm_label": "lakeland terrier breed",
-      "id": "gallery_ig_07_lakeland_terrier"
+      "norm_label": "lakeland terrier breed"
     },
     {
       "label": "Hand Stripping (Grooming Technique)",
@@ -1976,9 +1574,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_07_hand_stripping",
       "community": 6,
-      "norm_label": "hand stripping (grooming technique)",
-      "id": "gallery_ig_07_hand_stripping"
+      "norm_label": "hand stripping (grooming technique)"
     },
     {
       "label": "Doggie Styles Grooming Spa & Boutique, Wickford",
@@ -1989,9 +1587,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_07_doggie_styles_salon",
       "community": 6,
-      "norm_label": "doggie styles grooming spa & boutique, wickford",
-      "id": "gallery_ig_07_doggie_styles_salon"
+      "norm_label": "doggie styles grooming spa & boutique, wickford"
     },
     {
       "label": "2025 England's Business Awards Show - Essex Winner Badge",
@@ -2002,9 +1600,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_07_award_badge",
       "community": 6,
-      "norm_label": "2025 england's business awards show - essex winner badge",
-      "id": "gallery_ig_07_award_badge"
+      "norm_label": "2025 england's business awards show - essex winner badge"
     },
     {
       "label": "Rustic Farmhouse Sunflower Photo Backdrop",
@@ -2015,9 +1613,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_07_sunflower_backdrop",
       "community": 6,
-      "norm_label": "rustic farmhouse sunflower photo backdrop",
-      "id": "gallery_ig_07_sunflower_backdrop"
+      "norm_label": "rustic farmhouse sunflower photo backdrop"
     },
     {
       "label": "'You Are My Sunshine' Wooden Sign",
@@ -2028,9 +1626,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_07_sunshine_sign",
       "community": 6,
-      "norm_label": "'you are my sunshine' wooden sign",
-      "id": "gallery_ig_07_sunshine_sign"
+      "norm_label": "'you are my sunshine' wooden sign"
     },
     {
       "label": "Salon Instagram Marketing / Client Showcase",
@@ -2041,9 +1639,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_07_instagram_marketing",
       "community": 6,
-      "norm_label": "salon instagram marketing / client showcase",
-      "id": "gallery_ig_07_instagram_marketing"
+      "norm_label": "salon instagram marketing / client showcase"
     },
     {
       "label": "Instagram Photo: Lady the Working Cocker Spaniel Sunflower Shoot",
@@ -2054,9 +1652,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_08",
       "community": 10,
-      "norm_label": "instagram photo: lady the working cocker spaniel sunflower shoot",
-      "id": "gallery_ig_08"
+      "norm_label": "instagram photo: lady the working cocker spaniel sunflower shoot"
     },
     {
       "label": "Lady (Working Cocker Spaniel)",
@@ -2067,9 +1665,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_08_lady",
       "community": 10,
-      "norm_label": "lady (working cocker spaniel)",
-      "id": "gallery_ig_08_lady"
+      "norm_label": "lady (working cocker spaniel)"
     },
     {
       "label": "Working Cocker Spaniel Breed",
@@ -2080,9 +1678,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_08_working_cocker_spaniel",
       "community": 10,
-      "norm_label": "working cocker spaniel breed",
-      "id": "gallery_ig_08_working_cocker_spaniel"
+      "norm_label": "working cocker spaniel breed"
     },
     {
       "label": "Sunflower Themed Photo Set (rustic white wood backdrop, sunflowers, white lattice vase, lanterns, fluffy white rug, partial 'You are my sunshine' style text panel)",
@@ -2093,9 +1691,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_08_sunflower_set",
       "community": 10,
-      "norm_label": "sunflower themed photo set (rustic white wood backdrop, sunflowers, white lattice vase, lanterns, fluffy white rug, partial 'you are my sunshine' style text panel)",
-      "id": "gallery_ig_08_sunflower_set"
+      "norm_label": "sunflower themed photo set (rustic white wood backdrop, sunflowers, white lattice vase, lanterns, fluffy white rug, partial 'you are my sunshine' style text panel)"
     },
     {
       "label": "Yellow Sunflower Garland Collar Worn by Dog",
@@ -2106,9 +1704,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_08_sunflower_collar",
       "community": 10,
-      "norm_label": "yellow sunflower garland collar worn by dog",
-      "id": "gallery_ig_08_sunflower_collar"
+      "norm_label": "yellow sunflower garland collar worn by dog"
     },
     {
       "label": "2025 England's Business Awards Show - Essex Winner Badge",
@@ -2119,9 +1717,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_08_award_badge",
       "community": 10,
-      "norm_label": "2025 england's business awards show - essex winner badge",
-      "id": "gallery_ig_08_award_badge"
+      "norm_label": "2025 england's business awards show - essex winner badge"
     },
     {
       "label": "Doggie Styles Grooming Spa & Boutique (Wickford)",
@@ -2132,9 +1730,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_08_salon",
       "community": 10,
-      "norm_label": "doggie styles grooming spa & boutique (wickford)",
-      "id": "gallery_ig_08_salon"
+      "norm_label": "doggie styles grooming spa & boutique (wickford)"
     },
     {
       "label": "Instagram Photo: Cocker Spaniel Sunflower Season Portrait",
@@ -2145,9 +1743,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_09",
       "community": 11,
-      "norm_label": "instagram photo: cocker spaniel sunflower season portrait",
-      "id": "gallery_ig_09"
+      "norm_label": "instagram photo: cocker spaniel sunflower season portrait"
     },
     {
       "label": "Chocolate and Tan Cocker Spaniel Wearing Sunflower Garland",
@@ -2158,9 +1756,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_09_cocker_spaniel",
       "community": 11,
-      "norm_label": "chocolate and tan cocker spaniel wearing sunflower garland",
-      "id": "gallery_ig_09_cocker_spaniel"
+      "norm_label": "chocolate and tan cocker spaniel wearing sunflower garland"
     },
     {
       "label": "Sunflower Photo Set (Rustic Wood Backdrop, Sunflower Bouquets, Cream Fluffy Rug)",
@@ -2171,9 +1769,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_09_sunflower_set",
       "community": 11,
-      "norm_label": "sunflower photo set (rustic wood backdrop, sunflower bouquets, cream fluffy rug)",
-      "id": "gallery_ig_09_sunflower_set"
+      "norm_label": "sunflower photo set (rustic wood backdrop, sunflower bouquets, cream fluffy rug)"
     },
     {
       "label": "Backdrop Sign Reading 'You Are Su(nshine)'",
@@ -2184,9 +1782,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_09_sunshine_sign",
       "community": 11,
-      "norm_label": "backdrop sign reading 'you are su(nshine)'",
-      "id": "gallery_ig_09_sunshine_sign"
+      "norm_label": "backdrop sign reading 'you are su(nshine)'"
     },
     {
       "label": "Award Badge: 2025 England's Business Awards Show - Essex Winner",
@@ -2197,9 +1795,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_09_award_badge",
       "community": 11,
-      "norm_label": "award badge: 2025 england's business awards show - essex winner",
-      "id": "gallery_ig_09_award_badge"
+      "norm_label": "award badge: 2025 england's business awards show - essex winner"
     },
     {
       "label": "Doggie Styles Grooming Spa & Boutique (Wickford)",
@@ -2210,9 +1808,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_09_salon",
       "community": 11,
-      "norm_label": "doggie styles grooming spa & boutique (wickford)",
-      "id": "gallery_ig_09_salon"
+      "norm_label": "doggie styles grooming spa & boutique (wickford)"
     },
     {
       "label": "Warm Weather / Sunflower Season Grooming Promotion",
@@ -2223,9 +1821,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_09_warm_weather_grooming",
       "community": 11,
-      "norm_label": "warm weather / sunflower season grooming promotion",
-      "id": "gallery_ig_09_warm_weather_grooming"
+      "norm_label": "warm weather / sunflower season grooming promotion"
     },
     {
       "label": "Instagram Gallery Photo ig-10: Groomed Dog with Sunflower Backdrop",
@@ -2236,9 +1834,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_10",
       "community": 16,
-      "norm_label": "instagram gallery photo ig-10: groomed dog with sunflower backdrop",
-      "id": "gallery_ig_10"
+      "norm_label": "instagram gallery photo ig-10: groomed dog with sunflower backdrop"
     },
     {
       "label": "Small Tan-and-White Terrier-Mix Dog, Freshly Groomed",
@@ -2249,9 +1847,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_10_dog",
       "community": 16,
-      "norm_label": "small tan-and-white terrier-mix dog, freshly groomed",
-      "id": "gallery_ig_10_dog"
+      "norm_label": "small tan-and-white terrier-mix dog, freshly groomed"
     },
     {
       "label": "Rustic Sunflower Photo Backdrop with 'You Are My Sunshine' Sign",
@@ -2262,9 +1860,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_10_sunflower_backdrop",
       "community": 16,
-      "norm_label": "rustic sunflower photo backdrop with 'you are my sunshine' sign",
-      "id": "gallery_ig_10_sunflower_backdrop"
+      "norm_label": "rustic sunflower photo backdrop with 'you are my sunshine' sign"
     },
     {
       "label": "2025 England's Business Awards Show - Essex Winner Badge",
@@ -2275,9 +1873,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_10_award_badge",
       "community": 16,
-      "norm_label": "2025 england's business awards show - essex winner badge",
-      "id": "gallery_ig_10_award_badge"
+      "norm_label": "2025 england's business awards show - essex winner badge"
     },
     {
       "label": "Doggie Styles Grooming Spa & Boutique, Wickford",
@@ -2288,9 +1886,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_10_salon",
       "community": 16,
-      "norm_label": "doggie styles grooming spa & boutique, wickford",
-      "id": "gallery_ig_10_salon"
+      "norm_label": "doggie styles grooming spa & boutique, wickford"
     },
     {
       "label": "Instagram Photo: Diamex Master Groomer Podium Ceremony",
@@ -2301,9 +1899,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_11",
       "community": 3,
-      "norm_label": "instagram photo: diamex master groomer podium ceremony",
-      "id": "gallery_ig_11"
+      "norm_label": "instagram photo: diamex master groomer podium ceremony"
     },
     {
       "label": "Diamex Master Groomer Competition",
@@ -2314,9 +1912,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_11_diamex_master_groomer",
       "community": 3,
-      "norm_label": "diamex master groomer competition",
-      "id": "gallery_ig_11_diamex_master_groomer"
+      "norm_label": "diamex master groomer competition"
     },
     {
       "label": "Harriot (Groomer, Third Place Winner)",
@@ -2327,9 +1925,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_11_harriot",
       "community": 3,
-      "norm_label": "harriot (groomer, third place winner)",
-      "id": "gallery_ig_11_harriot"
+      "norm_label": "harriot (groomer, third place winner)"
     },
     {
       "label": "Third Place Podium Position",
@@ -2340,9 +1938,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_11_third_place",
       "community": 3,
-      "norm_label": "third place podium position",
-      "id": "gallery_ig_11_third_place"
+      "norm_label": "third place podium position"
     },
     {
       "label": "Awards Podium (Positions 3, 1, 2) with Trophies and Pure Gift Bags",
@@ -2353,9 +1951,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_11_podium_ceremony",
       "community": 3,
-      "norm_label": "awards podium (positions 3, 1, 2) with trophies and pure gift bags",
-      "id": "gallery_ig_11_podium_ceremony"
+      "norm_label": "awards podium (positions 3, 1, 2) with trophies and pure gift bags"
     },
     {
       "label": "Competition-Groomed Poodles (Red, Apricot, Black)",
@@ -2366,9 +1964,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_11_groomed_poodles",
       "community": 3,
-      "norm_label": "competition-groomed poodles (red, apricot, black)",
-      "id": "gallery_ig_11_groomed_poodles"
+      "norm_label": "competition-groomed poodles (red, apricot, black)"
     },
     {
       "label": "Pure (Sponsor Branding on Gift Bags)",
@@ -2379,9 +1977,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_11_pure_sponsor",
       "community": 3,
-      "norm_label": "pure (sponsor branding on gift bags)",
-      "id": "gallery_ig_11_pure_sponsor"
+      "norm_label": "pure (sponsor branding on gift bags)"
     },
     {
       "label": "Belgium (Competition Location)",
@@ -2392,9 +1990,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_11_belgium",
       "community": 3,
-      "norm_label": "belgium (competition location)",
-      "id": "gallery_ig_11_belgium"
+      "norm_label": "belgium (competition location)"
     },
     {
       "label": "Doggie Styles Grooming Spa & Boutique, Wickford",
@@ -2405,9 +2003,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_11_doggie_styles",
       "community": 3,
-      "norm_label": "doggie styles grooming spa & boutique, wickford",
-      "id": "gallery_ig_11_doggie_styles"
+      "norm_label": "doggie styles grooming spa & boutique, wickford"
     },
     {
       "label": "Website About Section (Image Usage)",
@@ -2418,9 +2016,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_11_about_section",
       "community": 3,
-      "norm_label": "website about section (image usage)",
-      "id": "gallery_ig_11_about_section"
+      "norm_label": "website about section (image usage)"
     },
     {
       "label": "Easter Photoshoot of Brother and Sister Dog Duo (Instagram Gallery Photo ig-12)",
@@ -2431,9 +2029,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_12",
       "community": 7,
-      "norm_label": "easter photoshoot of brother and sister dog duo (instagram gallery photo ig-12)",
-      "id": "gallery_ig_12"
+      "norm_label": "easter photoshoot of brother and sister dog duo (instagram gallery photo ig-12)"
     },
     {
       "label": "Brother and Sister Dog Duo Groomed Together",
@@ -2444,9 +2042,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_12_dog_duo",
       "community": 7,
-      "norm_label": "brother and sister dog duo groomed together",
-      "id": "gallery_ig_12_dog_duo"
+      "norm_label": "brother and sister dog duo groomed together"
     },
     {
       "label": "Cream/Apricot Poodle-Type Dog with Fresh Rounded Groom",
@@ -2457,9 +2055,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_12_poodle_cross",
       "community": 7,
-      "norm_label": "cream/apricot poodle-type dog with fresh rounded groom",
-      "id": "gallery_ig_12_poodle_cross"
+      "norm_label": "cream/apricot poodle-type dog with fresh rounded groom"
     },
     {
       "label": "Ruby Cavalier King Charles Spaniel-Type Dog",
@@ -2470,9 +2068,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_12_cavalier",
       "community": 7,
-      "norm_label": "ruby cavalier king charles spaniel-type dog",
-      "id": "gallery_ig_12_cavalier"
+      "norm_label": "ruby cavalier king charles spaniel-type dog"
     },
     {
       "label": "Easter Themed Backdrop (White Picket Fence, Spring Flowers, Painted Easter Eggs, Gnome Plush, Sheepskin Rug)",
@@ -2483,9 +2081,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_12_easter_backdrop",
       "community": 7,
-      "norm_label": "easter themed backdrop (white picket fence, spring flowers, painted easter eggs, gnome plush, sheepskin rug)",
-      "id": "gallery_ig_12_easter_backdrop"
+      "norm_label": "easter themed backdrop (white picket fence, spring flowers, painted easter eggs, gnome plush, sheepskin rug)"
     },
     {
       "label": "Pastel Wooden 'EASTER' Letter Sign Prop",
@@ -2496,9 +2094,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_12_easter_sign",
       "community": 7,
-      "norm_label": "pastel wooden 'easter' letter sign prop",
-      "id": "gallery_ig_12_easter_sign"
+      "norm_label": "pastel wooden 'easter' letter sign prop"
     },
     {
       "label": "2025 England's Business Awards Show - Essex Winner Badge",
@@ -2509,9 +2107,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_12_award_badge",
       "community": 7,
-      "norm_label": "2025 england's business awards show - essex winner badge",
-      "id": "gallery_ig_12_award_badge"
+      "norm_label": "2025 england's business awards show - essex winner badge"
     },
     {
       "label": "Doggie Styles Grooming Spa & Boutique, Wickford",
@@ -2522,9 +2120,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_12_salon",
       "community": 7,
-      "norm_label": "doggie styles grooming spa & boutique, wickford",
-      "id": "gallery_ig_12_salon"
+      "norm_label": "doggie styles grooming spa & boutique, wickford"
     },
     {
       "label": "Seasonal Marketing Photo Showcasing Grooming Results and Award Credibility",
@@ -2535,9 +2133,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "gallery_ig_12_purpose",
       "community": 7,
-      "norm_label": "seasonal marketing photo showcasing grooming results and award credibility",
-      "id": "gallery_ig_12_purpose"
+      "norm_label": "seasonal marketing photo showcasing grooming results and award credibility"
     },
     {
       "label": "Doggie Styles Logo Image (public/logo.jpg)",
@@ -2548,9 +2146,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "public_logo_image",
       "community": 5,
-      "norm_label": "doggie styles logo image (public/logo.jpg)",
-      "id": "public_logo_image"
+      "norm_label": "doggie styles logo image (public/logo.jpg)"
     },
     {
       "label": "Doggie Styles Grooming Spa & Boutique (Brand)",
@@ -2561,9 +2159,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "public_logo_brand",
       "community": 5,
-      "norm_label": "doggie styles grooming spa & boutique (brand)",
-      "id": "public_logo_brand"
+      "norm_label": "doggie styles grooming spa & boutique (brand)"
     },
     {
       "label": "Wordmark: DOGGIE STYLES (bold gold serif capitals)",
@@ -2574,9 +2172,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "public_logo_wordmark",
       "community": 5,
-      "norm_label": "wordmark: doggie styles (bold gold serif capitals)",
-      "id": "public_logo_wordmark"
+      "norm_label": "wordmark: doggie styles (bold gold serif capitals)"
     },
     {
       "label": "Tagline: GROOMING SPA & BOUTIQUE (letterspaced caps between rules)",
@@ -2587,9 +2185,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "public_logo_tagline",
       "community": 5,
-      "norm_label": "tagline: grooming spa & boutique (letterspaced caps between rules)",
-      "id": "public_logo_tagline"
+      "norm_label": "tagline: grooming spa & boutique (letterspaced caps between rules)"
     },
     {
       "label": "Gold dog silhouette (groomed Cocker Spaniel in show trim)",
@@ -2600,9 +2198,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "public_logo_dog_silhouette",
       "community": 5,
-      "norm_label": "gold dog silhouette (groomed cocker spaniel in show trim)",
-      "id": "public_logo_dog_silhouette"
+      "norm_label": "gold dog silhouette (groomed cocker spaniel in show trim)"
     },
     {
       "label": "Colour palette: metallic gold gradient on black background",
@@ -2613,9 +2211,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "public_logo_colour_palette",
       "community": 5,
-      "norm_label": "colour palette: metallic gold gradient on black background",
-      "id": "public_logo_colour_palette"
+      "norm_label": "colour palette: metallic gold gradient on black background"
     },
     {
       "label": "Luxury/premium visual style (black and gold spa aesthetic)",
@@ -2626,9 +2224,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "public_logo_luxury_style",
       "community": 5,
-      "norm_label": "luxury/premium visual style (black and gold spa aesthetic)",
-      "id": "public_logo_luxury_style"
+      "norm_label": "luxury/premium visual style (black and gold spa aesthetic)"
     },
     {
       "label": "Site usage: favicon and nav/footer logo",
@@ -2639,9 +2237,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "public_logo_favicon_usage",
       "community": 5,
-      "norm_label": "site usage: favicon and nav/footer logo",
-      "id": "public_logo_favicon_usage"
+      "norm_label": "site usage: favicon and nav/footer logo"
     },
     {
       "label": "Origin: Instagram profile picture of the salon",
@@ -2652,9 +2250,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "public_logo_instagram_source",
       "community": 5,
-      "norm_label": "origin: instagram profile picture of the salon",
-      "id": "public_logo_instagram_source"
+      "norm_label": "origin: instagram profile picture of the salon"
     },
     {
       "label": "Dog grooming salon in Wickford, Essex",
@@ -2665,9 +2263,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "public_logo_wickford_salon",
       "community": 5,
-      "norm_label": "dog grooming salon in wickford, essex",
-      "id": "public_logo_wickford_salon"
+      "norm_label": "dog grooming salon in wickford, essex"
     }
   ],
   "links": [
@@ -2677,9 +2275,9 @@
       "source_file": "package.json",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_dependencies"
+      "target": "package_dependencies",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2687,9 +2285,9 @@
       "source_file": "package.json",
       "source_location": "L18",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_devdependencies"
+      "target": "package_devdependencies",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2697,9 +2295,9 @@
       "source_file": "package.json",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_name"
+      "target": "package_name",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2707,9 +2305,9 @@
       "source_file": "package.json",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_private"
+      "target": "package_private",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2717,9 +2315,9 @@
       "source_file": "package.json",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_scripts"
+      "target": "package_scripts",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2727,9 +2325,9 @@
       "source_file": "package.json",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_type"
+      "target": "package_type",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2737,9 +2335,9 @@
       "source_file": "package.json",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_version"
+      "target": "package_version",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2747,9 +2345,9 @@
       "source_file": "package.json",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_build"
+      "target": "package_scripts_build",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2757,9 +2355,9 @@
       "source_file": "package.json",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_dev"
+      "target": "package_scripts_dev",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2767,9 +2365,9 @@
       "source_file": "package.json",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_preview"
+      "target": "package_scripts_preview",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2777,9 +2375,9 @@
       "source_file": "package.json",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_fontsource_variable_outfit"
+      "target": "package_dependencies_fontsource_variable_outfit",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2787,9 +2385,9 @@
       "source_file": "package.json",
       "source_location": "L14",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_motion"
+      "target": "package_dependencies_motion",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2797,9 +2395,9 @@
       "source_file": "package.json",
       "source_location": "L13",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_phosphor_icons_react"
+      "target": "package_dependencies_phosphor_icons_react",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2807,9 +2405,9 @@
       "source_file": "package.json",
       "source_location": "L15",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_react"
+      "target": "package_dependencies_react",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2817,9 +2415,9 @@
       "source_file": "package.json",
       "source_location": "L16",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_react_dom"
+      "target": "package_dependencies_react_dom",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2827,9 +2425,9 @@
       "source_file": "package.json",
       "source_location": "L23",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_tailwindcss"
+      "target": "package_devdependencies_tailwindcss",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2837,9 +2435,9 @@
       "source_file": "package.json",
       "source_location": "L19",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_tailwindcss_vite"
+      "target": "package_devdependencies_tailwindcss_vite",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2847,9 +2445,9 @@
       "source_file": "package.json",
       "source_location": "L20",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_types_react"
+      "target": "package_devdependencies_types_react",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2857,9 +2455,9 @@
       "source_file": "package.json",
       "source_location": "L21",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_types_react_dom"
+      "target": "package_devdependencies_types_react_dom",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2867,9 +2465,9 @@
       "source_file": "package.json",
       "source_location": "L24",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_typescript"
+      "target": "package_devdependencies_typescript",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2877,9 +2475,9 @@
       "source_file": "package.json",
       "source_location": "L25",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_vite"
+      "target": "package_devdependencies_vite",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2887,9 +2485,9 @@
       "source_file": "package.json",
       "source_location": "L22",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_vitejs_plugin_react"
+      "target": "package_devdependencies_vitejs_plugin_react",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -2898,9 +2496,9 @@
       "source_file": "src/App.tsx",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "components_about"
+      "target": "components_about",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -2909,9 +2507,9 @@
       "source_file": "src/App.tsx",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "components_about_about"
+      "target": "components_about_about",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -2921,7 +2519,7 @@
       "source_location": "L9",
       "weight": 1.0,
       "source": "src_app",
-      "target": "components_beforeafter",
+      "target": "components_footer",
       "confidence_score": 1.0
     },
     {
@@ -2932,52 +2530,8 @@
       "source_location": "L9",
       "weight": 1.0,
       "source": "src_app",
-      "target": "components_beforeafter_beforeafter",
+      "target": "components_footer_footer",
       "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.tsx",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "components_faq",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.tsx",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "components_faq_faq",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.tsx",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "components_footer"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.tsx",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "components_footer_footer"
     },
     {
       "relation": "imports_from",
@@ -2986,9 +2540,9 @@
       "source_file": "src/App.tsx",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "components_gallery"
+      "target": "components_gallery",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -2997,9 +2551,9 @@
       "source_file": "src/App.tsx",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "components_gallery_gallery"
+      "target": "components_gallery_gallery",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -3008,9 +2562,9 @@
       "source_file": "src/App.tsx",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "components_hero"
+      "target": "components_hero",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -3019,9 +2573,9 @@
       "source_file": "src/App.tsx",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "components_hero_hero"
+      "target": "components_hero_hero",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -3030,9 +2584,9 @@
       "source_file": "src/App.tsx",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "components_mobilebar"
+      "target": "components_mobilebar",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -3041,9 +2595,9 @@
       "source_file": "src/App.tsx",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "components_mobilebar_mobilebar"
+      "target": "components_mobilebar_mobilebar",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -3052,9 +2606,9 @@
       "source_file": "src/App.tsx",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "components_nav"
+      "target": "components_nav",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -3063,30 +2617,8 @@
       "source_file": "src/App.tsx",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "components_nav_nav"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.tsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "components_priceguide",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.tsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "components_priceguide_priceguide",
+      "target": "components_nav_nav",
       "confidence_score": 1.0
     },
     {
@@ -3096,9 +2628,9 @@
       "source_file": "src/App.tsx",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "components_reviews"
+      "target": "components_reviews",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -3107,9 +2639,9 @@
       "source_file": "src/App.tsx",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "components_reviews_reviews"
+      "target": "components_reviews_reviews",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -3118,9 +2650,9 @@
       "source_file": "src/App.tsx",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "components_services"
+      "target": "components_services",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -3129,30 +2661,8 @@
       "source_file": "src/App.tsx",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "components_services_services"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "components_signature",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "components_signature_signature",
+      "target": "components_services_services",
       "confidence_score": 1.0
     },
     {
@@ -3162,9 +2672,9 @@
       "source_file": "src/App.tsx",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "components_trustbar"
+      "target": "components_trustbar",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -3173,9 +2683,9 @@
       "source_file": "src/App.tsx",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "components_trustbar_trustbar"
+      "target": "components_trustbar_trustbar",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -3184,30 +2694,8 @@
       "source_file": "src/App.tsx",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "components_visit"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.tsx",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app",
-      "target": "components_visit_visit"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.tsx",
-      "source_location": "L16",
-      "weight": 1.0,
-      "source": "src_app",
-      "target": "lib_analytics",
+      "target": "components_visit",
       "confidence_score": 1.0
     },
     {
@@ -3215,10 +2703,10 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/App.tsx",
-      "source_location": "L16",
+      "source_location": "L8",
       "weight": 1.0,
       "source": "src_app",
-      "target": "lib_analytics_initanalytics",
+      "target": "components_visit_visit",
       "confidence_score": 1.0
     },
     {
@@ -3227,9 +2715,9 @@
       "source_file": "src/App.tsx",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "src_app_app"
+      "target": "src_app_app",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -3238,9 +2726,9 @@
       "source_file": "src/main.tsx",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_app"
+      "target": "src_app",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -3249,9 +2737,9 @@
       "source_file": "src/main.tsx",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_app_app"
+      "target": "src_app_app",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3259,30 +2747,8 @@
       "source_file": "src/components/About.tsx",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_about",
-      "target": "components_about_about"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/About.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "components_about",
-      "target": "components_eyebrow",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/About.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "components_about",
-      "target": "components_eyebrow_eyebrow",
+      "target": "components_about_about",
       "confidence_score": 1.0
     },
     {
@@ -3292,49 +2758,7 @@
       "source_file": "src/components/About.tsx",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_about",
-      "target": "components_reveal"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/About.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_about",
-      "target": "components_reveal_reveal"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/BeforeAfter.tsx",
-      "source_location": "L80",
-      "weight": 1.0,
-      "source": "components_beforeafter",
-      "target": "components_beforeafter_beforeafter",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/BeforeAfter.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "components_beforeafter",
-      "target": "components_beforeafter_slider",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/BeforeAfter.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "components_beforeafter",
       "target": "components_reveal",
       "confidence_score": 1.0
     },
@@ -3342,10 +2766,10 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/components/BeforeAfter.tsx",
-      "source_location": "L4",
+      "source_file": "src/components/About.tsx",
+      "source_location": "L1",
       "weight": 1.0,
-      "source": "components_beforeafter",
+      "source": "components_about",
       "target": "components_reveal_reveal",
       "confidence_score": 1.0
     },
@@ -3353,259 +2777,41 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/components/BeforeAfter.tsx",
+      "source_file": "src/components/Footer.tsx",
       "source_location": "L3",
       "weight": 1.0,
-      "source": "components_beforeafter",
-      "target": "data_site",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/BeforeAfter.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "components_beforeafter",
-      "target": "data_site_beforeafterpair",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/BeforeAfter.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "components_beforeafter",
-      "target": "data_site_beforeafterpairs",
+      "source": "components_footer",
+      "target": "components_buttons",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/components/CountUp.tsx",
-      "source_location": "L16",
-      "weight": 1.0,
-      "source": "components_countup",
-      "target": "components_countup_countup",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/CountUp.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "components_countup",
-      "target": "components_countup_props",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Hero.tsx",
+      "source_file": "src/components/Footer.tsx",
       "source_location": "L6",
       "weight": 1.0,
-      "source": "components_hero",
-      "target": "components_countup",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Hero.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "components_hero",
-      "target": "components_countup_countup",
+      "source": "components_footer",
+      "target": "components_footer_explorelinks",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/components/Eyebrow.tsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "components_eyebrow",
-      "target": "components_eyebrow_eyebrow",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Faq.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "components_faq",
-      "target": "components_eyebrow",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Gallery.tsx",
+      "source_file": "src/components/Footer.tsx",
       "source_location": "L14",
       "weight": 1.0,
-      "source": "components_gallery",
-      "target": "components_eyebrow",
+      "source": "components_footer",
+      "target": "components_footer_footer",
       "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/components/PriceGuide.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "components_priceguide",
-      "target": "components_eyebrow",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Reviews.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "components_reviews",
-      "target": "components_eyebrow",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Services.tsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "components_services",
-      "target": "components_eyebrow",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Signature.tsx",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "components_signature",
-      "target": "components_eyebrow",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Visit.tsx",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "components_visit",
-      "target": "components_eyebrow",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Faq.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "components_faq",
-      "target": "components_eyebrow_eyebrow",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Gallery.tsx",
-      "source_location": "L14",
-      "weight": 1.0,
-      "source": "components_gallery",
-      "target": "components_eyebrow_eyebrow",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/PriceGuide.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "components_priceguide",
-      "target": "components_eyebrow_eyebrow",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Reviews.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "components_reviews",
-      "target": "components_eyebrow_eyebrow",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Services.tsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "components_services",
-      "target": "components_eyebrow_eyebrow",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Signature.tsx",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "components_signature",
-      "target": "components_eyebrow_eyebrow",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Visit.tsx",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "components_visit",
-      "target": "components_eyebrow_eyebrow",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Faq.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "components_faq",
-      "target": "components_faq_faq",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Faq.tsx",
+      "source_file": "src/components/Footer.tsx",
       "source_location": "L4",
       "weight": 1.0,
-      "source": "components_faq",
+      "source": "components_footer",
       "target": "components_reveal",
       "confidence_score": 1.0
     },
@@ -3613,10 +2819,10 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/components/Faq.tsx",
+      "source_file": "src/components/Footer.tsx",
       "source_location": "L4",
       "weight": 1.0,
-      "source": "components_faq",
+      "source": "components_footer",
       "target": "components_reveal_reveal",
       "confidence_score": 1.0
     },
@@ -3624,10 +2830,10 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/components/Faq.tsx",
+      "source_file": "src/components/Footer.tsx",
       "source_location": "L2",
       "weight": 1.0,
-      "source": "components_faq",
+      "source": "components_footer",
       "target": "data_site",
       "confidence_score": 1.0
     },
@@ -3635,108 +2841,11 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/components/Faq.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "components_faq",
-      "target": "data_site_faqs",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Footer.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_footer",
-      "target": "components_buttons"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Footer.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_footer",
-      "target": "components_footer_explorelinks"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Footer.tsx",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_footer",
-      "target": "components_footer_footer"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Footer.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_footer",
-      "target": "components_reveal"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Footer.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_footer",
-      "target": "components_reveal_reveal"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "src/components/Footer.tsx",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_footer",
-      "target": "data_site"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Footer.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_footer",
-      "target": "data_site_servicecategories"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Footer.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_footer",
-      "target": "data_site_site"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Footer.tsx",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "components_footer",
-      "target": "lib_analytics",
+      "target": "data_site_servicecategories",
       "confidence_score": 1.0
     },
     {
@@ -3744,10 +2853,10 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/components/Footer.tsx",
-      "source_location": "L8",
+      "source_location": "L2",
       "weight": 1.0,
       "source": "components_footer",
-      "target": "lib_analytics_track",
+      "target": "data_site_site",
       "confidence_score": 1.0
     },
     {
@@ -3757,9 +2866,9 @@
       "source_file": "src/components/Gallery.tsx",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_gallery",
-      "target": "components_buttons"
+      "target": "components_buttons",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3767,18 +2876,8 @@
       "source_file": "src/components/Gallery.tsx",
       "source_location": "L49",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_gallery",
-      "target": "components_gallery_gallery"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Gallery.tsx",
-      "source_location": "L21",
-      "weight": 1.0,
-      "source": "components_gallery",
-      "target": "components_gallery_responsivevariants",
+      "target": "components_gallery_gallery",
       "confidence_score": 1.0
     },
     {
@@ -3787,9 +2886,9 @@
       "source_file": "src/components/Gallery.tsx",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_gallery",
-      "target": "components_gallery_usegallery"
+      "target": "components_gallery_usegallery",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -3798,9 +2897,9 @@
       "source_file": "src/components/Gallery.tsx",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_gallery",
-      "target": "components_reveal"
+      "target": "components_reveal",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -3809,9 +2908,9 @@
       "source_file": "src/components/Gallery.tsx",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_gallery",
-      "target": "components_reveal_reveal"
+      "target": "components_reveal_reveal",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -3820,9 +2919,9 @@
       "source_file": "src/components/Gallery.tsx",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_gallery",
-      "target": "data_site"
+      "target": "data_site",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -3831,9 +2930,9 @@
       "source_file": "src/components/Gallery.tsx",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_gallery",
-      "target": "data_site_galleryitem"
+      "target": "data_site_galleryitem",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -3842,9 +2941,9 @@
       "source_file": "src/components/Gallery.tsx",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_gallery",
-      "target": "data_site_galleryitems"
+      "target": "data_site_galleryitems",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -3853,19 +2952,8 @@
       "source_file": "src/components/Gallery.tsx",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_gallery",
-      "target": "data_site_site"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Gallery.tsx",
-      "source_location": "L230",
-      "weight": 1.0,
-      "source": "components_gallery_gallery",
-      "target": "components_gallery_responsivevariants",
+      "target": "data_site_site",
       "confidence_score": 1.0
     },
     {
@@ -3875,62 +2963,9 @@
       "source_file": "src/components/Gallery.tsx",
       "source_location": "L50",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_gallery_gallery",
-      "target": "components_gallery_usegallery"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Hero.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_hero",
-      "target": "components_buttons"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Hero.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_hero",
-      "target": "components_hero_hero"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Hero.tsx",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "components_hero",
-      "target": "components_hero_stats",
+      "target": "components_gallery_usegallery",
       "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Hero.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_hero",
-      "target": "data_site"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Hero.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_hero",
-      "target": "data_site_site"
     },
     {
       "relation": "imports_from",
@@ -3940,210 +2975,27 @@
       "source_location": "L4",
       "weight": 1.0,
       "source": "components_hero",
-      "target": "lib_analytics",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Hero.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "components_hero",
-      "target": "lib_analytics_track",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/MobileBar.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_mobilebar",
-      "target": "components_mobilebar_mobilebar"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/MobileBar.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_mobilebar",
-      "target": "data_site"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/MobileBar.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_mobilebar",
-      "target": "data_site_site"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/MobileBar.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "components_mobilebar",
-      "target": "lib_analytics",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/MobileBar.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "components_mobilebar",
-      "target": "lib_analytics_track",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Nav.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_nav",
-      "target": "components_buttons"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Nav.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_nav",
-      "target": "components_nav_links"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Nav.tsx",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_nav",
-      "target": "components_nav_nav"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Nav.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_nav",
-      "target": "data_site"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Nav.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_nav",
-      "target": "data_site_site"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Nav.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "components_nav",
-      "target": "lib_analytics",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Nav.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "components_nav",
-      "target": "lib_analytics_track",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/PriceGuide.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "components_priceguide",
       "target": "components_buttons",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/components/PriceGuide.tsx",
-      "source_location": "L14",
+      "source_file": "src/components/Hero.tsx",
+      "source_location": "L6",
       "weight": 1.0,
-      "source": "components_priceguide",
-      "target": "components_priceguide_priceguide",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/PriceGuide.tsx",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "components_priceguide",
-      "target": "components_priceguide_quoteurl",
+      "source": "components_hero",
+      "target": "components_hero_hero",
       "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/components/PriceGuide.tsx",
-      "source_location": "L6",
+      "source_file": "src/components/Hero.tsx",
+      "source_location": "L3",
       "weight": 1.0,
-      "source": "components_priceguide",
-      "target": "components_reveal",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/PriceGuide.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "components_priceguide",
-      "target": "components_reveal_reveal",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/PriceGuide.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "components_priceguide",
+      "source": "components_hero",
       "target": "data_site",
       "confidence_score": 1.0
     },
@@ -4151,21 +3003,42 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/components/PriceGuide.tsx",
+      "source_file": "src/components/Hero.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "components_hero",
+      "target": "data_site_site",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/MobileBar.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "components_mobilebar",
+      "target": "components_mobilebar_mobilebar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/MobileBar.tsx",
       "source_location": "L2",
       "weight": 1.0,
-      "source": "components_priceguide",
-      "target": "data_site_priceguide",
+      "source": "components_mobilebar",
+      "target": "data_site",
       "confidence_score": 1.0
     },
     {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/components/PriceGuide.tsx",
+      "source_file": "src/components/MobileBar.tsx",
       "source_location": "L2",
       "weight": 1.0,
-      "source": "components_priceguide",
+      "source": "components_mobilebar",
       "target": "data_site_site",
       "confidence_score": 1.0
     },
@@ -4173,22 +3046,53 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/components/PriceGuide.tsx",
+      "source_file": "src/components/Nav.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "components_nav",
+      "target": "components_buttons",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Nav.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "components_nav",
+      "target": "components_nav_links",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Nav.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "components_nav",
+      "target": "components_nav_nav",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Nav.tsx",
       "source_location": "L3",
       "weight": 1.0,
-      "source": "components_priceguide",
-      "target": "lib_analytics",
+      "source": "components_nav",
+      "target": "data_site",
       "confidence_score": 1.0
     },
     {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/components/PriceGuide.tsx",
+      "source_file": "src/components/Nav.tsx",
       "source_location": "L3",
       "weight": 1.0,
-      "source": "components_priceguide",
-      "target": "lib_analytics_track",
+      "source": "components_nav",
+      "target": "data_site_site",
       "confidence_score": 1.0
     },
     {
@@ -4197,9 +3101,9 @@
       "source_file": "src/components/Reveal.tsx",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_reveal",
-      "target": "components_reveal_props"
+      "target": "components_reveal_props",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4207,9 +3111,9 @@
       "source_file": "src/components/Reveal.tsx",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_reveal",
-      "target": "components_reveal_reveal"
+      "target": "components_reveal_reveal",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -4218,9 +3122,9 @@
       "source_file": "src/components/Reviews.tsx",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_reviews",
-      "target": "components_reveal"
+      "target": "components_reveal",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -4229,18 +3133,7 @@
       "source_file": "src/components/Services.tsx",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_services",
-      "target": "components_reveal"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Signature.tsx",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "components_signature",
       "target": "components_reveal",
       "confidence_score": 1.0
     },
@@ -4251,9 +3144,9 @@
       "source_file": "src/components/TrustBar.tsx",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_trustbar",
-      "target": "components_reveal"
+      "target": "components_reveal",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -4262,9 +3155,9 @@
       "source_file": "src/components/Visit.tsx",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_visit",
-      "target": "components_reveal"
+      "target": "components_reveal",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -4273,9 +3166,9 @@
       "source_file": "src/components/Reviews.tsx",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_reviews",
-      "target": "components_reveal_reveal"
+      "target": "components_reveal_reveal",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -4284,18 +3177,7 @@
       "source_file": "src/components/Services.tsx",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_services",
-      "target": "components_reveal_reveal"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Signature.tsx",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "components_signature",
       "target": "components_reveal_reveal",
       "confidence_score": 1.0
     },
@@ -4306,9 +3188,9 @@
       "source_file": "src/components/TrustBar.tsx",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_trustbar",
-      "target": "components_reveal_reveal"
+      "target": "components_reveal_reveal",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -4317,9 +3199,9 @@
       "source_file": "src/components/Visit.tsx",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_visit",
-      "target": "components_reveal_reveal"
+      "target": "components_reveal_reveal",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -4328,9 +3210,9 @@
       "source_file": "src/components/Reviews.tsx",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_reviews",
-      "target": "components_buttons"
+      "target": "components_buttons",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4338,9 +3220,9 @@
       "source_file": "src/components/Reviews.tsx",
       "source_location": "L16",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_reviews",
-      "target": "components_reviews_reviewcard"
+      "target": "components_reviews_reviewcard",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4348,9 +3230,9 @@
       "source_file": "src/components/Reviews.tsx",
       "source_location": "L31",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_reviews",
-      "target": "components_reviews_reviews"
+      "target": "components_reviews_reviews",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4358,9 +3240,9 @@
       "source_file": "src/components/Reviews.tsx",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_reviews",
-      "target": "components_reviews_stars"
+      "target": "components_reviews_stars",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -4369,9 +3251,9 @@
       "source_file": "src/components/Reviews.tsx",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_reviews",
-      "target": "data_site"
+      "target": "data_site",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -4380,9 +3262,9 @@
       "source_file": "src/components/Reviews.tsx",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_reviews",
-      "target": "data_site_review"
+      "target": "data_site_review",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -4391,9 +3273,9 @@
       "source_file": "src/components/Reviews.tsx",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_reviews",
-      "target": "data_site_reviews"
+      "target": "data_site_reviews",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -4402,9 +3284,9 @@
       "source_file": "src/components/Reviews.tsx",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_reviews",
-      "target": "data_site_site"
+      "target": "data_site_site",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -4413,9 +3295,9 @@
       "source_file": "src/components/Services.tsx",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_services",
-      "target": "components_buttons"
+      "target": "components_buttons",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4423,9 +3305,9 @@
       "source_file": "src/components/Services.tsx",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_services",
-      "target": "components_services_services"
+      "target": "components_services_services",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -4434,9 +3316,9 @@
       "source_file": "src/components/Services.tsx",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_services",
-      "target": "data_site"
+      "target": "data_site",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -4445,9 +3327,9 @@
       "source_file": "src/components/Services.tsx",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_services",
-      "target": "data_site_servicecategories"
+      "target": "data_site_servicecategories",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -4456,70 +3338,8 @@
       "source_file": "src/components/Services.tsx",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_services",
-      "target": "data_site_site"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Services.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "components_services",
-      "target": "lib_analytics",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Services.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "components_services",
-      "target": "lib_analytics_track",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Signature.tsx",
-      "source_location": "L27",
-      "weight": 1.0,
-      "source": "components_signature",
-      "target": "components_signature_extras",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Signature.tsx",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "components_signature",
-      "target": "components_signature_feature",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Signature.tsx",
-      "source_location": "L40",
-      "weight": 1.0,
-      "source": "components_signature",
-      "target": "components_signature_signature",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Signature.tsx",
-      "source_location": "L14",
-      "weight": 1.0,
-      "source": "components_signature",
-      "target": "components_signature_specialist",
+      "target": "data_site_site",
       "confidence_score": 1.0
     },
     {
@@ -4528,9 +3348,9 @@
       "source_file": "src/components/TrustBar.tsx",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_trustbar",
-      "target": "components_trustbar_item"
+      "target": "components_trustbar_item",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4538,9 +3358,9 @@
       "source_file": "src/components/TrustBar.tsx",
       "source_location": "L13",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_trustbar",
-      "target": "components_trustbar_items"
+      "target": "components_trustbar_items",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4548,9 +3368,9 @@
       "source_file": "src/components/TrustBar.tsx",
       "source_location": "L36",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_trustbar",
-      "target": "components_trustbar_trustbar"
+      "target": "components_trustbar_trustbar",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -4559,9 +3379,9 @@
       "source_file": "src/components/TrustBar.tsx",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_trustbar",
-      "target": "data_site"
+      "target": "data_site",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -4570,9 +3390,9 @@
       "source_file": "src/components/TrustBar.tsx",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_trustbar",
-      "target": "data_site_site"
+      "target": "data_site_site",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4580,9 +3400,9 @@
       "source_file": "src/components/Visit.tsx",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_visit",
-      "target": "components_visit_visit"
+      "target": "components_visit_visit",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -4591,9 +3411,9 @@
       "source_file": "src/components/Visit.tsx",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_visit",
-      "target": "data_site"
+      "target": "data_site",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -4602,70 +3422,8 @@
       "source_file": "src/components/Visit.tsx",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "components_visit",
-      "target": "data_site_site"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Visit.tsx",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "components_visit",
-      "target": "lib_analytics",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/Visit.tsx",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "components_visit",
-      "target": "lib_analytics_track",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/data/site.ts",
-      "source_location": "L125",
-      "weight": 1.0,
-      "source": "data_site",
-      "target": "data_site_beforeafterpair",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/data/site.ts",
-      "source_location": "L131",
-      "weight": 1.0,
-      "source": "data_site",
-      "target": "data_site_beforeafterpairs",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/data/site.ts",
-      "source_location": "L83",
-      "weight": 1.0,
-      "source": "data_site",
-      "target": "data_site_faq",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/data/site.ts",
-      "source_location": "L85",
-      "weight": 1.0,
-      "source": "data_site",
-      "target": "data_site_faqs",
+      "target": "data_site_site",
       "confidence_score": 1.0
     },
     {
@@ -4674,9 +3432,9 @@
       "source_file": "src/data/site.ts",
       "source_location": "L174",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "data_site",
-      "target": "data_site_galleryitem"
+      "target": "data_site_galleryitem",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4684,9 +3442,9 @@
       "source_file": "src/data/site.ts",
       "source_location": "L184",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "data_site",
-      "target": "data_site_galleryitems"
+      "target": "data_site_galleryitems",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4694,28 +3452,8 @@
       "source_file": "src/data/site.ts",
       "source_location": "L182",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "data_site",
-      "target": "data_site_post"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/data/site.ts",
-      "source_location": "L76",
-      "weight": 1.0,
-      "source": "data_site",
-      "target": "data_site_priceguide",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/data/site.ts",
-      "source_location": "L67",
-      "weight": 1.0,
-      "source": "data_site",
-      "target": "data_site_pricerow",
+      "target": "data_site_post",
       "confidence_score": 1.0
     },
     {
@@ -4724,9 +3462,9 @@
       "source_file": "src/data/site.ts",
       "source_location": "L233",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "data_site",
-      "target": "data_site_review"
+      "target": "data_site_review",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4734,9 +3472,9 @@
       "source_file": "src/data/site.ts",
       "source_location": "L239",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "data_site",
-      "target": "data_site_reviews"
+      "target": "data_site_reviews",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4744,9 +3482,9 @@
       "source_file": "src/data/site.ts",
       "source_location": "L45",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "data_site",
-      "target": "data_site_service"
+      "target": "data_site_service",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4754,9 +3492,9 @@
       "source_file": "src/data/site.ts",
       "source_location": "L59",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "data_site",
-      "target": "data_site_servicecategories"
+      "target": "data_site_servicecategories",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4764,9 +3502,9 @@
       "source_file": "src/data/site.ts",
       "source_location": "L52",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "data_site",
-      "target": "data_site_servicecategory"
+      "target": "data_site_servicecategory",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4774,60 +3512,8 @@
       "source_file": "src/data/site.ts",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "data_site",
-      "target": "data_site_site"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/lib/analytics.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "lib_analytics",
-      "target": "data_site",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/lib/analytics.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "lib_analytics",
       "target": "data_site_site",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/lib/analytics.ts",
-      "source_location": "L14",
-      "weight": 1.0,
-      "source": "lib_analytics",
-      "target": "lib_analytics_initanalytics",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/lib/analytics.ts",
-      "source_location": "L36",
-      "weight": 1.0,
-      "source": "lib_analytics",
-      "target": "lib_analytics_track",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/lib/analytics.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "lib_analytics",
-      "target": "lib_analytics_window",
       "confidence_score": 1.0
     },
     {
@@ -4836,9 +3522,9 @@
       "source_file": "tsconfig.json",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tsconfig",
-      "target": "tsconfig_compileroptions"
+      "target": "tsconfig_compileroptions",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4846,9 +3532,9 @@
       "source_file": "tsconfig.json",
       "source_location": "L18",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tsconfig",
-      "target": "tsconfig_include"
+      "target": "tsconfig_include",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4856,9 +3542,9 @@
       "source_file": "tsconfig.json",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tsconfig_compileroptions",
-      "target": "tsconfig_compileroptions_jsx"
+      "target": "tsconfig_compileroptions_jsx",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4866,9 +3552,9 @@
       "source_file": "tsconfig.json",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tsconfig_compileroptions",
-      "target": "tsconfig_compileroptions_lib"
+      "target": "tsconfig_compileroptions_lib",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4876,9 +3562,9 @@
       "source_file": "tsconfig.json",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tsconfig_compileroptions",
-      "target": "tsconfig_compileroptions_module"
+      "target": "tsconfig_compileroptions_module",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4886,9 +3572,9 @@
       "source_file": "tsconfig.json",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tsconfig_compileroptions",
-      "target": "tsconfig_compileroptions_moduledetection"
+      "target": "tsconfig_compileroptions_moduledetection",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4896,9 +3582,9 @@
       "source_file": "tsconfig.json",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tsconfig_compileroptions",
-      "target": "tsconfig_compileroptions_moduleresolution"
+      "target": "tsconfig_compileroptions_moduleresolution",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4906,9 +3592,9 @@
       "source_file": "tsconfig.json",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tsconfig_compileroptions",
-      "target": "tsconfig_compileroptions_noemit"
+      "target": "tsconfig_compileroptions_noemit",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4916,9 +3602,9 @@
       "source_file": "tsconfig.json",
       "source_location": "L16",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tsconfig_compileroptions",
-      "target": "tsconfig_compileroptions_nofallthroughcasesinswitch"
+      "target": "tsconfig_compileroptions_nofallthroughcasesinswitch",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4926,9 +3612,9 @@
       "source_file": "tsconfig.json",
       "source_location": "L14",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tsconfig_compileroptions",
-      "target": "tsconfig_compileroptions_nounusedlocals"
+      "target": "tsconfig_compileroptions_nounusedlocals",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4936,9 +3622,9 @@
       "source_file": "tsconfig.json",
       "source_location": "L15",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tsconfig_compileroptions",
-      "target": "tsconfig_compileroptions_nounusedparameters"
+      "target": "tsconfig_compileroptions_nounusedparameters",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4946,9 +3632,9 @@
       "source_file": "tsconfig.json",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tsconfig_compileroptions",
-      "target": "tsconfig_compileroptions_skiplibcheck"
+      "target": "tsconfig_compileroptions_skiplibcheck",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4956,9 +3642,9 @@
       "source_file": "tsconfig.json",
       "source_location": "L13",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tsconfig_compileroptions",
-      "target": "tsconfig_compileroptions_strict"
+      "target": "tsconfig_compileroptions_strict",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4966,9 +3652,9 @@
       "source_file": "tsconfig.json",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tsconfig_compileroptions",
-      "target": "tsconfig_compileroptions_target"
+      "target": "tsconfig_compileroptions_target",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4976,9 +3662,9 @@
       "source_file": "tsconfig.json",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tsconfig_compileroptions",
-      "target": "tsconfig_compileroptions_usedefineforclassfields"
+      "target": "tsconfig_compileroptions_usedefineforclassfields",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4986,18 +3672,8 @@
       "source_file": "tsconfig.json",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "tsconfig_compileroptions",
-      "target": "tsconfig_compileroptions_verbatimmodulesyntax"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "readme",
-      "target": "readme_doggie_styles_grooming_spa_boutique",
+      "target": "tsconfig_compileroptions_verbatimmodulesyntax",
       "confidence_score": 1.0
     },
     {
@@ -5008,87 +3684,7 @@
       "source_location": null,
       "weight": 1.0,
       "source": "index_localbusiness_jsonld",
-      "target": "readme_doggie_styles_grooming_spa_boutique"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L92",
-      "weight": 1.0,
-      "source": "readme_doggie_styles_grooming_spa_boutique",
-      "target": "readme_analytics_and_conversion_tracking",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L73",
-      "weight": 1.0,
-      "source": "readme_doggie_styles_grooming_spa_boutique",
-      "target": "readme_before_after_slider",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L58",
-      "weight": 1.0,
-      "source": "readme_doggie_styles_grooming_spa_boutique",
-      "target": "readme_booking",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "readme_doggie_styles_grooming_spa_boutique",
-      "target": "readme_commands",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L17",
-      "weight": 1.0,
-      "source": "readme_doggie_styles_grooming_spa_boutique",
-      "target": "readme_editing_content",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L42",
-      "weight": 1.0,
-      "source": "readme_doggie_styles_grooming_spa_boutique",
-      "target": "readme_live_instagram_gallery",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L64",
-      "weight": 1.0,
-      "source": "readme_doggie_styles_grooming_spa_boutique",
-      "target": "readme_price_guide",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L86",
-      "weight": 1.0,
-      "source": "readme_doggie_styles_grooming_spa_boutique",
-      "target": "readme_whatsapp",
-      "confidence_score": 1.0
+      "target": "readme_doggie_styles_spa"
     },
     {
       "relation": "references",
@@ -5097,7 +3693,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
-      "source": "readme_doggie_styles_grooming_spa_boutique",
+      "source": "readme_doggie_styles_spa",
       "target": "readme_shakeyourtail_booking"
     },
     {
@@ -5107,7 +3703,7 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
-      "source": "readme_doggie_styles_grooming_spa_boutique",
+      "source": "readme_doggie_styles_spa",
       "target": "readme_site_data_config"
     },
     {
@@ -5117,48 +3713,8 @@
       "source_file": "README.md",
       "source_location": null,
       "weight": 1.0,
-      "source": "readme_doggie_styles_grooming_spa_boutique",
+      "source": "readme_doggie_styles_spa",
       "target": "readme_vite_react_tailwind_stack"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L35",
-      "weight": 1.0,
-      "source": "readme_editing_content",
-      "target": "readme_google_review_link",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L29",
-      "weight": 1.0,
-      "source": "readme_editing_content",
-      "target": "readme_opening_hours",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L23",
-      "weight": 1.0,
-      "source": "readme_editing_content",
-      "target": "readme_prices",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "shares_data_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "readme_google_review_link",
-      "target": "readme_site_data_config"
     },
     {
       "relation": "conceptually_related_to",
@@ -5178,6 +3734,16 @@
       "source_location": null,
       "weight": 1.0,
       "source": "index_seo_open_graph_meta",
+      "target": "readme_site_data_config"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_google_review_link",
       "target": "readme_site_data_config"
     },
     {
@@ -6513,8 +5079,7 @@
       "relation": "participate_in",
       "confidence": "INFERRED",
       "confidence_score": 0.85,
-      "source_file": "index.html"
+      "source_file": "/Users/kamil/Desktop/Doggiespaandbeaut7/index.html"
     }
-  ],
-  "built_at_commit": "d408b5e19520d25bf0928a9d67aae1485929a8df"
+  ]
 }
