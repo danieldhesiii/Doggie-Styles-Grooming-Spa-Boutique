@@ -18,12 +18,12 @@ function Stars({ size = 16 }: { size?: number }) {
 
 function ReviewCard({ review }: { review: Review }) {
   return (
-    <figure className="w-[248px] shrink-0 rounded-2xl border border-fawn bg-porcelain p-5 sm:w-[300px] sm:p-6 md:w-[360px]">
+    <figure className="w-[208px] shrink-0 rounded-2xl border border-fawn bg-porcelain p-4 sm:w-[248px] sm:p-5 md:w-[288px]">
       <Stars />
-      <blockquote className="mt-4 text-[15px] leading-relaxed text-ink">
+      <blockquote className="mt-3 text-sm leading-relaxed text-ink sm:mt-4">
         &ldquo;{review.quote}&rdquo;
       </blockquote>
-      <figcaption className="mt-4 text-sm">
+      <figcaption className="mt-3 text-sm sm:mt-4">
         <span className="font-semibold">{review.name}</span>
         <span className="text-taupe"> &middot; {review.source}</span>
       </figcaption>
@@ -53,9 +53,11 @@ export function Reviews() {
     el.scrollLeft = el.scrollWidth / 4;
 
     let raf = 0;
-    const speed = 0.5; // px per frame (~30px/s)
+    // Faster auto-scroll on mobile so the shorter viewport still feels lively.
+    const mobile = window.matchMedia("(max-width: 639px)");
     const tick = () => {
       if (!pausedRef.current) {
+        const speed = mobile.matches ? 1.5 : 0.5; // px per frame
         el.scrollLeft += speed;
         const half = el.scrollWidth / 2;
         if (el.scrollLeft >= half) el.scrollLeft -= half;
